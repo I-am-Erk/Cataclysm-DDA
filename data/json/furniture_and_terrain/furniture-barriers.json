@@ -112,7 +112,8 @@
       "sound": "metal screeching!",
       "sound_fail": "clang!",
       "items": [ { "item": "pipe", "count": [ 1, 4 ] }, { "item": "scrap", "count": [ 3, 6 ] } ]
-    }
+    },
+    "deconstruct": { "items": [ { "item": "pipe", "count": 6 } ] }
   },
   {
     "type": "furniture",
