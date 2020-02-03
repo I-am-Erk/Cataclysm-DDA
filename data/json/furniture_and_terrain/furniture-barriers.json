@@ -75,6 +75,111 @@
     }
   },
   {
+    "type": "terrain",
+    "id": "f_fence_chainlink",
+    "name": "chain link fence",
+    "description": "A tall fence made of woven wires.  While not immediately passable, it is climbable.",
+    "looks_like": "t_chainfence",
+    "symbol": "LINE_OXOX",
+    "color": "cyan",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "NOITEM", "THIN_OBSTACLE", "PERMEABLE", "UNSTABLE", "CLIMBABLE", "AUTO_WALL_SYMBOL", "BURROWABLE" ],
+    "connects_to": "CHAINFENCE",
+    "examine_action": "chainfence",
+    "bash": {
+      "str_min": 20,
+      "str_max": 150,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "furn_set": "f_fencepost_metal",
+      "items": [ { "item": "wire", "count": [ 6, 12 ] } ]
+    },
+    "deconstruct": { "items": [ { "item": "wire", "count": [ 10, 20 ] } ] }
+  },
+  {
+    "type": "terrain",
+    "id": "f_fencepost_metal",
+    "name": "metal post",
+    "description": "Set of metal posts, that can hold more serious fences.",
+    "looks_like": "t_chainfence_posts",
+    "symbol": "#",
+    "color": "cyan",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "THIN_OBSTACLE" ],
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [ { "item": "pipe", "count": [ 1, 4 ] }, { "item": "scrap", "count": [ 3, 6 ] } ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_gate_chainlink_c",
+    "name": "closed chain link gate",
+    "description": "A gate for a chain link fence with a latch system to stay closed.",
+    "looks_like": "t_chaingate_c",
+    "symbol": "+",
+    "color": "cyan",
+    "move_cost_mod": 0,
+    "flags": [ "TRANSPARENT", "DOOR", "PERMEABLE", "THIN_OBSTACLE", "BURROWABLE" ],
+    "connects_to": "CHAINFENCE",
+    "open": "f_gate_chainlink_o",
+    "bash": {
+      "str_min": 15,
+      "str_max": 150,
+      "str_min_blocked": 15,
+      "str_max_blocked": 100,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "wire", "count": [ 6, 12 ] },
+        { "item": "pipe", "count": [ 0, 6 ] },
+        { "item": "scrap", "count": [ 0, 12 ] }
+      ]
+    },
+    "deconstruct": {
+      "items": [
+        { "item": "wire", "count": [ 10, 20 ] },
+        { "item": "pipe", "count": [ 3, 10 ] },
+        { "item": "hinge", "count": [ 2, 3 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "f_gate_chainlink_o",
+    "name": "open wire gate",
+    "description": "A gate for a chain link fence with a latch system to stay closed.  The latch is undone, so the gate has swung open.",
+    "looks_like": "t_chaingate_o",
+    "symbol": ".",
+    "color": "cyan",
+    "move_cost_mod": 2,
+    "min_str": 0,
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "BURROWABLE" ],
+    "connects_to": "CHAINFENCE",
+    "close": "f_gate_chainlink_c",
+    "bash": {
+      "str_min": 10,
+      "str_max": 150,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "wire", "count": [ 6, 12 ] },
+        { "item": "pipe", "count": [ 0, 6 ] },
+        { "item": "scrap", "count": [ 0, 12 ] }
+      ]
+    },
+    "deconstruct": {
+      "items": [
+        { "item": "wire", "count": [ 10, 20 ] },
+        { "item": "pipe", "count": [ 3, 10 ] },
+        { "item": "hinge", "count": [ 2, 3 ] }
+      ]
+    }
+  },
+  {
     "type": "furniture",
     "id": "f_lane",
     "name": "lane guard",
