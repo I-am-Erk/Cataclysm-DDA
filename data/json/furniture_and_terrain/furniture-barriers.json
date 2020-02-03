@@ -150,8 +150,41 @@
   },
   {
     "type": "terrain",
+    "id": "f_gate_chainlink_l",
+    "name": "locked chain link gate",
+    "description": "A gate for a chain link fence.  This one has a locked padlock on the latch system.  With the right tools, you could cut the metal fence or pick the lock.  You could also examine the fence to see if it looks climbable.",
+    "looks_like": "t_chaingate_l",
+    "symbol": "+",
+    "color": "cyan",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "PERMEABLE", "LOCKED", "THIN_OBSTACLE", "BURROWABLE" ],
+    "connects_to": "CHAINFENCE",
+    "examine_action": "locked_object_pickable",
+    "bash": {
+      "str_min": 15,
+      "str_max": 150,
+      "str_min_blocked": 15,
+      "str_max_blocked": 100,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "wire", "count": [ 6, 12 ] },
+        { "item": "pipe", "count": [ 0, 6 ] },
+        { "item": "scrap", "count": [ 0, 12 ] }
+      ]
+    },
+    "deconstruct": {
+      "items": [
+        { "item": "wire", "count": [ 10, 20 ] },
+        { "item": "pipe", "count": [ 3, 10 ] },
+        { "item": "hinge", "count": [ 2, 3 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
     "id": "f_gate_chainlink_o",
-    "name": "open wire gate",
+    "name": "open chain link gate",
     "description": "A gate for a chain link fence with a latch system to stay closed.  The latch is undone, so the gate has swung open.",
     "looks_like": "t_chaingate_o",
     "symbol": ".",
