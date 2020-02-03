@@ -1315,15 +1315,16 @@
   },
   {
     "type": "construction",
-    "description": "Build Chainlink Fence",
+    "description": "Build Chainlink Fence Posts",
     "//": "Step 1: fence posts",
     "category": "CONSTRUCT",
-    "required_skills": [ [ "fabrication", 3 ] ],
+    "required_skills": [ [ "fabrication", 2 ] ],
     "time": "30 m",
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
-    "components": [ [ [ "pipe", 6 ] ], [ [ "scrap", 8 ] ] ],
+    "components": [ [ [ "pipe", 6 ] ] ],
     "pre_flags": "DIGGABLE",
-    "post_terrain": "t_chainfence_posts"
+    "pre_special": "check_empty",
+    "post_terrain": "f_fencepost_metal"
   },
   {
     "type": "construction",
@@ -1333,8 +1334,8 @@
     "required_skills": [ [ "fabrication", 3 ] ],
     "time": "120 m",
     "components": [ [ [ "wire", 20 ] ] ],
-    "pre_terrain": "t_chainfence_posts",
-    "post_terrain": "t_chainfence"
+    "pre_terrain": "f_fencepost_metal",
+    "post_terrain": "f_fence_chainlink"
   },
   {
     "type": "construction",
@@ -1342,10 +1343,10 @@
     "category": "CONSTRUCT",
     "required_skills": [ [ "fabrication", 3 ] ],
     "time": "150 m",
-    "components": [ [ [ "wire", 20 ] ], [ [ "steel_chunk", 3 ], [ "scrap", 12 ] ], [ [ "pipe", 20 ] ] ],
+    "components": [ [ [ "wire", 20 ] ], [ [ "hinge", 3 ] ], [ [ "pipe", 10 ] ] ],
     "pre_note": "Needs to be supported on both sides by fencing, walls, etc.",
     "pre_special": "check_empty",
-    "post_terrain": "t_chaingate_c"
+    "post_terrain": "f_gate_chainlink_c"
   },
   {
     "type": "construction",
