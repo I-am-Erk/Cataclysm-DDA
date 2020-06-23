@@ -2813,7 +2813,7 @@
       "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "adhesive", 1 ] ] }
     },
     "flags": [ "INTERNAL", "RECHARGE", "FOLDABLE", "ENABLED_DRAINS_EPOWER" ],
-    "folded_volume": "2 L ",
+    "folded_volume": "2 l",
     "breaks_into": [
       { "item": "steel_chunk", "count": [ 0, 2 ] },
       { "item": "scrap", "count": [ 1, 2 ] },
@@ -3244,7 +3244,7 @@
     "damage_modifier": 10,
     "durability": 100,
     "description": "A small camera.  Will relay what it can see to a camera control station.",
-    "folded_volume": "2 L",
+    "folded_volume": "2 l",
     "bonus": 24,
     "item": "omnicamera",
     "//": "Cameras without a DVR can run on under 10W",
