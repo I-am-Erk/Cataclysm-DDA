@@ -4,8 +4,51 @@
     "type": "talk_topic",
     "dynamic_line": "Oh, you know.  Blah blah blah, had a job and a life, everyone died.  Boo hoo.  I gotta be straight with you though: I honestly think I like this better.  Fighting for survival every day?  I've never felt so alive.  I've killed hundreds of those bastards.  Sooner or later one of them will take me out, but I'll go down knowing I did something actually important.",
     "responses": [
-      { "text": "It's good you found your calling.  <done_conversation_section>", "topic": "TALK_FRIEND" },
+      { "text": "It's good you found your calling.  <done_conversation_section>", "topic": "TALK_NONE" },
       { "text": "It's good you found your calling.  <end_talking>", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "CWH_GUNG_HO_2_IDEAS1",
+    "type": "talk_topic",
+    "dynamic_line": "I dunno, what do you think happened?",
+    "responses": [
+      { "text": "I guess some kind of virus that made people riot, turned people into zombies, and mutated things into monsters.", "topic": "CWH_GUNG_HO_2_IDEAS2" },
+      { "text": "This is all just an illusion.  We're just players in some sort of computer simulation!  It's all just a goddamn *game* man!", "topic": "CWH_GUNG_HO_2_IDEAS3" },
+      { "text": "Ancient magicks from deep within the Earth brought the dead to life and mutated animals into unthinkable beasts.", "topic": "CWH_GUNG_HO_2_IDEAS2" },
+      { "text": "Portals to alien worlds have allowed strange infections and forces to come through, running amock in our world.", "topic": "CWH_GUNG_HO_2_IDEAS3" },
+      { "text": "It's obviously the rapture, isn't it.  The beast has already slouched toward Bethlehem, and we're the meek inheriting the Earth.", "topic": "CWH_GUNG_HO_2_IDEAS2" },
+      { "text": "An eldritch horror is taking over and consuming our world for inscrutable reasons.  It's really already won and we're just the last remaining dregs of humanity.", "topic": "CWH_GUNG_HO_2_IDEAS3" },
+      { "text": "Well, you know.  Chinese bioweapon made people crazy, they rioted, then came back to life, and somehow along the way we got mutant mushrooms and giant bees.", "topic": "CWH_GUNG_HO_2_IDEAS4" }
+      { "text": "<done_conversation_section>", "topic": "TALK_NONE" },
+      { "text": "<end_talking>", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "CWH_GUNG_HO_2_IDEAS2",
+    "type": "talk_topic",
+    "dynamic_line": "Sure, that's as good as anything.  Go with that, if it makes you happy.  I don't <swear> care.",
+    "responses": [
+      { "text": "<done_conversation_section>", "topic": "TALK_NONE" },
+      { "text": "<end_talking>", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "CWH_GUNG_HO_2_IDEAS3",
+    "type": "talk_topic",
+    "dynamic_line": "Oof.  Okay, I've heard some crazy theories, but that's just silly, <name_g>.  Take a shot of whiskey and cool off.  You sound like a bad science fiction video game plot written by a committee of enthusiastic amateurs.",
+    "responses": [
+      { "text": "<done_conversation_section>", "topic": "TALK_NONE" },
+      { "text": "<end_talking>", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "CWH_GUNG_HO_2_IDEAS4",
+    "type": "talk_topic",
+    "dynamic_line": "Aw, fuck off.  That's what the government told us.  I thought you'd at least have something original to say.",
+    "responses": [
+      { "text": "<done_conversation_section>", "topic": "TALK_NONE" },
+      { "text": "<end_talking>", "topic": "TALK_DONE" }
     ]
   }
 ]

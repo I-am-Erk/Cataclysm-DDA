@@ -5,7 +5,7 @@
     "dynamic_line": "Nothin' special before <the_cataclysm>.  When the dead started walking, I geared up and started puttin' them back down.",
     "responses": [
       { "text": "How did that go?", "topic": "BGSS_GUNG_HO_1_STORY2" },
-      { "text": "Cool.  <done_conversation_section>", "topic": "TALK_FRIEND" },
+      { "text": "Cool.  <done_conversation_section>", "topic": "TALK_NONE" },
       { "text": "Cool.  <end_talking>", "topic": "TALK_DONE" }
     ]
   },
@@ -26,6 +26,25 @@
     "responses": [
       { "text": "It's good you found your calling.  <done_conversation_section>", "topic": "TALK_FRIEND" },
       { "text": "It's good you found your calling.  <end_talking>", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "CWH_GUNG_HO_1_IDEAS1",
+    "type": "talk_topic",
+    "dynamic_line": "What happened?  What're you some kinda idiot?  Folks started rioting, turned out the rioters were zombies, cops and soldiers couldn't keep 'em down, they wiped out the government.  Somewhere along the line some weird-ass alien monsters joined the mix an' Bob's yer uncle.",
+    "responses": [
+      { "text": "What do you think caused it though?", "topic": "CWH_GUNG_HO_1_IDEAS2" },
+      { "text": "Cool.  <done_conversation_section>", "topic": "TALK_NONE" },
+      { "text": "Cool.  <end_talking>", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "CWH_GUNG_HO_1_IDEAS2",
+    "type": "talk_topic",
+    "dynamic_line": "Who the hell cares?  It happened, it's done, no goin' back.  Doesn't much matter what caused it.",
+    "responses": [
+      { "text": "Cool.  <done_conversation_section>", "topic": "TALK_FRIEND" },
+      { "text": "Cool.  <end_talking>", "topic": "TALK_DONE" }
     ]
   }
 ]
