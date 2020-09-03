@@ -1,6 +1,26 @@
 [
   {
     "type": "item_group",
+    "id": "exodii_merchant_junk_level_1",
+	"//": "This stuff should be available in the exodii store from the start.",
+    "items": [
+	  [ "box_medium", 75 ],
+	  [ "box_large", 25 ],
+      [ "pipe_fittings", 70 ],
+      [ "goggles_welding", 50 ],
+      [ "welding_book", 10 ],
+      [ "welding_mask", 30 ],
+      [ "jerrycan", 10 ],
+      [ "jerrycan_big", 10 ],
+      [ "metal_tank", 8 ],
+      [ "metal_tank_little", 8 ],
+      [ "cu_pipe", 5 ],
+      [ "eyedrops", 4 ],
+      [ "plastic_sheet", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "exodii_CBM_store_level_1",
 	"//": "These CBMs should be available in the exodii store from the start.",
     "items": [
