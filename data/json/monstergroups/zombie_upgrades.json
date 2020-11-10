@@ -24,7 +24,6 @@
       { "monster": "mon_zombie_thorny", "freq": 30, "cost_multiplier": 5 },
       { "monster": "mon_zombie_static", "freq": 50, "cost_multiplier": 5 },
       { "monster": "mon_zombie_winged", "freq": 60, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_pupa", "freq": 15, "cost_multiplier": 2 },
       { "monster": "mon_zombie_pupa_decoy", "freq": 15, "cost_multiplier": 2 }
     ]
   },
@@ -34,7 +33,7 @@
     "default": "mon_zombie_crawler",
     "//": "crawling zombie upgrades",
     "monsters": [
-      { "monster": "mon_zombie_crawler_pupa", "freq": 500, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_crawler_pupa", "freq": 100, "cost_multiplier": 2 },
       { "monster": "mon_zombie_crawler_pupa_decoy", "freq": 500, "cost_multiplier": 2 }
     ]
   },
@@ -46,7 +45,7 @@
     "monsters": [
       { "monster": "mon_zombie_gasbag", "freq": 20, "cost_multiplier": 0 },
       { "monster": "mon_boomer", "freq": 480, "cost_multiplier": 2 },
-      { "monster": "mon_zombie_pupa", "freq": 150, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_pupa", "freq": 50, "cost_multiplier": 2 },
       { "monster": "mon_zombie_pupa_decoy", "freq": 150, "cost_multiplier": 2 },
       { "monster": "mon_zombie_necro_boomer", "freq": 1, "cost_multiplier": 27 }
     ]
@@ -101,6 +100,19 @@
       { "monster": "mon_zombie_nullfield", "freq": 400, "cost_multiplier": 0 },
       { "monster": "mon_zombie_brute_shocker", "freq": 300, "cost_multiplier": 2 },
       { "monster": "mon_skeleton_electric", "freq": 300, "cost_multiplier": 2 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_PUPA_UPGRADE",
+    "default": "mon_zombie_pupa_decoy",
+    "//": "crawling zombie upgrades",
+    "monsters": [
+      { "monster": "mon_zombie_pupa", "freq": 500, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_pupa_electric", "freq": 100, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_pupa_scourge", "freq": 100, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_pupa_exploding", "freq": 100, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_pupa_mist", "freq": 100, "cost_multiplier": 2 }
     ]
   }
 ]
