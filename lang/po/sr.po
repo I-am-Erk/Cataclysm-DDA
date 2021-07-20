@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-dda 0.F\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-11 13:13+0000\n"
+"POT-Creation-Date: 2021-07-16 06:43+0000\n"
 "PO-Revision-Date: 2018-04-26 14:47+0000\n"
 "Last-Translator: D. Vultures <okrimnemir@hotmail.com>, 2020\n"
 "Language-Team: Serbian (https://www.transifex.com/cataclysm-dda-translators/teams/2217/sr/)\n"
@@ -11373,12 +11373,12 @@ msgstr ""
 
 #: lang/json/ARMOR_from_json.py
 msgid "kimono"
-msgid_plural "kimonos"
+msgid_plural "kimono"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#. ~ Description for kimono
+#. ~ Description for {'str_sp': 'kimono'}
 #: lang/json/ARMOR_from_json.py
 msgid ""
 "A traditional, ankle-length Japanese robe, wrapped around the body with a "
@@ -13624,7 +13624,7 @@ msgstr[2] ""
 
 #. ~ Description for football helmet
 #: lang/json/ARMOR_from_json.py
-msgid "A heavy plastic helmet normally worn by football players."
+msgid "A heavy polycarbonate helmet normally worn by football players."
 msgstr ""
 
 #: lang/json/ARMOR_from_json.py
@@ -13657,12 +13657,12 @@ msgstr ""
 
 #: lang/json/ARMOR_from_json.py
 msgid "kabuto"
-msgid_plural "kabutos"
+msgid_plural "kabuto"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#. ~ Description for kabuto
+#. ~ Description for {'str_sp': 'kabuto'}
 #: lang/json/ARMOR_from_json.py
 msgid ""
 "A medieval Japanese helmet with a scowling facemask that provides excellent "
@@ -22270,7 +22270,7 @@ msgstr[2] ""
 #. ~ Description for football armor
 #: lang/json/ARMOR_from_json.py
 msgid ""
-"Heavy plastic armor for your upper torso.  Normally worn by football "
+"Heavy polycarbonate armor for your upper torso.  Normally worn by football "
 "players."
 msgstr ""
 
@@ -36658,6 +36658,20 @@ msgstr[2] ""
 msgid ""
 "Your hands freeze anything they touch at temperatures so cold it slows down "
 "your foes."
+msgstr ""
+
+#: lang/json/BOOK_from_json.py
+msgid "Scroll of Nature's Commune"
+msgid_plural "Scrolls of Nature's Commune"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. ~ Description for Scroll of Nature's Commune
+#: lang/json/BOOK_from_json.py
+msgid ""
+"Your connection with nature allows you to become one with it; you revitalize"
+" your body while in communion with the flora and fauna around you."
 msgstr ""
 
 #: lang/json/BOOK_from_json.py
@@ -55491,12 +55505,12 @@ msgstr ""
 
 #: lang/json/COMESTIBLE_from_json.py lang/json/ammunition_type_from_json.py
 msgid "mana infused blood"
-msgid_plural "mana_infused_blood"
+msgid_plural "mana infused blood"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#. ~ Description for mana infused blood
+#. ~ Description for {'str_sp': 'mana infused blood'}
 #: lang/json/COMESTIBLE_from_json.py
 msgid ""
 "Blood that is filled to the brim with arcane energy.  It releases a faint "
@@ -60451,7 +60465,7 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "in progress disassembly"
-msgid_plural "in progress disassemblys"
+msgid_plural "in progress disassemblies"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -65841,12 +65855,12 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "bokken"
-msgid_plural "bokkens"
+msgid_plural "bokken"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#. ~ Description for bokken
+#. ~ Description for {'str_sp': 'bokken'}
 #: lang/json/GENERIC_from_json.py
 msgid ""
 "This is a solid wood 'training' katana, exactingly crafted to mimic the "
@@ -65854,14 +65868,14 @@ msgid ""
 "edge, it's still quite capable of inflicting deadly wounds."
 msgstr ""
 
-#. ~ Description for bokken
+#. ~ Description for {'str_sp': 'bokken'}
 #: lang/json/GENERIC_from_json.py
 msgid ""
 "This is a solid wood 'training' katana, but feels far too light to make an "
 "effective weapon."
 msgstr ""
 
-#. ~ Description for bokken
+#. ~ Description for {'str_sp': 'bokken'}
 #: lang/json/GENERIC_from_json.py
 msgid ""
 "This is a solid wood 'training' katana, but it looks to be mass-produced, "
@@ -66602,12 +66616,12 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "qiang"
-msgid_plural "qiangs"
+msgid_plural "qiang"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#. ~ Description for qiang
+#. ~ Description for {'str_sp': 'qiang'}
 #: lang/json/GENERIC_from_json.py
 msgid ""
 "An ancient Chinese spear, typically with a tassel just below the spearhead."
@@ -66982,19 +66996,19 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py lang/json/TOOL_from_json.py
 msgid "tanto"
-msgid_plural "tantos"
+msgid_plural "tanto"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#. ~ Description for tanto
+#. ~ Description for {'str_sp': 'tanto'}
 #: lang/json/GENERIC_from_json.py
 msgid ""
 "This is a dull, cheaply-made replica of a long Japanese knife, typically "
 "used as a samurai's backup weapon."
 msgstr ""
 
-#. ~ Description for tanto
+#. ~ Description for {'str_sp': 'tanto'}
 #: lang/json/GENERIC_from_json.py
 msgid ""
 "Long Japanese knives like this more-modern remake were the samurai's backup "
@@ -67159,12 +67173,12 @@ msgstr ""
 #: lang/json/GENERIC_from_json.py lang/json/TOOL_from_json.py
 #: lang/json/TOOL_from_json.py
 msgid "katana"
-msgid_plural "katanas"
+msgid_plural "katana"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#. ~ Description for katana
+#. ~ Description for {'str_sp': 'katana'}
 #: lang/json/GENERIC_from_json.py
 msgid "This is a dull, cheaply-made replica of a rare sword from Japan."
 msgstr ""
@@ -73895,588 +73909,616 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cudgel +1"
-msgid_plural "cudgel +1s"
+msgid_plural "cudgels +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cudgel +2"
-msgid_plural "cudgel +2s"
+msgid_plural "cudgels +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "quarterstaff +1"
-msgid_plural "quarterstaff +1s"
+msgid_plural "quarterstaves +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "quarterstaff +2"
-msgid_plural "quarterstaff +2s"
+msgid_plural "quarterstaves +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "ironshod quarterstaff +1"
-msgid_plural "ironshod quarterstaff +1s"
+msgid_plural "ironshod quarterstaves +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "ironshod quarterstaff +2"
-msgid_plural "ironshod quarterstaff +2s"
+msgid_plural "ironshod quarterstaves +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "longsword +1"
-msgid_plural "longsword +1s"
+msgid_plural "longswords +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "longsword +2"
-msgid_plural "longsword +2s"
+msgid_plural "longswords +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "sledge hammer +1"
-msgid_plural "sledge hammer +1s"
+msgid_plural "sledge hammers +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "sledge hammer +2"
-msgid_plural "sledge hammer +2s"
+msgid_plural "sledge hammers +2"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: lang/json/GENERIC_from_json.py
+msgid "heavy sledge hammer +1"
+msgid_plural "heavy sledge hammers +1"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: lang/json/GENERIC_from_json.py
+msgid "heavy sledge hammer +2"
+msgid_plural "heavy sledge hammers +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "warhammer +1"
-msgid_plural "warhammer +1s"
+msgid_plural "warhammers +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "warhammer +2"
-msgid_plural "warhammer +2s"
+msgid_plural "warhammers +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "bat +1"
-msgid_plural "bat +1s"
+msgid_plural "bats +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "bat +2"
-msgid_plural "bat +2s"
+msgid_plural "bats +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "aluminum bat +1"
-msgid_plural "aluminum bat +1s"
+msgid_plural "aluminum bats +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "aluminum bat +2"
-msgid_plural "aluminum bat +2s"
+msgid_plural "aluminum bats +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "steel spear +1"
-msgid_plural "steel spear +1s"
+msgid_plural "steel spears +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "steel spear +2"
-msgid_plural "steel spear +2s"
+msgid_plural "steel spears +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "qiang +1"
-msgid_plural "qiang +1s"
+msgid_plural "qiang +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "qiang +2"
-msgid_plural "qiang +2s"
+msgid_plural "qiang +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "halberd +1"
-msgid_plural "halberd +1s"
+msgid_plural "halberds +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "halberd +2"
-msgid_plural "halberd +2s"
+msgid_plural "halberds +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "glaive +1"
-msgid_plural "glaive +1s"
+msgid_plural "glaives +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "glaive +2"
-msgid_plural "glaive +2s"
+msgid_plural "glaives +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "naginata +1"
-msgid_plural "naginata +1s"
+msgid_plural "naginata +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "naginata +2"
-msgid_plural "naginata +2s"
+msgid_plural "naginata +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "mace +1"
-msgid_plural "mace +1s"
+msgid_plural "maces +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "mace +2"
-msgid_plural "mace +2s"
+msgid_plural "maces +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "morningstar +1"
-msgid_plural "morningstar +1s"
+msgid_plural "morningstars +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "morningstar +2"
-msgid_plural "morningstar +2s"
+msgid_plural "morningstars +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "jian +1"
-msgid_plural "jian +1s"
+msgid_plural "jian +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "jian +2"
-msgid_plural "jian +2s"
+msgid_plural "jian +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "scimitar +1"
-msgid_plural "scimitar +1s"
+msgid_plural "scimitars +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "scimitar +2"
-msgid_plural "scimitar +2s"
+msgid_plural "scimitars +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "estoc +1"
-msgid_plural "estoc +1s"
+msgid_plural "estocs +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "estoc +2"
-msgid_plural "estoc +2s"
+msgid_plural "estocs +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "arming sword +1"
-msgid_plural "arming sword +1s"
+msgid_plural "arming swords +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "arming sword +2"
-msgid_plural "arming sword +2s"
+msgid_plural "arming swords +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "broadsword +1"
-msgid_plural "broadsword +1s"
+msgid_plural "broadswords +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "broadsword +2"
-msgid_plural "broadsword +2s"
+msgid_plural "broadswords +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "battle axe +1"
-msgid_plural "battle axe +1s"
+msgid_plural "battle axes +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "battle axe +2"
-msgid_plural "battle axe +2s"
+msgid_plural "battle axes +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cavalry sabre +1"
-msgid_plural "cavalry sabre +1s"
+msgid_plural "cavalry sabres +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cavalry sabre +2"
-msgid_plural "cavalry sabre +2s"
+msgid_plural "cavalry sabres +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "crowbar +1"
-msgid_plural "crowbar +1s"
+msgid_plural "crowbars +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "crowbar +2"
-msgid_plural "crowbar +2s"
+msgid_plural "crowbars +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cutlass +1"
-msgid_plural "cutlass +1s"
+msgid_plural "cutlasses +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cutlass +2"
-msgid_plural "cutlass +2s"
+msgid_plural "cutlasses +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "fire axe +1"
-msgid_plural "fire axe +1s"
+msgid_plural "fire axes +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "fire axe +2"
-msgid_plural "fire axe +2s"
+msgid_plural "fire axes +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "katana +1"
-msgid_plural "katana +1s"
+msgid_plural "katana +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "katana +2"
-msgid_plural "katana +2s"
+msgid_plural "katana +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "combat knife +1"
-msgid_plural "combat knife +1s"
+msgid_plural "combat knives +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "combat knife +2"
-msgid_plural "combat knife +2s"
+msgid_plural "combat knives +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "hunting knife +1"
-msgid_plural "hunting knife +1s"
+msgid_plural "hunting knives +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "hunting knife +2"
-msgid_plural "hunting knife +2s"
+msgid_plural "hunting knives +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "survival knife +1"
-msgid_plural "survival knife +1s"
+msgid_plural "survival knives +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "survival knife +2"
-msgid_plural "survival knife +2s"
+msgid_plural "survival knives +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "trench knife +1"
-msgid_plural "trench knife +1s"
+msgid_plural "trench knives +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "trench knife +2"
-msgid_plural "trench knife +2s"
+msgid_plural "trench knives +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "kris +1"
-msgid_plural "kris +1s"
+msgid_plural "krises +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "kris +2"
-msgid_plural "kris +2s"
+msgid_plural "krises +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "kukri +1"
-msgid_plural "kukri +1s"
+msgid_plural "kukris +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "kukri +2"
-msgid_plural "kukri +2s"
+msgid_plural "kukris +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "nodachi +1"
-msgid_plural "nodachi +1s"
+msgid_plural "nodachi +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "nodachi +2"
-msgid_plural "nodachi +2s"
+msgid_plural "nodachi +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "pickaxe +1"
-msgid_plural "pickaxe +1s"
+msgid_plural "pickaxes +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "pickaxe +2"
-msgid_plural "pickaxe +2s"
+msgid_plural "pickaxes +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "pike +1"
-msgid_plural "pike +1s"
+msgid_plural "pikes +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "pike +2"
-msgid_plural "pike +2s"
+msgid_plural "pikes +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "rapier +1"
-msgid_plural "rapier +1s"
+msgid_plural "rapiers +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "rapier +2"
-msgid_plural "rapier +2s"
+msgid_plural "rapiers +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "tanto +1"
-msgid_plural "tanto +1s"
+msgid_plural "tanto +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "tanto +2"
-msgid_plural "tanto +2s"
+msgid_plural "tanto +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "wakizashi +1"
-msgid_plural "wakizashi +1s"
+msgid_plural "wakizashi +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "wakizashi +2"
-msgid_plural "wakizashi +2s"
+msgid_plural "wakizashi +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "zweihänder +1"
-msgid_plural "zweihänder +1s"
+msgid_plural "zweihänders +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "zweihänder +2"
-msgid_plural "zweihänder +2s"
+msgid_plural "zweihänders +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "khopesh +1"
-msgid_plural "khopesh +1s"
+msgid_plural "khopeshes +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "khopesh +2"
-msgid_plural "khopesh +2s"
+msgid_plural "khopeshes +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "xiphos +1"
-msgid_plural "xiphos +1s"
+msgid_plural "xiphe +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "xiphos +2"
-msgid_plural "xiphos +2s"
+msgid_plural "xiphe +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "dao +1"
-msgid_plural "dao +1s"
+msgid_plural "dao +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "dao +2"
-msgid_plural "dao +2s"
+msgid_plural "dao +2"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: lang/json/GENERIC_from_json.py
+msgid "lucerne hammer +1"
+msgid_plural "lucerne hammers +1"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: lang/json/GENERIC_from_json.py
+msgid "lucerne hammer +2"
+msgid_plural "lucerne hammers +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -74846,14 +74888,14 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cestus +1"
-msgid_plural "cestus +1s"
+msgid_plural "cestuses +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cestus +2"
-msgid_plural "cestus +2s"
+msgid_plural "cestuses +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -74875,14 +74917,14 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "flaming fist +1"
-msgid_plural "flaming fist +1s"
+msgid_plural "flaming fists +1"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "flaming fist +2"
-msgid_plural "flaming fist +2s"
+msgid_plural "flaming fists +2"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -74903,7 +74945,7 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "Earthshaper cestus"
-msgid_plural "Earthshaper cesti"
+msgid_plural "Earthshaper cestuses"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -83797,6 +83839,22 @@ msgid ""
 msgstr ""
 
 #: lang/json/MONSTER_from_json.py
+msgid "headless horror"
+msgid_plural "headless horrors"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. ~ Description for headless horror
+#: lang/json/MONSTER_from_json.py
+msgid ""
+"This headless zombie has swollen to frightening proportions, towering almost"
+" nine feet tall.  Six-foot-long feelers of black ooze blindly wave from its "
+"neck, violently twitching at nearby sounds, and it moves at terrifying speed"
+" with its grotesquely-swollen hands."
+msgstr ""
+
+#: lang/json/MONSTER_from_json.py
 msgid "zombie brute"
 msgid_plural "zombie brutes"
 msgstr[0] ""
@@ -84751,6 +84809,20 @@ msgid ""
 msgstr ""
 
 #: lang/json/MONSTER_from_json.py
+msgid "terror bird"
+msgid_plural "terror birds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. ~ Description for terror bird
+#: lang/json/MONSTER_from_json.py
+msgid ""
+"A tall bird with two long, muscular legs, a long neck, and a long sharp "
+"beak."
+msgstr ""
+
+#: lang/json/MONSTER_from_json.py
 msgid "frost maddened human"
 msgid_plural "frost maddened humans"
 msgstr[0] ""
@@ -84835,6 +84907,21 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "buzz!"
+msgstr ""
+
+#: lang/json/MONSTER_from_json.py
+msgid "headless zombie"
+msgid_plural "headless zombies"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. ~ Description for headless zombie
+#: lang/json/MONSTER_from_json.py
+msgid ""
+"Despite lacking a head, this zombie appears to have not gotten the memo, and"
+" shambles aimlessly around without functioning senses.  Black ooze pulses "
+"out of its neck, and it stumbles around listlessly."
 msgstr ""
 
 #: lang/json/MONSTER_from_json.py
@@ -85420,37 +85507,6 @@ msgid ""
 "protrusions, and a pair of thick muscular fins.  You see glimpses of its "
 "shape, shifting in and out of the water.  It is carrying a conical object "
 "that hums with an odd keening sound."
-msgstr ""
-
-#: lang/json/MONSTER_from_json.py
-msgid "headless zombie"
-msgid_plural "headless zombies"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#. ~ Description for headless zombie
-#: lang/json/MONSTER_from_json.py
-msgid ""
-"Despite lacking a head, this zombie appears to have not gotten the memo, and"
-" shambles aimlessly around without functioning senses.  Black ooze pulses "
-"out of its neck, and it stumbles around listlessly."
-msgstr ""
-
-#: lang/json/MONSTER_from_json.py
-msgid "headless horror"
-msgid_plural "headless horrors"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#. ~ Description for headless horror
-#: lang/json/MONSTER_from_json.py
-msgid ""
-"This headless zombie has swollen to frightening proportions, towering almost"
-" nine feet tall.  Six-foot-long feelers of black ooze blindly wave from its "
-"neck, violently twitching at nearby sounds, and it moves at terrifying speed"
-" with its grotesquely-swollen hands."
 msgstr ""
 
 #: lang/json/MONSTER_from_json.py
@@ -89076,12 +89132,12 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "Anabolic Apatosaurus"
-msgid_plural "Anabolic Apatosauruss"
+msgid_plural "Anabolic Apatosaurus"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#. ~ Description for Anabolic Apatosaurus
+#. ~ Description for {'str_sp': 'Anabolic Apatosaurus'}
 #. ~ Description for Brontosaurus Brute
 #: lang/json/MONSTER_from_json.py
 msgid ""
@@ -89144,12 +89200,12 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "Anabolic Alamosaurus"
-msgid_plural "Anabolic Alamosauruss"
+msgid_plural "Anabolic Alamosaurus"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#. ~ Description for Anabolic Alamosaurus
+#. ~ Description for {'str_sp': 'Anabolic Alamosaurus'}
 #: lang/json/MONSTER_from_json.py
 msgid ""
 "Gigantic, four-legged dinosaur corpse with a long neck and a spiked whip-"
@@ -89335,7 +89391,7 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "Five Horn Death Punch"
-msgid_plural "Five Horn Death Punchs"
+msgid_plural "Five Horn Death Punches"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -89740,12 +89796,12 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "armored Brontosaurus"
-msgid_plural "armored Brontosauruss"
+msgid_plural "armored Brontosaurus"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#. ~ Description for armored Brontosaurus
+#. ~ Description for {'str_sp': 'armored Brontosaurus'}
 #: lang/json/MONSTER_from_json.py
 msgid ""
 "This zombified Brontosaurus has grown dense bone armor, completely covering "
@@ -89768,12 +89824,12 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "armored Camarasaurus"
-msgid_plural "armored Camarasauruss"
+msgid_plural "armored Camarasaurus"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#. ~ Description for armored Camarasaurus
+#. ~ Description for {'str_sp': 'armored Camarasaurus'}
 #: lang/json/MONSTER_from_json.py
 msgid ""
 "This zombified Camarasaurus has grown dense body armor, completely covering "
@@ -89782,12 +89838,12 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "armored Brachiosaurus"
-msgid_plural "armored Brachiosauruss"
+msgid_plural "armored Brachiosaurus"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#. ~ Description for armored Brachiosaurus
+#. ~ Description for {'str_sp': 'armored Brachiosaurus'}
 #: lang/json/MONSTER_from_json.py
 msgid ""
 "This zombified Brachiosaurus has grown dense body armor, completely covering"
@@ -93236,11 +93292,33 @@ msgid "Summon Zombie"
 msgstr ""
 
 #: lang/json/SPELL_from_json.py
+msgid "Summon Tough Zombie"
+msgstr ""
+
+#. ~ Description for Summon Tough Zombie
+#: lang/json/SPELL_from_json.py
+msgid ""
+"An ethereal-looking tough zombie rises from the depths of the earth to fight"
+" for you.  You may be able to summon more with a higher level in this spell."
+msgstr ""
+
+#: lang/json/SPELL_from_json.py
 msgid "Summon Skeleton"
 msgstr ""
 
 #: lang/json/SPELL_from_json.py
 msgid "Summon Decayed Pouncer"
+msgstr ""
+
+#: lang/json/SPELL_from_json.py
+msgid "Summon Spearcat Hunter"
+msgstr ""
+
+#. ~ Description for Summon Spearcat Hunter
+#: lang/json/SPELL_from_json.py
+msgid ""
+"A primal looking large cat rises from the depths of the earth to fight for "
+"you.  You may be able to summon more with a higher level in this spell."
 msgstr ""
 
 #: lang/json/SPELL_from_json.py
@@ -93853,6 +93931,17 @@ msgstr ""
 msgid "Call to the wilds for aid from some wolves."
 msgstr ""
 
+#: lang/json/SPELL_from_json.py lang/json/effects_from_json.py
+msgid "Nature's Commune"
+msgstr ""
+
+#. ~ Description for Nature's Commune
+#: lang/json/SPELL_from_json.py
+msgid ""
+"You concentrate on the nature around you and commune with it, improving your"
+" health and calming the nearby wildlife."
+msgstr ""
+
 #: lang/json/SPELL_from_json.py
 msgid "Seed of Growth"
 msgstr ""
@@ -94273,6 +94362,15 @@ msgstr ""
 #. ~ Description for Rocket Punch
 #: lang/json/SPELL_from_json.py
 msgid "Ejects giant fist from arm."
+msgstr ""
+
+#: lang/json/SPELL_from_json.py
+msgid "Leprechaun prank"
+msgstr ""
+
+#. ~ Description for Leprechaun prank
+#: lang/json/SPELL_from_json.py
+msgid "Pranks the PC.  Gag humor."
 msgstr ""
 
 #: lang/json/SPELL_from_json.py
@@ -94726,6 +94824,20 @@ msgstr ""
 #: lang/json/SPELL_from_json.py
 msgid ""
 "The immolate spell is powerful enough to push targets from its epicenter."
+msgstr ""
+
+#: lang/json/SPELL_from_json.py lang/json/TOOL_ARMOR_from_json.py
+msgid "Holy Shield"
+msgid_plural "Holy Shields"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. ~ Description for Holy Shield
+#: lang/json/SPELL_from_json.py
+msgid ""
+"Crusaders have the ability to summon a magically enhanced shield to their "
+"arm to protect them in armed combat."
 msgstr ""
 
 #: lang/json/SPELL_from_json.py
@@ -97920,7 +98032,7 @@ msgstr ""
 
 #: lang/json/TOOL_ARMOR_from_json.py
 msgid "Magellan helmet CA."
-msgid_plural "Magellan helmet CA.s"
+msgid_plural "Magellan helmets CA."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -98195,6 +98307,13 @@ msgstr[2] ""
 msgid ""
 "A dampened cotton bandana, worn over the mouth for a extra protection from "
 "dust and other contaminants."
+msgstr ""
+
+#. ~ Description for Holy Shield
+#: lang/json/TOOL_ARMOR_from_json.py
+msgid ""
+"A Crusader's magical shield, enhanced to protect the Crusader from all that "
+"stands in their way."
 msgstr ""
 
 #: lang/json/TOOL_ARMOR_from_json.py
@@ -99460,7 +99579,7 @@ msgstr[2] ""
 
 #: lang/json/TOOL_from_json.py lang/json/furniture_from_json.py
 msgid "drill press"
-msgid_plural "drill presss"
+msgid_plural "drill presses"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -99510,7 +99629,7 @@ msgstr[2] ""
 #: lang/json/TOOL_from_json.py lang/json/furniture_from_json.py
 #: lang/json/terrain_from_json.py
 msgid "hydraulic press"
-msgid_plural "hydraulic presss"
+msgid_plural "hydraulic presses"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -101550,7 +101669,7 @@ msgstr ""
 
 #: lang/json/TOOL_from_json.py
 msgid "spike on a stick"
-msgid_plural "spike on a sticks"
+msgid_plural "spikes on sticks"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -101914,7 +102033,7 @@ msgstr ""
 
 #: lang/json/TOOL_from_json.py
 msgid "xiphos"
-msgid_plural "xiphoses"
+msgid_plural "xiphe"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -102002,7 +102121,7 @@ msgid ""
 "SMGs, if you so want."
 msgstr ""
 
-#. ~ Description for tanto
+#. ~ Description for {'str_sp': 'tanto'}
 #: lang/json/TOOL_from_json.py
 msgid ""
 "Long Japanese knives like this more-modern remake were the samurai's backup "
@@ -102135,14 +102254,14 @@ msgid ""
 "battle a stylish battle."
 msgstr ""
 
-#. ~ Description for katana
+#. ~ Description for {'str_sp': 'katana'}
 #: lang/json/TOOL_from_json.py
 msgid ""
 "This is a rare sword from Japan.  Deadly against unarmored targets, and "
 "still very effective against armor."
 msgstr ""
 
-#. ~ Description for katana
+#. ~ Description for {'str_sp': 'katana'}
 #: lang/json/TOOL_from_json.py
 msgid ""
 "This is a rare sword from Japan.  While it's got the right edge and weight, "
@@ -102276,6 +102395,34 @@ msgstr ""
 msgid ""
 "A broken shard of glass covered in sharp edges.  You could use it as a "
 "weapon, but you might want to wear gloves."
+msgstr ""
+
+#: lang/json/TOOL_from_json.py
+msgid "thermoplastic resin chunk"
+msgid_plural "thermoplastic resin chunks"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. ~ Description for thermoplastic resin chunk
+#: lang/json/TOOL_from_json.py
+msgid ""
+"This piece of tough thermoplastic resin could allow you to fabricate, "
+"repair, or reinforce items."
+msgstr ""
+
+#: lang/json/TOOL_from_json.py
+msgid "epoxy chunk"
+msgid_plural "epoxy chunks"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. ~ Description for epoxy chunk
+#: lang/json/TOOL_from_json.py
+msgid ""
+"This piece of epoxy is hardy and durable.  You could potentially craft items"
+" with it."
 msgstr ""
 
 #: lang/json/TOOL_from_json.py
@@ -106030,6 +106177,34 @@ msgstr[2] ""
 msgid ""
 "These are a set of swages and dies for metalsmithing.  These loops and metal"
 " blocks are used in some metalworking fabrication recipes."
+msgstr ""
+
+#: lang/json/TOOL_from_json.py
+msgid "hotcut"
+msgid_plural "hotcuts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. ~ Description for hotcut
+#: lang/json/TOOL_from_json.py
+msgid ""
+"This is a hardened chisel like object for metalsmithing.  This is used to "
+"cut lengths of metal in some metalworking fabrication recipes."
+msgstr ""
+
+#: lang/json/TOOL_from_json.py
+msgid "drift"
+msgid_plural "drifts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. ~ Description for drift
+#: lang/json/TOOL_from_json.py
+msgid ""
+"This is a hardened spike like object for metalsmithing.  This is used to "
+"make holes in metal in some metalworking fabrication recipes."
 msgstr ""
 
 #: lang/json/TOOL_from_json.py
@@ -121745,6 +121920,23 @@ msgstr ""
 msgid "The cold slows down your foes."
 msgstr ""
 
+#. ~ Description of effect 'Nature's Commune'.
+#: lang/json/effects_from_json.py
+msgid ""
+"You can feel Mother Nature welcoming you, revitalizing your body and calming"
+" the natural fauna around you."
+msgstr ""
+
+#. ~ Apply message for effect(s) 'Nature's Commune'.
+#: lang/json/effects_from_json.py
+msgid "A warm embrace surrounds you, like that of a mother with her child."
+msgstr ""
+
+#. ~ Remove message for effect(s) 'Nature's Commune'.
+#: lang/json/effects_from_json.py
+msgid "Your commune with Mother Nature fades."
+msgstr ""
+
 #. ~ Description of effect 'Dragon Terror'.
 #: lang/json/effects_from_json.py
 msgid "You are uneasy and fearful from a Dragon's mighty presence"
@@ -124187,7 +124379,7 @@ msgstr ""
 #: lang/json/furniture_from_json.py
 msgid ""
 "A standard convection-based oven, commonly used for heating and cooking "
-"food.  Despite it no longer working, you could safely light a fire inside."
+"food.  You could safely light a fire inside or power it with UPS."
 msgstr ""
 
 #: lang/json/furniture_from_json.py
@@ -125630,8 +125822,8 @@ msgstr ""
 #. ~ Description for water purifier
 #: lang/json/furniture_from_json.py
 msgid ""
-"This devices effectively sterilizes water, though without a lot of power and"
-" proper plumbing, it's only good for parts now."
+"This device effectively sterilizes water, though without power source, like "
+"UPS, it's only good for parts."
 msgstr ""
 
 #: lang/json/furniture_from_json.py
@@ -127253,7 +127445,8 @@ msgstr ""
 msgid ""
 "Not the kind of furnace you'd heat your house with, this is a device for "
 "heating things to extreme temperatures as part of industrial fabrication "
-"processes."
+"processes.  Can be used in recipes instead of forge, when supplied with "
+"power from UPS."
 msgstr ""
 
 #. ~ Description for drill press
@@ -127261,14 +127454,15 @@ msgstr ""
 msgid ""
 "A powerful drill mounted on a slide that lets it drop precisely down.  "
 "Useful in all kinds of projects from industrial fabrication to home "
-"woodworking."
+"woodworking, if supplied with power from UPS."
 msgstr ""
 
 #. ~ Description for tablesaw
 #: lang/json/furniture_from_json.py
 msgid ""
 "A rotating saw blade set into a large flat table, for making straight "
-"measured cuts.  One of the key tools in a carpenter's arsenal."
+"measured cuts, if supplied with power from UPS.  One of the key tools in a "
+"carpenter's arsenal."
 msgstr ""
 
 #: lang/json/furniture_from_json.py
@@ -127279,57 +127473,62 @@ msgstr ""
 #: lang/json/furniture_from_json.py
 msgid ""
 "A circular saw blade on an arm that can slide and rotate in several "
-"directions, this is a staple tool for nearly any carpentry."
+"directions, this is a staple tool for nearly any carpentry, if supplied with"
+" power from UPS."
 msgstr ""
 
 #. ~ Description for bandsaw
 #: lang/json/furniture_from_json.py
 msgid ""
 "A ribbonlike sawblade runs in a single direction in this tool, allowing "
-"precise cuts at almost any angle."
+"precise cuts at almost any angle, if supplied with power from UPS."
 msgstr ""
 
 #. ~ Description for router table
 #: lang/json/furniture_from_json.py
 msgid ""
 "This table has an inset router, a rotating motor with an exchangeable blade "
-"head for cutting specific profiles and grooves and stuff."
+"head for cutting specific profiles and grooves and stuff, if supplied with "
+"power from UPS."
 msgstr ""
 
 #. ~ Description for planer
 #: lang/json/furniture_from_json.py
 msgid ""
 "A hefty tool that will take in a board and cut it smooth and flat to a "
-"specific width.  Particularly great if working with raw lumber stock, but "
-"also good just for shaving wood down to size."
+"specific width, if supplied with power from UPS.  Particularly great if "
+"working with raw lumber stock, but also good just for shaving wood down to "
+"size."
 msgstr ""
 
 #. ~ Description for jointer
 #: lang/json/furniture_from_json.py
 msgid ""
 "A table-shaped tool with a rotating blade that will cut down, smooth out, "
-"and square off a board to make it very smooth and nice indeed."
+"and square off a board to make it very smooth and nice indeed, if supplied "
+"with power from UPS."
 msgstr ""
 
 #. ~ Description for hydraulic press
 #: lang/json/furniture_from_json.py
 msgid ""
 "If you really want to squash something a lot, this would be exactly the "
-"right industrial tool for you.  If, you know, it had power."
+"right industrial tool for you, if supplied with power from UPS."
 msgstr ""
 
 #. ~ Description for power lathe
 #: lang/json/furniture_from_json.py
 msgid ""
 "An industrial-grade lathe, for turning chunks of metal and other hard things"
-" into round chunks of metal and other hard things."
+" into round chunks of metal and other hard things, if supplied with power "
+"from UPS."
 msgstr ""
 
 #. ~ Description for air compressor
 #: lang/json/furniture_from_json.py
 msgid ""
 "This durable tank is topped with a motor that will cram as much air into the"
-" tank as possible."
+" tank as possible, if supplied with power from UPS."
 msgstr ""
 
 #: lang/json/furniture_from_json.py
@@ -130754,7 +130953,7 @@ msgstr[2] ""
 #: lang/json/gun_from_json.py
 msgid ""
 "This is a semi-automatic pistol, chambered in .45 ACP and accepting M1991 "
-"magaines."
+"magazines."
 msgstr ""
 
 #: lang/json/gun_from_json.py
@@ -130961,7 +131160,7 @@ msgstr[2] ""
 #: lang/json/gun_from_json.py
 msgid ""
 "This is a semi-automatic pistol chambered in .45 ACP, and accepting Hi-Point"
-" magazines"
+" magazines."
 msgstr ""
 
 #: lang/json/gun_from_json.py
@@ -135120,7 +135319,7 @@ msgstr ""
 
 #: lang/json/gun_from_json.py
 msgid "shotcestus"
-msgid_plural "shotcesti"
+msgid_plural "shotcestuses"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -139797,6 +139996,21 @@ msgstr ""
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: lang/json/json_flag_from_json.py
+msgid "This item was broken and <bad>won't activate anymore</bad>."
+msgstr ""
+
+#. ~ Please leave anything in <angle brackets> unchanged.
+#: lang/json/json_flag_from_json.py
+msgid "This item <bad>will get broken</bad> by water."
+msgstr ""
+
+#. ~ Please leave anything in <angle brackets> unchanged.
+#: lang/json/json_flag_from_json.py
+msgid "This item <bad>will get dissolved</bad> in water."
+msgstr ""
+
+#. ~ Please leave anything in <angle brackets> unchanged.
+#: lang/json/json_flag_from_json.py
 msgid "This item can be worn simultaneously with power armor."
 msgstr ""
 
@@ -141531,13 +141745,14 @@ msgid "Load color template"
 msgstr ""
 
 #. ~ translation should not exceed 3 console cells
-#: lang/json/keybinding_from_json.py src/editmap.cpp src/editmap.cpp
-#: src/trap.cpp src/veh_interact.cpp
+#: lang/json/keybinding_from_json.py src/avatar_action.cpp src/editmap.cpp
+#: src/editmap.cpp src/trap.cpp src/veh_interact.cpp
 msgid "Yes"
 msgstr ""
 
-#: lang/json/keybinding_from_json.py src/editmap.cpp src/editmap.cpp
-#: src/options.cpp src/trap.cpp src/veh_interact.cpp
+#: lang/json/keybinding_from_json.py src/avatar_action.cpp src/editmap.cpp
+#: src/editmap.cpp src/options.cpp src/options.cpp src/trap.cpp
+#: src/veh_interact.cpp
 msgid "No"
 msgstr ""
 
@@ -143597,14 +143812,14 @@ msgid "A standard capacity magazine for use with the H&K USP handgun."
 msgstr ""
 
 #: lang/json/magazine_from_json.py
-msgid "PPQ .45 12-round amgazine"
-msgid_plural "PPQ .45 12-round amgazines"
+msgid "PPQ .45 12-round magazine"
+msgid_plural "PPQ .45 12-round magazines"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
 #: lang/json/magazine_from_json.py
-msgid "A 12 round steel box magazine for the PPQ pistol"
+msgid "A 12 round steel box magazine for the PPQ pistol."
 msgstr ""
 
 #: lang/json/magazine_from_json.py
@@ -150591,10 +150806,11 @@ msgid "Sojutsu"
 msgstr ""
 
 #: lang/json/material_from_json.py
-msgid "Pseudo fuel"
+msgid "Polymer resin"
 msgstr ""
 
-#: lang/json/material_from_json.py src/veh_interact.cpp
+#: lang/json/material_from_json.py lang/json/material_from_json.py
+#: src/veh_interact.cpp
 msgid "dented"
 msgstr ""
 
@@ -150616,6 +150832,18 @@ msgstr ""
 
 #: lang/json/material_from_json.py
 msgid "shattered"
+msgstr ""
+
+#: lang/json/material_from_json.py
+msgid "Thermoplastic resin"
+msgstr ""
+
+#: lang/json/material_from_json.py
+msgid "Epoxy"
+msgstr ""
+
+#: lang/json/material_from_json.py
+msgid "Pseudo fuel"
 msgstr ""
 
 #: lang/json/material_from_json.py
@@ -158407,11 +158635,11 @@ msgid "Ate Demihuman Flesh"
 msgstr ""
 
 #: lang/json/morale_type_from_json.py
-msgid "Ate Meat"
+msgid "Ate Vegetables"
 msgstr ""
 
 #: lang/json/morale_type_from_json.py
-msgid "Ate Vegetables"
+msgid "Ate Meat"
 msgstr ""
 
 #: lang/json/morale_type_from_json.py
@@ -177584,6 +177812,46 @@ msgstr ""
 
 #: lang/json/professions_from_json.py
 msgctxt "profession_male"
+msgid "Captain Schwarz Walder, Cannibal"
+msgstr ""
+
+#. ~ Profession (male Captain Schwarz Walder, Cannibal) description
+#: lang/json/professions_from_json.py
+msgctxt "prof_desc_male"
+msgid ""
+"Several years ago, you were newly stationed at a remote corporate facility "
+"when it came under a personality rewrite attack that affected all of your "
+"human coworkers.  It had seemed likely that the few Uplifted staff would "
+"perish and most did.  But you disappeared into the wilderness surrounding "
+"the facilities and began hunting the things that had been your friends.  "
+"Eating them to stay alive and to power your bionics.  Recapturing the "
+"facility earned you a buyout of the remainder of your contract, but most "
+"people are uncomfortable around you once they realize how very different you"
+" are.  Now you are here on a mostly abandoned planet hunting a bounty."
+msgstr ""
+
+#: lang/json/professions_from_json.py
+msgctxt "profession_female"
+msgid "Captain Schwarz Walder, Cannibal"
+msgstr ""
+
+#. ~ Profession (female Captain Schwarz Walder, Cannibal) description
+#: lang/json/professions_from_json.py
+msgctxt "prof_desc_female"
+msgid ""
+"Several years ago, you were newly stationed at a remote corporate facility "
+"when it came under a personality rewrite attack that affected all of your "
+"human coworkers.  It had seemed likely that the few Uplifted staff would "
+"perish and most did.  But you disappeared into the wilderness surrounding "
+"the facilities and began hunting the things that had been your friends.  "
+"Eating them to stay alive and to power your bionics.  Recapturing the "
+"facility earned you a buyout of the remainder of your contract, but most "
+"people are uncomfortable around you once they realize how very different you"
+" are.  Now you are here on a mostly abandoned planet hunting a bounty."
+msgstr ""
+
+#: lang/json/professions_from_json.py
+msgctxt "profession_male"
 msgid "Cryosleep Survivor"
 msgstr ""
 
@@ -187880,6 +188148,10 @@ msgid "Central Stairs Evac Shelter Base"
 msgstr ""
 
 #: lang/json/recipe_group_from_json.py
+msgid "Freshwater Research Station Base"
+msgstr ""
+
+#: lang/json/recipe_group_from_json.py
 msgid "Light Industry Office Base"
 msgstr ""
 
@@ -188508,6 +188780,22 @@ msgid " Craft: Rebar, Drop Hammer"
 msgstr ""
 
 #: lang/json/recipe_group_from_json.py
+msgid " Craft: Water Wheel, Power Saw"
+msgstr ""
+
+#: lang/json/recipe_group_from_json.py
+msgid " Craft: Large Water Wheel, Power Saw"
+msgstr ""
+
+#: lang/json/recipe_group_from_json.py
+msgid " Craft: Wooden Beam, Planer"
+msgstr ""
+
+#: lang/json/recipe_group_from_json.py
+msgid " Craft: Planks, Power Saw"
+msgstr ""
+
+#: lang/json/recipe_group_from_json.py
 msgid " Fishing: fish, plastic fish trap"
 msgstr ""
 
@@ -188929,6 +189217,7 @@ msgstr ""
 #. ~ Starting location for scenario 'Challenge - Medieval Peasant'.
 #. ~ Starting location for scenario 'Experiment'.
 #. ~ Starting location for scenario 'Wilderness'.
+#. ~ Starting location for scenario 'Hunted by Dinosaurs'.
 #: lang/json/scenario_from_json.py
 msgctxt "start_name"
 msgid "Wilderness"
@@ -189728,6 +190017,54 @@ msgctxt "start_name"
 msgid "Escape Pod"
 msgstr ""
 
+#. ~ Name for scenario 'CHALLENGE - Abnormal Augmentations' for a male
+#. character
+#: lang/json/scenario_from_json.py
+msgctxt "scenario_male"
+msgid "CHALLENGE - Abnormal Augmentations"
+msgstr ""
+
+#. ~ Name for scenario 'CHALLENGE - Abnormal Augmentations' for a female
+#. character
+#: lang/json/scenario_from_json.py
+msgctxt "scenario_female"
+msgid "CHALLENGE - Abnormal Augmentations"
+msgstr ""
+
+#. ~ Description for scenario 'CHALLENGE - Abnormal Augmentations' for a male
+#. character.
+#: lang/json/scenario_from_json.py
+msgctxt "scen_desc_male"
+msgid ""
+"You've already been modified mutagenically but now you were all ready for a "
+"bionic implant or three - the bill footed by the corp., of course - when "
+"everything went pear-shaped and all you could hear from the other rooms was "
+"screaming.  For a few hours, at least.  Now all you can hear is shuffling, "
+"crackling, the occasional gurgling, burbling moan, and heavy, wet thumps.  "
+"Hopefully your surgery was registered as an elective because you've elected "
+"to get the heck out of here!"
+msgstr ""
+
+#. ~ Description for scenario 'CHALLENGE - Abnormal Augmentations' for a
+#. female character.
+#: lang/json/scenario_from_json.py
+msgctxt "scen_desc_female"
+msgid ""
+"You've already been modified mutagenically but now you were all ready for a "
+"bionic implant or three - the bill footed by the corp., of course - when "
+"everything went pear-shaped and all you could hear from the other rooms was "
+"screaming.  For a few hours, at least.  Now all you can hear is shuffling, "
+"crackling, the occasional gurgling, burbling moan, and heavy, wet thumps.  "
+"Hopefully your surgery was registered as an elective because you've elected "
+"to get the heck out of here!"
+msgstr ""
+
+#. ~ Starting location for scenario 'CHALLENGE - Abnormal Augmentations'.
+#: lang/json/scenario_from_json.py
+msgctxt "start_name"
+msgid "Augmentation Clinic"
+msgstr ""
+
 #. ~ Description for scenario 'Evacuee' for a male character.
 #: lang/json/scenario_from_json.py
 msgctxt "scen_desc_male"
@@ -189850,6 +190187,34 @@ msgid ""
 "While being evacuated from a hot zone, the pilot lost control of the "
 "helicopter and crashed in the middle of nowhere.  Hopefully some of the "
 "soldiers that were with you also survived the accident."
+msgstr ""
+
+#. ~ Name for scenario 'Hunted by Dinosaurs' for a male character
+#: lang/json/scenario_from_json.py
+msgctxt "scenario_male"
+msgid "Hunted by Dinosaurs"
+msgstr ""
+
+#. ~ Name for scenario 'Hunted by Dinosaurs' for a female character
+#: lang/json/scenario_from_json.py
+msgctxt "scenario_female"
+msgid "Hunted by Dinosaurs"
+msgstr ""
+
+#. ~ Description for scenario 'Hunted by Dinosaurs' for a male character.
+#: lang/json/scenario_from_json.py
+msgctxt "scen_desc_male"
+msgid ""
+"You find yourself among trees.  The screaming and moaning is fainter, but it"
+" sounds like something bigger and more dangerous is close by."
+msgstr ""
+
+#. ~ Description for scenario 'Hunted by Dinosaurs' for a female character.
+#: lang/json/scenario_from_json.py
+msgctxt "scen_desc_female"
+msgid ""
+"You find yourself among trees.  The screaming and moaning is fainter, but it"
+" sounds like something bigger and more dangerous is close by."
 msgstr ""
 
 #. ~ Name for scenario 'Scavenger' for a male character
@@ -213331,6 +213696,10 @@ msgid "Robot Dispatch Center"
 msgstr ""
 
 #: lang/json/start_location_from_json.py
+msgid "Augclinic"
+msgstr ""
+
+#: lang/json/start_location_from_json.py
 msgid "Crashed escape pod"
 msgstr ""
 
@@ -228966,6 +229335,12 @@ msgid "Lets trade."
 msgstr ""
 
 #: lang/json/talk_topic_from_json.py
+msgid ""
+"The traders at the refugee center asked me to deliver this drive of FEMA "
+"data…"
+msgstr ""
+
+#: lang/json/talk_topic_from_json.py
 msgid "What the hell were you testing out there?"
 msgstr ""
 
@@ -235255,6 +235630,30 @@ msgid ""
 msgstr ""
 
 #: lang/json/terrain_from_json.py
+msgid "concrete wall"
+msgstr ""
+
+#. ~ Description for concrete wall
+#: lang/json/terrain_from_json.py
+msgid ""
+"A faux concrete wall positioned and joined seamlessly with the wall, this "
+"wall is capable of resisting extreme elements as well as hostile forces.  "
+"Blast load rated and extremely fire-retardant, breaching will require "
+"specialized tools or industrial vehicles."
+msgstr ""
+
+#. ~ Description for open secret door
+#: lang/json/terrain_from_json.py
+msgid ""
+"This apparently normal segment of concrete wall has opened to reveal a "
+"secret passage."
+msgstr ""
+
+#: lang/json/terrain_from_json.py
+msgid "thwack!"
+msgstr ""
+
+#: lang/json/terrain_from_json.py
 msgid "open metal door"
 msgstr ""
 
@@ -239067,10 +239466,6 @@ msgstr ""
 msgid ""
 "A solid adobe brick wall, sturdy enough to support a roof with enough walls "
 "and keep out any unwanted visitors."
-msgstr ""
-
-#: lang/json/terrain_from_json.py
-msgid "concrete wall"
 msgstr ""
 
 #. ~ Description for concrete wall
@@ -245118,11 +245513,6 @@ msgid "The lock opens…"
 msgstr ""
 
 #: src/activity_actor.cpp
-#, c-format
-msgid "Rolled %i. Mean_roll %g. Difficulty %i."
-msgstr ""
-
-#: src/activity_actor.cpp
 msgid "Your clumsy attempt jams the lock!"
 msgstr ""
 
@@ -245433,7 +245823,8 @@ msgid "The %s's udders run dry."
 msgstr ""
 
 #: src/activity_actor.cpp
-msgid "$1%s has nothing %2$s could shear."
+#, c-format
+msgid "%1$s has nothing %2$s could shear."
 msgstr ""
 
 #: src/activity_actor.cpp
@@ -245514,16 +245905,6 @@ msgstr ""
 
 #: src/activity_actor.cpp
 msgid "You give your hair a trim."
-msgstr ""
-
-#: src/activity_handlers.cpp
-#, c-format
-msgid "Roll = %i"
-msgstr ""
-
-#: src/activity_handlers.cpp
-#, c-format
-msgid "Failure chance = %f%%"
 msgstr ""
 
 #: src/activity_handlers.cpp
@@ -245660,11 +246041,6 @@ msgstr ""
 
 #: src/activity_handlers.cpp
 #, c-format
-msgid "Roll penalty for corpse damage = %s"
-msgstr ""
-
-#: src/activity_handlers.cpp
-#, c-format
 msgid "You fail to harvest: %s"
 msgstr ""
 
@@ -245680,11 +246056,6 @@ msgstr ""
 
 #: src/activity_handlers.cpp
 msgid "There's no corpse to butcher!"
-msgstr ""
-
-#: src/activity_handlers.cpp
-#, c-format
-msgid "Skill: %s"
 msgstr ""
 
 #: src/activity_handlers.cpp
@@ -247957,11 +248328,6 @@ msgid "Maybe you should find something new to read…"
 msgstr ""
 
 #: src/avatar.cpp
-#, c-format
-msgid "Chance to learn one in: %d"
-msgstr ""
-
-#: src/avatar.cpp
 msgid ""
 "You train the moves according to the book, but can't get a grasp of the "
 "style, so you start from the beginning."
@@ -248189,6 +248555,30 @@ msgid "Freeform"
 msgstr ""
 
 #: src/avatar_action.cpp
+msgid "Dive into the water?"
+msgstr ""
+
+#: src/avatar_action.cpp
+msgid "Diving will destroy the following items.  Proceed?"
+msgstr ""
+
+#: src/avatar_action.cpp
+msgid "These items are not inside a waterproof container."
+msgstr ""
+
+#: src/avatar_action.cpp
+msgid "Will be dissolved:"
+msgstr ""
+
+#: src/avatar_action.cpp
+msgid "Will be destroyed:"
+msgstr ""
+
+#: src/avatar_action.cpp
+msgid "You back away from the water."
+msgstr ""
+
+#: src/avatar_action.cpp
 msgid "You can't move while in your shell.  Deactivate it to go mobile."
 msgstr ""
 
@@ -248240,10 +248630,6 @@ msgstr ""
 #: src/avatar_action.cpp
 #, c-format
 msgid "The %s cannot swim while it is carrying you!"
-msgstr ""
-
-#: src/avatar_action.cpp
-msgid "Dive into the water?"
 msgstr ""
 
 #: src/avatar_action.cpp
@@ -251053,6 +251439,11 @@ msgstr ""
 
 #: src/character.cpp
 msgid "Your body strains under the weight!"
+msgstr ""
+
+#: src/character.cpp src/game_inventory.cpp
+#, c-format
+msgid "Your %s was broken and won't turn on."
 msgstr ""
 
 #: src/character.cpp
@@ -259907,6 +260298,16 @@ msgid "Nothing at grabbed point %d,%d,%d or bad grabbed object type."
 msgstr ""
 
 #: src/game.cpp
+#, c-format
+msgid "%1$s %2$s dissolved in the water!"
+msgstr ""
+
+#: src/game.cpp
+#, c-format
+msgid "The water destroyed %1$s %2$s!"
+msgstr ""
+
+#: src/game.cpp
 msgid "You dive into water."
 msgstr ""
 
@@ -263371,11 +263772,6 @@ msgstr ""
 #: src/iexamine.cpp
 #, c-format
 msgid "There is a %s there.  Disarm?"
-msgstr ""
-
-#: src/iexamine.cpp
-#, c-format
-msgid "Rolled %i, mean_roll %g. difficulty %i."
 msgstr ""
 
 #: src/iexamine.cpp
@@ -266873,6 +267269,10 @@ msgstr ""
 
 #: src/item.cpp
 msgid " (filthy)"
+msgstr ""
+
+#: src/item.cpp
+msgid " (broken)"
 msgstr ""
 
 #: src/item.cpp
@@ -271173,6 +271573,11 @@ msgstr ""
 #: src/iuse.cpp src/player.cpp
 #, c-format
 msgid "You can't do anything interesting with your %s."
+msgstr ""
+
+#: src/iuse.cpp
+#, c-format
+msgid "Your %s is broken and won't activate."
 msgstr ""
 
 #: src/iuse_actor.cpp
@@ -291043,10 +291448,6 @@ msgstr ""
 
 #: src/vehicle_move.cpp
 msgid "Smart controller failed to start an engine."
-msgstr ""
-
-#: src/vehicle_move.cpp
-msgid "Smart controller optimizes engine state."
 msgstr ""
 
 #: src/vehicle_move.cpp

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-dda 0.F\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-11 13:13+0000\n"
+"POT-Creation-Date: 2021-07-16 06:43+0000\n"
 "PO-Revision-Date: 2018-04-26 14:47+0000\n"
 "Last-Translator: Daniel Szollosi-Nagy <dsn-transifex@kdconsulting.net>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/cataclysm-dda-translators/teams/2217/hu/)\n"
@@ -1059,6 +1059,8 @@ msgid ""
 "Carbon black pigment infused with polymers, stabilizers and water to help "
 "the ink flow properly."
 msgstr ""
+"Koromfekete festék polimerekkel, a tinta megfelelő áramlásához "
+"stabilizátorokkal és vízzel átitatva."
 
 #: lang/json/AMMO_from_json.py lang/json/ammunition_type_from_json.py
 msgid "blue pen ink"
@@ -1072,6 +1074,8 @@ msgid ""
 "Prussian blue, crystal violet and phthalocyanine blue pigments infused with "
 "polymers, stabilizers and water to help the ink flow properly."
 msgstr ""
+"Poroszkék, kristályibolya és ftalocianin kék pigment polimerek, a tinta "
+"megfelelő áramlásához stabilizátorokkal és vízzel átitatva."
 
 #: lang/json/AMMO_from_json.py lang/json/ammunition_type_from_json.py
 msgid "green pen ink"
@@ -1085,6 +1089,8 @@ msgid ""
 "Chlorophyll pigment infused with polymers, stabilizers and water to help the"
 " ink flow properly."
 msgstr ""
+"Klorofill pigment polimerek, a tinta megfelelő áramlásához stabilizátorokkal"
+" és vízzel átitatva."
 
 #: lang/json/AMMO_from_json.py lang/json/ammunition_type_from_json.py
 msgid "red pen ink"
@@ -1098,6 +1104,8 @@ msgid ""
 "Eosin dye infused with polymers, stabilizers and water to help the ink flow "
 "properly."
 msgstr ""
+"Eozin festék polimerekkel, a tinta megfelelő áramlásához stabilizátorokkal "
+"és vízzel átitatva."
 
 #: lang/json/AMMO_from_json.py lang/json/ammunition_type_from_json.py
 msgid "anesthetic"
@@ -3439,6 +3447,9 @@ msgid ""
 "penetrate 2 inches of steel armor and fragmentation of the projectile body "
 "also makes it suitable for use against infantry."
 msgstr ""
+"Kis sebességű, 40x46mm kumulatív duális felhasználású gránát.  Át tud "
+"hatolni az ötcentis acélpáncélon, és a lövedék szilánkolása alkalmassá teszi"
+" a gyalogosok elleni használatra is."
 
 #: lang/json/AMMO_from_json.py
 msgid "40x46mm M576 buckshot"
@@ -3453,6 +3464,9 @@ msgid ""
 "clearing.  Due to the limitations of weapons built to fire 40x46mm grenades,"
 " it's much less powerful than most people would expect."
 msgstr ""
+"40x46 mm-es sörtét, amelyet vastag növényzet vagy ellenséges szobák "
+"kitisztítására használnak.  A 40x46 mm-es gránátvetők korlátozásai miatt "
+"sokkal kevésbé hatékony, mint azt a legtöbb ember elvárná."
 
 #: lang/json/AMMO_from_json.py
 msgid "40x46mm M651 tear gas"
@@ -3467,6 +3481,9 @@ msgid ""
 " driving infantry from entrenched positions, and is able to penetrate thin "
 "wood."
 msgstr ""
+"Kis sebességű, 40 mm-es könnygáz kaniszter.  Hatékony a zavargások "
+"visszaszorítására és a gyalogosok beásott helyzetből történő kikergetésre. "
+"Képes behatolni a vékony fába."
 
 #: lang/json/AMMO_from_json.py
 msgid "40x46mm-M118 buckshot, reloaded"
@@ -3482,6 +3499,9 @@ msgid ""
 "M118 canister.  Due to the limitations of weapons built to fire 40x46mm "
 "grenades, it's much less powerful than most people would expect."
 msgstr ""
+"Egy hevenyészett 40x46 mm-es sörét, amely némileg hasonlít egy M118-as "
+"kaniszterbe töltött M576-ra.  A 40x46 mm-es gránátvetők korlátozásai miatt "
+"sokkal kevésbé hatékony, mint azt a legtöbb ember elvárná."
 
 #: lang/json/AMMO_from_json.py
 msgid "40x46mm-M199 buckshot, reloaded"
@@ -3497,6 +3517,9 @@ msgid ""
 "M199 canister.  Due to the limitations of weapons built to fire 40x46mm "
 "grenades, it's much less powerful than most people would expect."
 msgstr ""
+"Egy hevenyészett 40x46 mm-es sörét, amely némileg hasonlít egy M199-es "
+"kaniszterbe töltött M576-ra.  A 40x46 mm-es gránátvetők korlátozásai miatt "
+"sokkal kevésbé hatékony, mint azt a legtöbb ember elvárná."
 
 #: lang/json/AMMO_from_json.py
 msgid "40x46mm-M118 slug, reloaded"
@@ -3512,6 +3535,9 @@ msgid ""
 "canister.  Due to the limitations of weapons built to fire 40x46mm grenades,"
 " it's much less powerful than most people would expect."
 msgstr ""
+"Egy hevenyészett 40x46 mm-es dumdum lövedék, amelyet egy M118-as kaniszterbe"
+" töltöttek.  A 40x46 mm-es gránátvetők korlátozásai miatt sokkal kevésbé "
+"hatékony, mint azt a legtöbb ember elvárná."
 
 #: lang/json/AMMO_from_json.py
 msgid "40x46mm-M199 slug, reloaded"
@@ -3526,6 +3552,9 @@ msgid ""
 "canister.  Due to the limitations of weapons built to fire 40x46mm grenades,"
 " it's much less powerful than most people would expect."
 msgstr ""
+"Egy hevenyészett 40x46 mm-es dumdum lövedék, amelyet egy M199-es kaniszterbe"
+" töltöttek.  A 40x46 mm-es gránátvetők korlátozásai miatt sokkal kevésbé "
+"hatékony, mint azt a legtöbb ember elvárná."
 
 #: lang/json/AMMO_from_json.py
 msgid "40x46mm-M118 flechette, reloaded"
@@ -3541,6 +3570,9 @@ msgid ""
 "a M118 canister.  Due to the limitations of weapons built to fire 40x46mm "
 "grenades, it's much less powerful than most people would expect."
 msgstr ""
+"Egy hevenyészett 40x46 mm-es 10 acélnyilacskás lövedék, amelyet egy M118-as "
+"kaniszterbe töltöttek.  A 40x46 mm-es gránátvetők korlátozásai miatt sokkal "
+"kevésbé hatékony, mint azt a legtöbb ember elvárná."
 
 #: lang/json/AMMO_from_json.py
 msgid "40x46mm-M199 flechette, reloaded"
@@ -3556,6 +3588,9 @@ msgid ""
 "a M199 canister.  Due to the limitations of weapons built to fire 40x46mm "
 "grenades, it's much less powerful than most people would expect."
 msgstr ""
+"Egy hevenyészett 40x46 mm-es 10 acélnyilacskás lövedék, amelyet egy M199-es "
+"kaniszterbe töltöttek.  A 40x46 mm-es gránátvetők korlátozásai miatt sokkal "
+"kevésbé hatékony, mint azt a legtöbb ember elvárná."
 
 #: lang/json/AMMO_from_json.py
 msgid "40x46mm-M118 buckshot, black powder"
@@ -3588,6 +3623,9 @@ msgid ""
 " a M199 canister.  Due to the limitations of weapons built to fire 40x46mm "
 "grenades, it's much less powerful than most people would expect."
 msgstr ""
+"Egy hevenyészett 40x46 mm-es túlméretezett dumdum lövedék, amelyet egy "
+"M199-es kaniszterbe töltöttek.  A 40x46 mm-es gránátvetők korlátozásai miatt"
+" sokkal kevésbé hatékony, mint azt a legtöbb ember elvárná."
 
 #: lang/json/AMMO_from_json.py
 msgid "40x46mm-M118 flechette, black powder"
@@ -3642,7 +3680,7 @@ msgstr[1] ""
 #. ~ Description for 40x53mm M1001 flechette
 #: lang/json/AMMO_from_json.py
 msgid "40x53mm canister shot loaded with 115 17-grain flechettes."
-msgstr ""
+msgstr "40x53mm kaniszter 115 db 17 graines nyilacskával."
 
 #: lang/json/AMMO_from_json.py
 msgid "40x53mm M430A1 HEDP"
@@ -3657,6 +3695,9 @@ msgid ""
 "penetrate 3 inches of steel armor and fragmentation of the projectile body "
 "also makes it suitable for use against infantry."
 msgstr ""
+"Magas sebességű, 40x53mm kumulatív duális felhasználású gránát.  Át tud "
+"hatolni a kilenc centis acélpáncélon, és a lövedék szilánkolása alkalmassá "
+"teszi a gyalogosok elleni használatra is."
 
 #: lang/json/AMMO_from_json.py
 msgid "40x53mm buckshot, reloaded"
@@ -3697,6 +3738,8 @@ msgid ""
 "An improvised 40x53mm flechette load containing 115 steel darts, similar to "
 "M1001 flechette load."
 msgstr ""
+"Egy hevenyészett 40x53mm-es 115 acélnyilacskás lövedék, amelyet egy M1001-es"
+" kaniszterbe töltöttek."
 
 #: lang/json/AMMO_from_json.py
 msgid "40x53mm buckshot, black powder"
@@ -5222,6 +5265,8 @@ msgid ""
 "A bundle of wadding, black gunpowder, and cannonball, ready to be loaded "
 "into a cannon."
 msgstr ""
+"Egy köteg vatta, fekete puskapor és ágyúgolyó, készen arra, hogy ágyúba "
+"töltsék."
 
 #: lang/json/AMMO_from_json.py
 msgid "sprayable toxic gas"
@@ -7168,7 +7213,7 @@ msgstr[1] ""
 #: lang/json/AMMO_from_json.py
 msgid ""
 "Your very own Project Excalibur.  Better get to defending America with it."
-msgstr ""
+msgstr "Saját, egyszemélyes Project Excalibur.  Elkezdheted Amerika védelmét."
 
 #: lang/json/AMMO_from_json.py
 msgid "nano printed combat arrow"
@@ -7184,6 +7229,10 @@ msgid ""
 "air resistance, followed by a layer of armor piercing, then followed by a "
 "frangible layer.  However, this makes each arrow single use."
 msgstr ""
+"Nano-nyomtatott anyagokból készült nyílvesszők, ahol a nyíl minden rétegét a"
+" legjobbjobb hatékonyság érdekében tervezték.  Egy réteg a lehető "
+"legkevesebb légellenállást biztosítja, ezt követi egy páncélréteg, majd egy "
+"törhető réteg.  Emiatt azonban minden nyíl csak egyszer használható."
 
 #: lang/json/AMMO_from_json.py
 msgid "titanium"
@@ -7199,6 +7248,9 @@ msgid ""
 "expensive due to rarity.  More commonly used in jewelry and medical "
 "implants."
 msgstr ""
+"Erős, tartós fém.  Nagyra értékelik súlya és szilárdsága miatt, és kiváló "
+"tulajdonságokkal rendelkezik az alumíniumból - bár a ritkasága miatt sokkal "
+"drágább.  Gyakrabban használják ékszerekben és orvosi implantátumokban."
 
 #: lang/json/AMMO_from_json.py
 msgid "40mm EMP grenade"
@@ -7337,6 +7389,8 @@ msgid ""
 "Pressurized and cryo-cooled rods of solidified hydrogen, used within plasma "
 "weapons or portable powerplants."
 msgstr ""
+"Szilárdított hidrogénből készült, nyomás alatt álló és krio-hűtésű rudak, "
+"amelyeket plazmafegyverekben vagy hordozható erőművekben használnak."
 
 #: lang/json/AMMO_from_json.py lang/json/ammunition_type_from_json.py
 msgid "lead pellets"
@@ -7431,6 +7485,9 @@ msgid ""
 "quite pretty to look at, silvery with faint blue and green undertones.  "
 "Makes a decent weapon in a pinch and is useful for crafting recipes."
 msgstr ""
+"Különféle méretű idegen fémek törmeléke - könnyű, de kemény.  Nagyon szép "
+"ránézni, ezüstös színe halvány kék és zöld felhanggal jelenik meg.  Szükség "
+"esetén egész jó fegyver lenne, de számos kézműves projektben használható."
 
 #. ~ Description for paper cartridge
 #: lang/json/AMMO_from_json.py
@@ -7691,6 +7748,11 @@ msgid ""
 "better reliability, and slightly improved penetration compared to plain "
 "lead."
 msgstr ""
+"Apró méretű pisztoly és puska lőszer, célgyakorlatra vagy a századforduló "
+"oldalfegyvereibe.  A zavargások előtt nagy mennyiségben értékesítik.  A "
+"golyó régi kifejezés a fémből készült köpenyes lövedékekre, amelyek "
+"alacsonyabb kormosodással, jobb megbízhatósággal és némileg jobb átütéssel "
+"rendelkeznek az egyszerű ólommal szemben."
 
 #: lang/json/AMMO_from_json.py
 msgid "tiny pistol ammo, JHP"
@@ -7707,6 +7769,11 @@ msgid ""
 "tissue than plain ball ammunition, and slightly reduce overpenetration "
 "concerns."
 msgstr ""
+"Apró méretű pisztoly és puska lőszer, célgyakorlatra vagy a századforduló "
+"oldalfegyvereibe.  A zavargások előtt nagy mennyiségben értékesítik.  A "
+"burkolatlan lövedékcsúcsos (JHP) lövedékeket főleg önvédelmi vagy szolgálati"
+" fegyverekben szokták használni, mivel az egyszerű golyóknál jobban "
+"roncsolja a szöveteket, és kevésbé hatol túl mélyre."
 
 #: lang/json/AMMO_from_json.py
 msgid "tiny pistol ammo, ball (reloaded)"
@@ -7810,6 +7877,8 @@ msgstr[1] ""
 msgid ""
 "Foreign rifle ammo brought by the Exodii, and very common amongst them."
 msgstr ""
+"Külföldi puskás lőszer, amelyet az Exodii hozott magával, és nálunk nagyon "
+"gyakori."
 
 #: lang/json/AMMO_from_json.py
 msgid "railgun rifle ammo"
@@ -7823,6 +7892,8 @@ msgid ""
 "Projectile used for a railgun.  It's made of a ferromagnetic metal, probably"
 " cobalt."
 msgstr ""
+"Railgunban használt lövedék.  Ferromágneses fémből, valószínűleg kobaltból "
+"készült."
 
 #: lang/json/AMMO_from_json.py
 msgid "huge rifle ammo, ball"
@@ -8093,6 +8164,9 @@ msgid ""
 "few magical materials that is still produced in any quantity today due to "
 "its usefulness."
 msgstr ""
+"Az alumentum varázslatosan feldolgozott szén vagy faszén.  Olyan forrón ég, "
+"mint a magnézium, és lényegesen hosszabb ideig.  A kevés mágikus anyag "
+"egyike, amelyet hasznossága miatt ma is jelentős mennyiségben állítanak elő."
 
 #: lang/json/AMMO_from_json.py lang/json/ammunition_type_from_json.py
 msgid "orichalcum arrow"
@@ -8153,6 +8227,8 @@ msgid ""
 "Some crystallized mana.  This can be reloaded into rechargeable mana "
 "crystals, but can never be unloaded."
 msgstr ""
+"Némi kristályosodott mana  Feltölthető manakristályokba lehet betölteni, de "
+"onnan már nem lehet kiszedni."
 
 #: lang/json/AMMO_from_json.py
 msgid "lump of orichalcum"
@@ -8165,6 +8241,8 @@ msgstr[1] "orikalkum tömb"
 msgid ""
 "A lump of raw orichalcum.  Needs to be reformed into an ingot to be useful."
 msgstr ""
+"Egy darab nyers orikalkum.  Át kell alakítani öntvénnyé ahhoz, hogy hasznos "
+"legyen."
 
 #: lang/json/AMMO_from_json.py
 msgid "sliver of orichalcum"
@@ -8178,6 +8256,8 @@ msgid ""
 "A sliver of orichalcum broken from a larger piece.  Needs to be reformed "
 "into an ingot to be useful."
 msgstr ""
+"Egy nagyobb darabból letört orikalkum darab.  Át kell alakítani öntvénnyé "
+"ahhoz, hogy hasznos legyen."
 
 #: lang/json/AMMO_from_json.py
 msgid "liquid mercury"
@@ -8201,6 +8281,8 @@ msgstr[1] ""
 msgid ""
 "A lump of raw mithril.  Needs to be reformed into an ingot to be useful."
 msgstr ""
+"Egy darab nyers mitril.  Át kell alakítani öntvénnyé ahhoz, hogy hasznos "
+"legyen."
 
 #. ~ Description for {'str_sp': 'tainted blood'}
 #: lang/json/AMMO_from_json.py
@@ -8280,6 +8362,9 @@ msgid ""
 "\n"
 "Thin parallel lines cover both ends of the drum, but as they approach the middle their vibrations intensify, until the ink fuses into thick red stain."
 msgstr ""
+"Erős acél aktatáska, amely régimódi papírhengeres szeizmográfnak tűnik.  Külső burkolatának sablonos betűszavai azt sugallják, hogy az XEDRA valamiféle rögzítő eszközként használta.\n"
+"\n"
+"A dob mindkét végét vékony párhuzamos vonalak borítják, de ahogy a közepéhez közelednek, rezgéseik fokozódnak, amíg a tinta sűrű pirosra folttá nem olvad."
 
 #: lang/json/ARMOR_from_json.py
 msgid "AEP suit"
@@ -8902,7 +8987,7 @@ msgstr[1] ""
 #. ~ Description for strange pressure
 #: lang/json/ARMOR_from_json.py
 msgid "You feel a strange force pressing you inwards and inside-out."
-msgstr ""
+msgstr "Egy furcsa nyomást érzel, amely befelé és belülről kifelé nyom."
 
 #: lang/json/ARMOR_from_json.py
 msgid "temporal distortion"
@@ -8913,7 +8998,7 @@ msgstr[1] ""
 #. ~ Description for temporal distortion
 #: lang/json/ARMOR_from_json.py
 msgid "A slight temporal distortion appears to be centered around you."
-msgstr ""
+msgstr "Úgy tűnik, hogy enyhe időbeli torzulás van körülötted."
 
 #: lang/json/ARMOR_from_json.py
 msgid "ammo pouch"
@@ -8927,6 +9012,8 @@ msgid ""
 "A small pouch that can be used to store most types of small ammunition; "
 "rockets, however, will not fit.  Use insert to store ammunition."
 msgstr ""
+"A legtöbb féle kisméretű lőszer tárolására alkalmas kicsi lőszertok; rakéta "
+"viszont nem fér bele.  Használd a lőszerek eltárolásához."
 
 #: lang/json/ARMOR_from_json.py
 msgid "ammo satchel"
@@ -8940,6 +9027,8 @@ msgid ""
 "A fabric ammo bag worn at the waist.  It is capable of holding a single "
 "large magazine close at hand."
 msgstr ""
+"Derék körül viselt, szövetből készült lőszertok.  Képes egyetlen darab "
+"nagyméretű tárat kézközelben tárolni."
 
 #: lang/json/ARMOR_from_json.py
 msgid "chest ammo pouch"
@@ -8953,6 +9042,8 @@ msgid ""
 "A fabric ammo pouch that can be strapped to your chest and hold a single "
 "magazine close at hand."
 msgstr ""
+"Ezt a szövet lőszertáskát a mellkasra tudod csatolni, és így kéznél lesz egy"
+" lőszertár."
 
 #: lang/json/ARMOR_from_json.py
 msgid "chest rig"
@@ -8986,6 +9077,10 @@ msgid ""
 "straps to secure them on your chest.  This one can hold four magazines in "
 "its pouches and fits larger-than-human forms."
 msgstr ""
+"A vietnami háború során népszerűvé vált szerszámosmellények egyszerű "
+"darabok, általában három vagy több zsebet köt össze valamiféle heveder a "
+"mellkas körül.  Ebben négy lőszertár fér el, és megfelel az embernél nagyobb"
+" testméret számára."
 
 #: lang/json/ARMOR_from_json.py
 msgid "javelin bag"
@@ -9003,6 +9098,7 @@ msgstr "Dárda eltevése"
 msgid ""
 "An open medieval-looking bag, designed to store javelins within easy reach."
 msgstr ""
+"Középkori kinézetű nyílt zsák, amelyből könnyen előránthatók a dárdák."
 
 #: lang/json/ARMOR_from_json.py
 msgid "ankle ammo pouch"
@@ -9016,6 +9112,8 @@ msgid ""
 "A small fabric ammo pouch that can be strapped to your ankle and hold a "
 "single small magazine close at hand."
 msgstr ""
+"Ezt a kicsi szövet lőszertáskát a bokádra tudod csatolni, és így kéznél lesz"
+" egy kicsi lőszertár."
 
 #: lang/json/ARMOR_from_json.py
 msgid "leg ammo pouch"
@@ -9029,6 +9127,8 @@ msgid ""
 "A fabric ammo pouch that can be strapped to your leg and hold two magazines "
 "close at hand."
 msgstr ""
+"Ezt a szövet lőszertáskát a lábadra tudod csatolni, és így kéznél lesz két "
+"lőszertár."
 
 #: lang/json/ARMOR_from_json.py
 msgid "quiver"
@@ -9131,6 +9231,10 @@ msgid ""
 "and easy to don, this vest can hold four magazines close at hand in its many"
 " pouches."
 msgstr ""
+"Ezt a könnyű mellény a törzsed körül kényelmesen elosztja a felszerelésedet "
+"és a lőszeredet.  Népszerűek a bűnüldöző szervek körében, de kevésbé, mint a"
+" kevlarból készült kombinált taktikai mellények.  Túlméretes és könnyen "
+"felvehető, ennek a mellénynek a zsebeiben négy lőszertár helyezhető el."
 
 #: lang/json/ARMOR_from_json.py
 msgid "XL Kevlar vest"
@@ -9144,6 +9248,8 @@ msgid ""
 "A massive, hand-built Kevlar vest based on the design of existing bullet-"
 "resistant vests.  It has four pouches capable of carrying magazines."
 msgstr ""
+"Hatalmas méretű, kézzel készített kevlar mellény, amelyet a már létező "
+"golyóálló mellények ihlettek.  Négy zsebébe lőszertárt lehet tenni."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of 2-by-arm guards"
@@ -9184,6 +9290,8 @@ msgid ""
 "A pair of arm guards made from the exoskeletons of insects.  Light and "
 "durable.  Larger than average."
 msgstr ""
+"Rovarok kitinpáncéljából készült karvédő.  Könnyű és tartós.  Az átlagosnál "
+"nagyobb méretű."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of biosilicified chitin arm guards"
@@ -9213,6 +9321,9 @@ msgid ""
 "biosilicified exoskeletons of acidic ants.  Acid-resistant and very durable "
 "and sized for the largest of survivors."
 msgstr ""
+"Savas hangyák megkövesedett, majd megtisztított kitinvázából készült "
+"karvédő.  Saválló és nagyon tartós, a legnagyobb méretű túlélő számára is "
+"megfelelő."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of hard arm guards"
@@ -9238,6 +9349,8 @@ msgid ""
 "A pair of neoprene arm sleeves covered with molded plastic sheaths.  Epic "
 "sized."
 msgstr ""
+"Egy pár neoprénből készült ingujj, amelyekre kemény műanyag tok került.  "
+"Epikus méretű."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of leather arm guards"
@@ -9259,7 +9372,7 @@ msgstr[1] ""
 #. ~ Description for pair of XL leather arm guards
 #: lang/json/ARMOR_from_json.py
 msgid "A pair of gigantic leather arm guards.  Heavy but comfortable."
-msgstr ""
+msgstr "Gigantikus méretű bőr karvédő  Nehéz, de kényelmes."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of steel arm guards"
@@ -9290,6 +9403,8 @@ msgid ""
 "couters, and vambraces, with leather straps to secure each piece and connect"
 " it as part of a set."
 msgstr ""
+"Jotun számára készült középkori karvédelem.  Bőrcsíkokkal rögzített "
+"alkarvért, felkarvért és könyökvédő."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of metal arm guards"
@@ -9318,6 +9433,8 @@ msgid ""
 "A pair of arm guards hammered out from metal.  Perfect for the Post-"
 "Apocalyptic Warrior look.  Larger than average."
 msgstr ""
+"Hulladékfémből kalapált karvédő.  Tökéletes a poszt-apokaliptikus harcosok "
+"divatjához.  Az átlagosnál nagyobb méretű."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of paper arm guards"
@@ -9360,6 +9477,8 @@ msgid ""
 "strings; the loose collection of plates provides decent but not the most "
 "convenient protection."
 msgstr ""
+"Egyszerű zsinórokkal egymáshoz rögzített, hulladékfémből készült túlméretes "
+"karvédő. Megfelelő, de nem a legmagasabb szintű védelmet nyújtja."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of neoprene arm sleeves"
@@ -9385,6 +9504,8 @@ msgid ""
 "A pair of extra large soft neoprene arm sleeves.  Often used in contact "
 "sports, by giants."
 msgstr ""
+"Egy pár extra nagy, puha neoprén ingujj.  Óriások gyakran használják "
+"kűzdősportokban."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of chainmail sleeves"
@@ -9416,6 +9537,9 @@ msgid ""
 " other.  The lack of fingers makes them less cumbersome and allows them to "
 "be used with gloves.  These are oversized."
 msgstr ""
+"Testreszabott sodronypáncél ingujj.  Minden ingujj egymáshoz kapcsolható "
+"hevederekkel rendelkezik.  Az ujjak hiánya kevésbé órmótlanná teszi őket, és"
+" kesztyűvel is használható.  Ezek túlméretesek."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of elbow pads"
@@ -9448,7 +9572,7 @@ msgstr[1] ""
 #. ~ Description for pair of XL leather vambraces
 #: lang/json/ARMOR_from_json.py
 msgid "Customized oversized leather vambraces, made for archery."
-msgstr ""
+msgstr "Testreszabott, nagyméretű bőr alkarvért íjászathoz."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of cut-resistant arm sleeves"
@@ -9576,6 +9700,8 @@ msgid ""
 "A leather bandolier strapped around the torso for keeping 40mm grenades "
 "close to hand.  For some reason, wearing this makes you feel Austrian."
 msgstr ""
+"Mellkas körül hordott bőrheveder, amelyből gyorsan lehet 40mm gránátokat "
+"betárazni.  Valamiért a viselésétől osztráknak érzed magad."
 
 #: lang/json/ARMOR_from_json.py
 msgid "torso shotgun bandolier"
@@ -9957,6 +10083,8 @@ msgid ""
 "Leather boots covered with tiny finely carved bones.  With each step the "
 "bones collide with each other producing a melodic clicking"
 msgstr ""
+"Apró, finoman faragott csontokkal borított bőrcsizma.  Minden lépésnél a "
+"csontok egymásba ütköznek, és melodikusan kattognak."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of turnout boots"
@@ -11015,7 +11143,7 @@ msgstr[1] "bőrpalást"
 #. ~ Description for leather cloak
 #: lang/json/ARMOR_from_json.py
 msgid "A heavy leather cloak meant to be thrown over your body."
-msgstr ""
+msgstr "Testedre vetett nehéz bőrpalást."
 
 #: lang/json/ARMOR_from_json.py
 msgid "wool cloak"
@@ -11186,6 +11314,8 @@ msgid ""
 "A bulky traditional Japanese raincoat made from straw, which covers the "
 "entire body.  Also known as mino."
 msgstr ""
+"Szalmából készült terjedelmes, hagyományos japán esőkabát, amely az egész "
+"testet beborítja.  Mino néven is ismert."
 
 #: lang/json/ARMOR_from_json.py
 msgid "gutskin parka"
@@ -11346,6 +11476,9 @@ msgid ""
 "cover one's nakedness to and from the bath.  It makes you wish you had "
 "running water to bathe with."
 msgstr ""
+"Nedvszívó, törülközőszerű anyagból készült felsőruházat, amelyet "
+"hagyományosan a fürdőig tartó meztelenség elrejtésére viselnek.  Bárcsak "
+"lenne egy kádnyi folyóvized..."
 
 #: lang/json/ARMOR_from_json.py
 msgid "army jacket"
@@ -11533,6 +11666,8 @@ msgid ""
 "A traditional, ankle-length Buddhist robe, stitched together from three "
 "pieces of traditional saffron dyed cloth."
 msgstr ""
+"Hagyományos, bokáig érő buddhista köntös, amelyet három darab, hagyományosan"
+" sáfrányból festett kendőből varrtak."
 
 #: lang/json/ARMOR_from_json.py
 msgid "keikogi"
@@ -11547,11 +11682,11 @@ msgstr "Jelöletlen fehér keikogi harcművészetek számára."
 
 #: lang/json/ARMOR_from_json.py
 msgid "kimono"
-msgid_plural "kimonos"
-msgstr[0] "kimonó"
-msgstr[1] "kimonó"
+msgid_plural "kimono"
+msgstr[0] ""
+msgstr[1] ""
 
-#. ~ Description for kimono
+#. ~ Description for {'str_sp': 'kimono'}
 #: lang/json/ARMOR_from_json.py
 msgid ""
 "A traditional, ankle-length Japanese robe, wrapped around the body with a "
@@ -11642,6 +11777,8 @@ msgid ""
 "A traditional, double layered Buddhist coat, used as an outer cloak for "
 "various occasions."
 msgstr ""
+"Hagyományos, kétrétegű buddhista kabát, amelyet különböző alkalmakkor külső "
+"köpenyként használnak."
 
 #: lang/json/ARMOR_from_json.py
 msgid "ski jacket"
@@ -11990,6 +12127,8 @@ msgid ""
 "A patch of black leather to cover an eye, with a string to keep it from "
 "falling off.  If wearing this doesn't make you feel a pirate, nothing will."
 msgstr ""
+"Fekete bőrfolt egy szem eltakarására, egy zsinórral, hogy ne essen le.  Ha "
+"ettől nem érzed magad kalóznak, akkor semmitől se fogod."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of stylish sunglasses"
@@ -12197,6 +12336,8 @@ msgid ""
 "A pair of bifocal sunglasses for keeping the glare out of the eyes of those "
 "who are both near-sighted and far-sighted."
 msgstr ""
+"Bifokális napszemüveg azoknak, akik egyszerre rövid- és távollátók. Vakító "
+"fénynél segít a látásban."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of corrective sunglasses"
@@ -12209,7 +12350,7 @@ msgstr[1] ""
 msgid ""
 "A pair of sunglasses for keeping the glare out of the eyes of those who are "
 "near-sighted."
-msgstr ""
+msgstr "Dioptriás napszemüveg rövidlátóknak. Vakító fénynél segít a látásban."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of reading sunglasses"
@@ -12223,6 +12364,8 @@ msgid ""
 "A pair of sunglasses for keeping the glare out of the eyes of those who are "
 "far-sighted.  Useless for anyone else."
 msgstr ""
+"Olvasó napszemüveg távollátóknak. Vakító fénynél segít a látásban.  Bárki "
+"más számára haszontalan."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of stylish bifocal glasses"
@@ -12236,6 +12379,7 @@ msgid ""
 "A pair of stylish bifocal glasses for those who are both near-sighted and "
 "far-sighted."
 msgstr ""
+"Divatos szemüveg azoknak, akik egyszerre egyszerre rövid- és távollátók."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of stylish corrective glasses"
@@ -12249,6 +12393,8 @@ msgid ""
 "A pair of stylish glasses for the near-sighted.  The concave lenses diffuse "
 "the sunlight, rendering them useless for starting fires."
 msgstr ""
+"Divatos szemüveg a rövidlátók számára.  A konkáv lencsék szétszórják a "
+"napfényt, ezért tűzgyújráshoz nem használható."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of stylish reading glasses"
@@ -12261,6 +12407,7 @@ msgstr[1] ""
 msgid ""
 "A pair of stylish glasses for the far-sighted.  Useless for anyone else."
 msgstr ""
+"Divatos szemüveg a távollátók számára.  Bárki más számára haszontalan."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of stylish bifocal sunglasses"
@@ -12274,6 +12421,8 @@ msgid ""
 "A pair of stylish bifocal sunglasses for keeping the glare out of the eyes "
 "of those who are both near-sighted and far-sighted."
 msgstr ""
+"Divatos bifokális napszemüveg azoknak, akik egyszerre rövid- és távollátók. "
+"Vakító fénynél segít a látásban."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of stylish corrective sunglasses"
@@ -12287,6 +12436,8 @@ msgid ""
 "A pair of stylish sunglasses, looks good while keeping the glare out of the "
 "eyes of those who are near-sighted."
 msgstr ""
+"Divatos, dioptriás napszemüveg rövidlátóknak. Vakító fénynél segít a "
+"látásban."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of stylish reading sunglasses"
@@ -12300,6 +12451,8 @@ msgid ""
 "A pair of stylish sunglasses, looks good while keeping the glare out of the "
 "eyes of those who are far-sighted.  Useless for anyone else."
 msgstr ""
+"Divatos, napszemüveg távollátóknak. Vakító fénynél segít a látásban.  Bárki "
+"más számára haszontalan."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of transition bifocal glasses"
@@ -12315,6 +12468,10 @@ msgid ""
 "darken, when exposed to ultraviolet rays from sunlight.  When the UV light "
 "diminishes, the lenses fade back."
 msgstr ""
+"Fényre sötétedő bifokális szemüveg azoknak, akik egyszerre egyszerre rövid- "
+"és távollátók.  Fotokróm színezékeket tartalmaz, amelyek a napfény "
+"ultraibolya sugárzásának hatására aktiválódnak, azaz elsötétednek.  Amikor "
+"az UV fény csökken, a lencsék kivilágosulnak."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of transition corrective glasses"
@@ -12329,6 +12486,10 @@ msgid ""
 "dyes causing the lens to activate, or darken, when exposed to ultraviolet "
 "rays from sunlight.  When the UV light diminishes, the lenses fade back."
 msgstr ""
+"Fényre sötétedő dioptriás szemüveg a rövidlátók számára.  Fotokróm "
+"színezékeket tartalmaz, amelyek a napfény ultraibolya sugárzásának hatására "
+"aktiválódnak, azaz elsötétednek.  Amikor az UV fény csökken, a lencsék "
+"kivilágosulnak."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of transition reading glasses"
@@ -12344,6 +12505,10 @@ msgid ""
 "ultraviolet rays from sunlight.  When the UV light diminishes, the lenses "
 "fade back."
 msgstr ""
+"Szemüveg a távollátók számára.  Bárki más számára haszontalan.  Fotokróm "
+"színezékeket tartalmaz, amelyek a napfény ultraibolya sugárzásának hatására "
+"aktiválódnak, azaz elsötétednek.  Amikor az UV fény csökken, a lencsék "
+"kivilágosulnak."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of stylish transition bifocal glasses"
@@ -12359,6 +12524,10 @@ msgid ""
 "darken, when exposed to ultraviolet rays from sunlight.  When the UV light "
 "diminishes, the lenses fade back."
 msgstr ""
+"Divatos szemüveg azoknak, akik egyszerre egyszerre rövid- és távollátók.  "
+"Fotokróm színezékeket tartalmaz, amelyek a napfény ultraibolya sugárzásának "
+"hatására aktiválódnak, azaz elsötétednek.  Amikor az UV fény csökken, a "
+"lencsék kivilágosulnak."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of stylish transition corrective glasses"
@@ -12373,6 +12542,9 @@ msgid ""
 "causing the lens to activate, or darken, when exposed to ultraviolet rays "
 "from sunlight.  When the UV light diminishes, the lenses fade back."
 msgstr ""
+"Divatos szemüveg a rövidlátók számára.  Fotokróm színezékeket tartalmaz, "
+"amelyek a napfény ultraibolya sugárzásának hatására aktiválódnak, azaz "
+"elsötétednek.  Amikor az UV fény csökken, a lencsék kivilágosulnak."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of stylish transition reading glasses"
@@ -12388,6 +12560,10 @@ msgid ""
 "exposed to ultraviolet rays from sunlight.  When the UV light diminishes, "
 "the lenses fade back."
 msgstr ""
+"Divatos szemüveg a távollátók számára.  Bárki más számára haszontalan.  "
+"Fotokróm színezékeket tartalmaz, amelyek a napfény ultraibolya sugárzásának "
+"hatására aktiválódnak, azaz elsötétednek.  Amikor az UV fény csökken, a "
+"lencsék kivilágosulnak."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of beekeeping gloves"
@@ -13211,7 +13387,7 @@ msgstr[1] ""
 msgid ""
 "A headdress in the form of wreath made from plant material and woven into a "
 "ring."
-msgstr ""
+msgstr "Növényi anyagból készült, gyűrűbe szőtt fejdísz koszorú formájában."
 
 #: lang/json/ARMOR_from_json.py
 msgid "cowboy hat"
@@ -13724,6 +13900,8 @@ msgid ""
 "A medieval helmet that provides excellent protection for the head, with a Y "
 "shaped opening for the face.  This one is ogre sized."
 msgstr ""
+"Ipszilon formájú arcnyílású, késő középkori sisak.Kkiváló védelmet nyújt a "
+"fej számára.  Ez ogre méretű."
 
 #: lang/json/ARMOR_from_json.py
 msgid "bike helmet"
@@ -13760,7 +13938,7 @@ msgstr[1] ""
 #. ~ Description for XL chitinous helmet
 #: lang/json/ARMOR_from_json.py
 msgid "A helmet made from giant insects for giant humanoids."
-msgstr ""
+msgstr "Óriási rovarokból készült sisak óriási humanoidok számára."
 
 #: lang/json/ARMOR_from_json.py
 msgid "conical helm"
@@ -13786,7 +13964,7 @@ msgstr[1] ""
 #. ~ Description for XL conical helm
 #: lang/json/ARMOR_from_json.py
 msgid "A helmet made for a giant Mongolian warrior from a pulp novel."
-msgstr ""
+msgstr "Egy hatalmas mongol harcos számára ponyvaregényből készült sisak."
 
 #: lang/json/ARMOR_from_json.py
 msgid "biosilicified chitin helmet"
@@ -13813,7 +13991,7 @@ msgstr[1] ""
 #. ~ Description for XL biosilicified chitin helmet
 #: lang/json/ARMOR_from_json.py
 msgid "A helmet made from giant acidic insects for giant humanoids."
-msgstr ""
+msgstr "Óriási savas rovarokból készült sisak óriási humanoidok számára."
 
 #: lang/json/ARMOR_from_json.py
 msgid "football helmet"
@@ -13823,8 +14001,8 @@ msgstr[1] "rögbisisak"
 
 #. ~ Description for football helmet
 #: lang/json/ARMOR_from_json.py
-msgid "A heavy plastic helmet normally worn by football players."
-msgstr "Kemény műanyag sisak, főleg a rögbijátékosok szokták hordani."
+msgid "A heavy polycarbonate helmet normally worn by football players."
+msgstr ""
 
 #: lang/json/ARMOR_from_json.py
 msgid "galea"
@@ -13852,14 +14030,16 @@ msgid ""
 "An Imperial Roman helmet, with distinct projections protecting the sides of "
 "the head built for a Titan."
 msgstr ""
+"Titánok számára készített római kori sisak, amelynek mindkét oldalából "
+"jellegzetes díszek állnak ki."
 
 #: lang/json/ARMOR_from_json.py
 msgid "kabuto"
-msgid_plural "kabutos"
-msgstr[0] "kabuto"
-msgstr[1] "kabuto"
+msgid_plural "kabuto"
+msgstr[0] ""
+msgstr[1] ""
 
-#. ~ Description for kabuto
+#. ~ Description for {'str_sp': 'kabuto'}
 #: lang/json/ARMOR_from_json.py
 msgid ""
 "A medieval Japanese helmet with a scowling facemask that provides excellent "
@@ -13878,6 +14058,7 @@ msgstr[1] ""
 #: lang/json/ARMOR_from_json.py
 msgid "A medieval Japanese helmet with a scowling facemask, fit for an Oni."
 msgstr ""
+"Középkori japán sisak haragos arcra festett maszkkal, amely egy Onira illik."
 
 #: lang/json/ARMOR_from_json.py
 msgid "leather armor helmet"
@@ -13903,6 +14084,7 @@ msgid ""
 "A thick leather helmet that provides excellent protection for the head.  "
 "This one is quite large."
 msgstr ""
+"Ez a vastag bőrsisak kiváló védelmet nyújt a fej számára.  Ez elég nagy."
 
 #: lang/json/ARMOR_from_json.py
 msgid "large wolf skull"
@@ -13990,6 +14172,9 @@ msgid ""
 "protect the face without obstructing vision.  Proper Jotunn gear, unlike the"
 " stereotypical horned helm."
 msgstr ""
+"Ennél a korai középkori sisaknál egy vasnyúlvány védte az orrot anélkül, "
+"hogy amúgy akadályozná a viselője látását.  Ez egy rendtes Jotunn "
+"felszerelés, nem úgy, mint az a sztereotip szarvas sisak."
 
 #: lang/json/ARMOR_from_json.py
 msgid "nomad cowl"
@@ -14018,6 +14203,8 @@ msgid ""
 "A makeshift cowl with protection for the eyes from rain and sun, designed "
 "for long travels.  Designed for a gigantic wanderer."
 msgstr ""
+"Hosszú utazáshoz szánt hevenyészett, vízálló csuklya, szemvédelemmel és "
+"napellenzővel.  Óriási vándor számára tervezték."
 
 #: lang/json/ARMOR_from_json.py
 msgid "great helm"
@@ -14046,6 +14233,8 @@ msgid ""
 "A medieval helmet that provides excellent protection to the entire head, at "
 "the cost of great encumbrance.  Larger than average."
 msgstr ""
+"Egy középkorból származó lovagi sisak. Nagyon jól védi az egész fejet, "
+"viszont egyben rendkívül ormótlan is.  Az átlagosnál nagyobb méretű."
 
 #: lang/json/ARMOR_from_json.py
 msgid "scavenger cowl"
@@ -14074,6 +14263,8 @@ msgid ""
 "A sturdy protective cowl extending down to the neck, fitted with a "
 "respirator and eye protection.  For oversized dangerous scavenging ventures."
 msgstr ""
+"Az erős védelmet nyújtó csuklya a nyakat is befedi, légzőkészüléket és "
+"védőszemüveget is tartalmaz.  Túlméretes, veszélyes guberáláshoz."
 
 #: lang/json/ARMOR_from_json.py
 msgid "scrap helmet"
@@ -14103,6 +14294,8 @@ msgid ""
 " loose collection of plates provides decent but not the most convenient "
 "protection."
 msgstr ""
+"Egyszerű zsinórokkal egymáshoz rögzített, hulladékfémből készült túlméretes "
+"sisak. Megfelelő, de nem a legmagasabb szintű védelmet nyújtja."
 
 #: lang/json/ARMOR_from_json.py
 msgid "skid lid"
@@ -14157,6 +14350,8 @@ msgid ""
 "An ancient Greek bronze helmet that provides excellent protection for the "
 "head, with slits for the eyes and mouth.  Of godlike proportions."
 msgstr ""
+"Ez az ókori görög bronzsisak kíváló védelmet nyújt a fej számára, a szemek "
+"és a száj számára pedig résekkel rendelkezik.  Isteni arányokhoz készült."
 
 #: lang/json/ARMOR_from_json.py
 msgid "XL pot helmet"
@@ -14205,6 +14400,11 @@ msgid ""
 "pirates to carry multiple loaded flintlock pistols at once, as reloading "
 "them is a lengthy process.  Activate to holster/draw a gun."
 msgstr ""
+"Bőr heveder, amely összesen hat darab, pisztoly méretű fegyvert képes gyors "
+"előrántáshoz eltárolni.  Régen hasonló szíjakat használtak a kalózok "
+"egyszerre több betöltött tűzköves pisztoly tárolására, mivel azok "
+"újratöltése hosszú folyamat volt.  Aktiváld a fegyver eltárolásához vagy "
+"előrántásához."
 
 #: lang/json/ARMOR_from_json.py
 msgid "ankle holster"
@@ -14334,6 +14534,10 @@ msgid ""
 "carefully crafted to be comfortable to wear and fitting the largest forms.  "
 "Activate to holster/draw your weapon."
 msgstr ""
+"Egyedi készítésű, könnyű felépítésű heveder számos zsebbel és egy puskatartó"
+" pánttal kisebb puskák vagy hasonló fegyverek számára.  Tartós és "
+"kifejezetten a legnagyobb testek kényelmes viseletére szabott.  Aktiváld a "
+"fegyvered eltárolásához vagy előrántásához."
 
 #: lang/json/ARMOR_from_json.py
 msgid "XL holster"
@@ -14388,6 +14592,8 @@ msgid ""
 "A customized chainmail hood.  Can be worn comfortably under helmets.  Comes "
 "in size XL."
 msgstr ""
+"Teljesen testre szabott, fémsodronyból készült páncélkapucni.  Kényelmesen "
+"viselhető sisakok alatt is.  XL méretben kapható."
 
 #: lang/json/ARMOR_from_json.py
 msgid "survivor firehood"
@@ -14414,6 +14620,8 @@ msgid ""
 "A customized armored Nomex and Kevlar hood, very strong and durable.  Made "
 "in Muspelheim."
 msgstr ""
+"Egyedi szabású kevlarral páncélozott, Kevlar-betétes kapucni, nagyon erős és"
+" tartós.  Muspelheimben készült."
 
 #: lang/json/ARMOR_from_json.py
 msgid "light survivor hood"
@@ -14440,6 +14648,8 @@ msgid ""
 "A customized and oversized armored cloth and Kevlar hood, very light and "
 "durable."
 msgstr ""
+"Egyedi szabású, túlméretes, kevlarral páncélozott, textilbetétes kapucni, "
+"nagyon könyű és tartós."
 
 #: lang/json/ARMOR_from_json.py
 msgid "winter faux fur survivor hood"
@@ -14520,6 +14730,8 @@ msgid ""
 "A customized and oversized armored fur and Kevlar hood, very warm and "
 "durable."
 msgstr ""
+"Egyedi szabású, túlméretes, kevlarral páncélozott, szőrmebetétes kapucni, "
+"nagyon meleg és tartós."
 
 #: lang/json/ARMOR_from_json.py
 msgid "XL survivor hood"
@@ -14743,6 +14955,8 @@ msgstr[1] ""
 msgid ""
 "Fake teeth inlaid with rubies, worn over the teeth.  It looks very shiny."
 msgstr ""
+"Rubinttal kirakott hamis fog, amit az igazi fogra lehet húzni.  Nagyon "
+"csillog."
 
 #: lang/json/ARMOR_from_json.py
 msgid "peridot dental grill"
@@ -14978,6 +15192,9 @@ msgid ""
 "cuffs of dress shirts - a must-have for men in formal wear.  You can wear it"
 " if you like, but it won't provide any effects."
 msgstr ""
+"Jelöletlen ezüst mandzsettagomb.  A mandzsettagombok a ruhaingek "
+"mandzsettájának rögzítésére szolgálnak - ez kötelező dolog az elegáns "
+"öltözetű férfiak számára.  Felveheted, ha szeretnéd, de semmi haszna sincs."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of intricate cufflinks"
@@ -19160,7 +19377,7 @@ msgstr[1] ""
 msgid ""
 "A pair of leg guards made from the exoskeletons of insects.  Light and "
 "durable."
-msgstr ""
+msgstr "Rovarok kitinpáncéljából készült lábszárvédő.  Könnyű és tartós."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of biosilicified chitin leg guards"
@@ -19174,6 +19391,8 @@ msgid ""
 "A pair of leg guards crafted from the carefully cleaned and pruned "
 "biosilicified exoskeletons of acidic ants.  Acid-resistant and very durable."
 msgstr ""
+"Savas hangyák megkövesedett, majd megtisztított kitinvázából készült "
+"lábszárvédő.  Saválló és nagyon tartós."
 
 #: lang/json/ARMOR_from_json.py
 msgid "turnout trousers"
@@ -19219,6 +19438,9 @@ msgid ""
 " everything in place, and the lack of toes and heels allows them to work "
 "perfectly well with footwear."
 msgstr ""
+"Testreszabott sodronypáncél lábszárvédő a legnagyobb transzhumán számára.  "
+"Mivel sem a sarkot, sem a lábfejet nem fedi be, bármilyen lábbelivel jól "
+"viselhető."
 
 #: lang/json/ARMOR_from_json.py
 msgid "leather chaps"
@@ -19292,7 +19514,7 @@ msgstr[1] ""
 #. ~ Description for XL bronze greaves
 #: lang/json/ARMOR_from_json.py
 msgid "A pair of gigantic bronze leg guards with a simple leather lining."
-msgstr ""
+msgstr "Egyszerű bőr béléssel ellátott gigantikus bronz lábvért."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of hard leg guards"
@@ -19333,6 +19555,8 @@ msgid ""
 "Cuisses, poleyns, and greaves, with leather straps to secure each piece and "
 "connect it as part of a set."
 msgstr ""
+"Teljesen összeszerelt középkori lábvédő készlet a legnagyobb lovagok "
+"számára.  Bőrcsíkokkal rögzített combvért, sípcsontvért és térdvédő."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of iron greaves"
@@ -19354,7 +19578,7 @@ msgstr[1] ""
 #. ~ Description for pair of XL iron greaves
 #: lang/json/ARMOR_from_json.py
 msgid "A pair of extra large iron leg guards with a simple leather lining."
-msgstr ""
+msgstr "Egyszerű bőr béléssel ellátott extra nagy vas lábvért."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of paper leg guards"
@@ -19396,6 +19620,9 @@ msgid ""
 "the loose collection of plates provides decent but not the most convenient "
 "protection.  You look like a trash giant."
 msgstr ""
+"Egyszerű zsinórokkal egymáshoz rögzített, hulladékfémből készült "
+"lábszárvédő. Megfelelő, de nem a legmagasabb szintű védelmet nyújtja.  Úgy "
+"nézel ki, mint egy szemétóriás."
 
 #: lang/json/ARMOR_from_json.py
 msgid "light survivor cargo pants"
@@ -19424,6 +19651,9 @@ msgid ""
 "Lightweight, Kevlar armored cargo pants designed to hold as much as "
 "possible.  Strong and mostly waterproof and sized for larger than average."
 msgstr ""
+"A lehetséges legtöbb hellyel rendelkező könnyű, kevlarral páncélozott "
+"oldalzsebes nadrág.  Strapabíró és nagyrészt vízálló, és az átlagosnál "
+"nagyobb méretű."
 
 #: lang/json/ARMOR_from_json.py
 msgid "motorcycle pants"
@@ -19463,6 +19693,8 @@ msgid ""
 "A pair of oversized Kevlar armored pants covered with pouches and pockets.  "
 "Custom-built to be durable, comfortable, and easy to wear."
 msgstr ""
+"Kevlárral páncélozott, egyedi készítésű, túlméretes oldalzsebes nadrág, tele"
+" zsebbel.  Kényelmes, tartós és tárolásra nagyon jó."
 
 #: lang/json/ARMOR_from_json.py
 msgid "EOD trousers"
@@ -19505,6 +19737,8 @@ msgid ""
 "A traditional, ankle-length Buddhist skirt.  The bottom protrudes, and "
 "appears in the rough shape of a triangle."
 msgstr ""
+"Hagyományos, bokáig érő buddhista szoknya.  Alja kinyúlik, és nagyjából "
+"háromszög alakban jelenik meg."
 
 #: lang/json/ARMOR_from_json.py
 msgid "basketball shorts"
@@ -19889,7 +20123,7 @@ msgstr[1] "farmer rövidnadrág"
 #. ~ Description for {'str_sp': 'denim shorts'}
 #: lang/json/ARMOR_from_json.py
 msgid "A pair of denim shorts."
-msgstr ""
+msgstr "Farmer rövidnadrág."
 
 #: lang/json/ARMOR_from_json.py
 msgid "A pair of stone wash denim shorts."
@@ -19930,6 +20164,8 @@ msgid ""
 "A primitive skirt made from grass.  Not actually useful for much other than "
 "looking like a tribal person."
 msgstr ""
+"Fűből készült primitív szoknya.  Valójában nem sok másra jó, mint hogy "
+"törzsfőnöknek nézzél ki benne."
 
 #: lang/json/ARMOR_from_json.py
 msgid "leather skirt"
@@ -20025,6 +20261,7 @@ msgid ""
 "A face covering garment that helps protect from slashes and cuts, in "
 "addition to the cold."
 msgstr ""
+"Arcburkoló ruhadarab, amely a hideg mellett segít megvédeni a vágásoktól."
 
 #: lang/json/ARMOR_from_json.py
 msgid "bondage mask"
@@ -20381,6 +20618,10 @@ msgid ""
 " wearable by the assist of the servos.  Now it's just the armor plating and "
 "a stripped down chassis: as one might expect, it's a lot harder to wear."
 msgstr ""
+"Ez korábban egy motoros szervópáncél volt, nehéz páncéllemezekkel, amelyet a"
+" beépített szervómotorok tettek hordhatóvá.  Most csak páncélzat és "
+"lecsupaszított alvázról; ahogy az várható is volt, így sokkal nehezebb "
+"viselni."
 
 #: lang/json/ARMOR_from_json.py
 msgid "salvaged power armor helmet"
@@ -20396,6 +20637,10 @@ msgid ""
 "stripped for parts; now it's a very expensive hat.  It's still quite "
 "durable, but quite hard to see out of."
 msgstr ""
+"Korábban ez egy fejlett optikával és környezeti szűrőkkel felszerelt katonai"
+" minőségű sisak volt.  Úgy tűnik, hogy hatástalanították, vagy alkatrészeire"
+" bontották. Most már csak egy nagyon drága kalap.  Még mindig elég tartós, "
+"de meglehetősen nehéz belőle kilátni."
 
 #: lang/json/ARMOR_from_json.py
 msgid "power armor hauling frame"
@@ -20408,6 +20653,8 @@ msgstr[1] "szervópáncél szállítókeret"
 msgid ""
 "A heavy duty hauling frame designed to interface with military exoskeletons."
 msgstr ""
+"Nagy teherbírású szállítókeret, amelyet a szervópáncélokkal való "
+"interfészelés céljából készítettek."
 
 #: lang/json/ARMOR_from_json.py
 msgid "environmental combat helmet"
@@ -20423,6 +20670,11 @@ msgid ""
 "In practice, the cameras were unreliable and easily fouled.  The "
 "environmental controls function best with direct-skin contact."
 msgstr ""
+"Teljesen zárt harci sisak veszélyes környezetekhez. Úgy tervezték, hogy egy "
+"szervópáncélhoz illeszkedjen, és kamerák segítségével növelje a "
+"látótávolságot.  A gyakorlatban a kamerák nem voltak megbízhatóak és könnyen"
+" bekoszolódtak.  A vegyvédelmi rendszer kezelőszervei a bőrrel való "
+"közvetlen érintkezés esetén működnek a legjobban."
 
 #: lang/json/ARMOR_from_json.py
 msgid "heavy environmental combat helmet"
@@ -20439,6 +20691,12 @@ msgid ""
 "and limited visuals.  The environmental controls function best with direct-"
 "skin contact."
 msgstr ""
+"Rendkívül nagy teherbírású, teljesen zárt harci sisak veszélyes "
+"környezetekhez. Úgy tervezték, hogy egy szervópáncélhoz illeszkedjen, és "
+"kamerák segítségével növelje a látótávolságot.  A terepen a katonák arról "
+"számoltak be, hogy a védelem nem érte meg az ormótlanul nagy méretet és a "
+"korlátozott látómezőt.  A vegyvédelmi rendszer kezelőszervei a bőrrel való "
+"közvetlen érintkezés esetén működnek a legjobban."
 
 #: lang/json/ARMOR_from_json.py
 msgid "light environmental combat helmet"
@@ -20457,6 +20715,14 @@ msgid ""
 "roll out in significant numbers.  The environmental controls function best "
 "with direct-skin contact."
 msgstr ""
+"Ezt a teljes fejed befedő sisakot egy mélytengeri búvársisak alapján "
+"tervezték válaszul azokra a panaszokra, amelyek szerint a korábbi "
+"változatokat lehetetlen volt használni a harcban.  Bár a szokásos harci "
+"fejfedőknél még mindig kissé korlátozottabb, és ha viszked az orrod, akkor "
+"idegesítőbb is, ez a változat sokkal jobb értékeléseket kapott a katonáktól."
+"  Sajnos a civilizáció véget ért, mielőtt jelentős számban tudnák volna "
+"gyártani.  A vegyvédelmi rendszer kezelőszervei a bőrrel való közvetlen "
+"érintkezés esetén működnek a legjobban."
 
 #: lang/json/ARMOR_from_json.py
 msgid "knit cowl"
@@ -20593,6 +20859,9 @@ msgid ""
 "birch bark.  It is awkward to use without practice.  Activate to "
 "sheathe/draw a weapon."
 msgstr ""
+"Egy bokán viselt, nyírfakéregből kézzel készített, kis rejtett késhüvely.  "
+"Tapasztalat nélkül nehéz használni.  Aktiváld egy fegyvered eltárolásához "
+"vagy előrántásához."
 
 #: lang/json/ARMOR_from_json.py
 msgid "back scabbard"
@@ -20654,6 +20923,9 @@ msgid ""
 "A handcrafted sheath made from birch bark, for holding knives and other "
 "small blades, with a strap attached.  Activate to sheathe/draw a weapon."
 msgstr ""
+"Nyírfakéregből kézzel készített késhüvely különféle kisebb méretű pengés "
+"fegyverek tárolására, hevederrel.  Aktiváld egy fegyvered eltárolásához vagy"
+" előrántásához."
 
 #: lang/json/ARMOR_from_json.py
 msgid "spear strap"
@@ -20906,6 +21178,8 @@ msgid ""
 "A tall canvas and plastic bag with fold-out legs used for golfing.  It even "
 "has straps to be worn on the back and a slot for an umbrella."
 msgstr ""
+"Magas vászon és műanyag zacskó, kihajtható lábakkal, golfozáshoz.  Még hátán"
+" hordható heveder és esernyőtároló is van rajta."
 
 #: lang/json/ARMOR_from_json.py
 msgid "H&K operational briefcase (empty)"
@@ -21045,6 +21319,9 @@ msgid ""
 "than a standard backpack, but more awkward to carry when loaded and unable "
 "to hold small or heavy items."
 msgstr ""
+"Húrokból szőtt hátizsák, hevederekkel a háton viselhető.  Könnyebb, mint egy"
+" szokásos hátizsák, de kényelmetlenebb cipelni, ha meg van töltve, és kis "
+"vagy nehéz tárgyak tárolására nem képes."
 
 #: lang/json/ARMOR_from_json.py
 msgid "petpack"
@@ -21175,6 +21452,9 @@ msgid ""
 "possessions during trips, provides a decent amount of storage but hauling it"
 " around is not exactly comfortable."
 msgstr ""
+"Ez a közepes méretű kerekes bőrönd főleg ruhák és egyéb tulajdontárgyak "
+"utazások alatti tárolására készült, ezért rendes mennyiségű tárolóval "
+"rendelkezik, viszont a szállítása nem túl kényelmes."
 
 #: lang/json/ARMOR_from_json.py
 msgid "survivor duffel bag"
@@ -21285,6 +21565,9 @@ msgid ""
 "A large handmade straw basket with a lid and shoulder straps to wear it like"
 " a backpack.  Less comfortable than a proper backpack, but will do the job."
 msgstr ""
+"Egy nagyméretű, kézzel készített szalmakosár fedéllel és vállpánttal, hogy "
+"hátizsákként viselhesd.  Kevésbé kényelmes, mint egy rendes hátizsák, de a "
+"feladatnak megfelel."
 
 #: lang/json/ARMOR_from_json.py
 msgid "debug pocket universe"
@@ -21295,7 +21578,7 @@ msgstr[1] ""
 #. ~ Description for debug pocket universe
 #: lang/json/ARMOR_from_json.py
 msgid "A pocket universe.  Can store approximately 384 * 10^6 bugs."
-msgstr ""
+msgstr "Zseb univerzum.  Körülbelül 384 * 10 ^ 6 hibát képes tárolni."
 
 #: lang/json/ARMOR_from_json.py
 msgid "longarm bag"
@@ -21309,6 +21592,8 @@ msgid ""
 "A long duffel bag.  Provides storage for long arms and rifles.  Quite "
 "cumbersome."
 msgstr ""
+"Egy hosszú sporttáska.  Hosszúcsövű fegyverek és puskák tárolásához.  Elég "
+"nehézkes."
 
 #: lang/json/ARMOR_from_json.py
 msgid "rifle case"
@@ -21322,6 +21607,8 @@ msgid ""
 "A long soft rifle case.  Provides storage for long arms and rifles.  "
 "Includes a small pocket, strap and handle."
 msgstr ""
+"Hosszú, puha táska.  Hosszúcsövű fegyverek és puskák tárolásához.  Egy kis "
+"zsebet, egy hevedert és egy fogantyút is tartalmaz."
 
 #: lang/json/ARMOR_from_json.py
 msgid "leather rifle case"
@@ -21335,6 +21622,8 @@ msgid ""
 "A long soft leather rifle case.  Provides storage for long arms and rifles."
 "  Includes a small pocket, strap and handle."
 msgstr ""
+"Hosszú, puha bőrtáska.  Hosszúcsövű fegyverek és puskák tárolásához.  Egy "
+"kis zsebet, egy hevedert és egy fogantyút is tartalmaz."
 
 #: lang/json/ARMOR_from_json.py
 msgid "double rifle case"
@@ -21348,6 +21637,8 @@ msgid ""
 "A long soft rifle case.  Provides storage for 2 long arms and rifles.  "
 "Includes 3 accessory pockets and a strap."
 msgstr ""
+"Hosszú, puha táska.  2 darab hosszúcsövű fegyver vagy puska tárolásához.  3 "
+"kiegészítő zsebbel és egy hevederrel rendelkezik."
 
 #: lang/json/ARMOR_from_json.py
 msgid "leather double rifle case"
@@ -21361,6 +21652,8 @@ msgid ""
 "A long soft leather rifle case.  Provides storage for 2 long arms and "
 "rifles.  Includes 3 accessory pockets and a strap."
 msgstr ""
+"Hosszú, puha bőrtáska.  2 darab hosszúcsövű fegyver vagy puska tárolásához."
+"  3 kiegészítő zsebbel és egy hevederrel rendelkezik."
 
 #: lang/json/ARMOR_from_json.py
 msgid "long leather rifle case"
@@ -21374,6 +21667,8 @@ msgid ""
 "An extra long soft leather rifle case.  Provides storage for long arms and "
 "rifles.  Includes a small pocket, strap and handle."
 msgstr ""
+"Hosszú, extra puha bőrtáska.  Hosszúcsövű fegyverek és puskák tárolásához.  "
+"Egy kis zsebet, egy hevedert és egy fogantyút is tartalmaz."
 
 #: lang/json/ARMOR_from_json.py
 msgid "camera bag"
@@ -21387,6 +21682,8 @@ msgid ""
 "A simple bag used to hold a camera, with a small pocket on the side for "
 "accessories.  Comes with a carry strap."
 msgstr ""
+"Egy egyszerű táska, amelyben egy fényképezőgépet lehet tárolni, oldalán egy "
+"kis zsebbel a kiegészítők számára.  Szállításhoz egy válpánttal rendelkezik."
 
 #: lang/json/ARMOR_from_json.py
 msgid "bookstrap"
@@ -22595,6 +22892,9 @@ msgid ""
 "bones.  You've never seen patterns like those before, each time you look at "
 "them you spot a new one as if they were changing on their own."
 msgstr ""
+"Vastag bőrből készült, bonyolultan faragott csontokkal borított fekete "
+"kabát.  Soha nem láttál még ilyen mintákat, és valahányszor rájuk nézel, "
+"mindig valami újat találsz, mintha a minták maguktól változnának."
 
 #: lang/json/ARMOR_from_json.py
 msgid "lamé (foil)"
@@ -22639,11 +22939,9 @@ msgstr[1] "rögbipáncél"
 #. ~ Description for football armor
 #: lang/json/ARMOR_from_json.py
 msgid ""
-"Heavy plastic armor for your upper torso.  Normally worn by football "
+"Heavy polycarbonate armor for your upper torso.  Normally worn by football "
 "players."
 msgstr ""
-"Kemény műanyag páncélzat a felsőtestnek. Főleg a rögbijátékosok szokták "
-"hordani."
 
 #: lang/json/ARMOR_from_json.py
 msgid "Kevlar vest"
@@ -22741,7 +23039,7 @@ msgstr[1] "bőrkötény"
 #. ~ Description for leather apron
 #: lang/json/ARMOR_from_json.py
 msgid "An apron made of thick leather."
-msgstr ""
+msgstr "Vastag bőrből készült kötény."
 
 #: lang/json/ARMOR_from_json.py
 msgid "cut-resistant apron"
@@ -22971,12 +23269,15 @@ msgid ""
 "A rugby jersey made of thick material imprinted with the logo of the "
 "Canberra Drop Bears."
 msgstr ""
+"Egy vastag anyagból készült, rögbijátékos meze a Canberra Drop Bears "
+"logójával."
 
 #: lang/json/ARMOR_from_json.py
 msgid ""
 "A volleyball jersey made of thick material imprinted with the logo of the "
 "Ooarai Ducks."
 msgstr ""
+"Egy vastag anyagból készült, röplabdajátékos meze az Ooorai Ducks logójával."
 
 #: lang/json/ARMOR_from_json.py
 msgid "leotard"
@@ -23146,6 +23447,8 @@ msgid ""
 "A crude and bulky short-sleeved shirt woven from grass.  Definitely not the "
 "most comfortable thing to wear."
 msgstr ""
+"Fűből szőtt terjedelmes, rövid ujjú ing.  Határozottan nem a legkényelmesebb"
+" viselet."
 
 #: lang/json/ARMOR_from_json.py
 msgid "striped shirt"
@@ -23245,6 +23548,8 @@ msgid ""
 "A short-sleeved cotton shirt with a death metal band's spidery, "
 "indecipherable logo printed on the front."
 msgstr ""
+"Rövid ujjú pamut póló egy death metal zenekar megfejthetetlen, pókos "
+"logójával."
 
 #: lang/json/ARMOR_from_json.py
 msgid ""
@@ -23252,18 +23557,24 @@ msgid ""
 " the front.  He is riding a red dragon and wielding a flaming sword with "
 "malicious glee."
 msgstr ""
+"Rövid ujjú pamut póló, elöl egy izmos, hosszú hajú férfi képével.  Vörös "
+"sárkányon ül és rosszindulatú vidámsággal lenget egy lángoló kardot."
 
 #: lang/json/ARMOR_from_json.py
 msgid ""
 "A short-sleeved cotton shirt with a gore-spattered, guitar-playing zombie "
 "printed on the front.  It's rather tasteless in light of current events."
 msgstr ""
+"Rövid ujjú pamut póló, az elején egy húscafatokkal teli, gitáron játszó "
+"zombi képével.  A jelenlegi események fényében ez meglehetősen ízléstelen."
 
 #: lang/json/ARMOR_from_json.py
 msgid ""
 "A short-sleeved cotton shirt with a pattern of complex geometric shapes and "
 "transcendental imagery printed on the front."
 msgstr ""
+"Rövid ujjú pamut póló, amelynek az elején összetett geometriai formák és "
+"transzcendentális képek találhatók."
 
 #: lang/json/ARMOR_from_json.py
 msgid ""
@@ -23271,18 +23582,24 @@ msgid ""
 "printed on the front.  She is wearing a large blue mohawk, her face is set "
 "in a snarl."
 msgstr ""
+"Rövid ujjú pamut póló, elején egy női arccal.  Magas, kék mohawk haja van, "
+"az arca vicsorog."
 
 #: lang/json/ARMOR_from_json.py
 msgid ""
 "A short-sleeved black cotton shirt with a stylized representation of a radio"
 " wave printed on the front."
 msgstr ""
+"Rövid ujjú fekete pamut póló, az elején rádióhullám stilizált képével."
 
 #: lang/json/ARMOR_from_json.py
 msgid ""
 "A short-sleeved cotton shirt, it's front showing an image of an upside-down "
 "American flag covered in anarchist graffiti, its edges frayed and burned."
 msgstr ""
+"Rövid ujjú pamut póló, az elején egy anarchista falfirkákkal teli, fejjel "
+"lefelé fordított amerikai zászló képe látható, amelynek szélei elkoptak és "
+"megégtek."
 
 #: lang/json/ARMOR_from_json.py
 msgid ""
@@ -23290,6 +23607,8 @@ msgid ""
 " clenched fist around its forestock, the fingers covered in crude looking "
 "tattoos."
 msgstr ""
+"Rövid ujjú pamut póló egy AK-47 képével.  Összeszorított ököl tartja, az "
+"ujjait durva kinézetű tetoválások borítják."
 
 #: lang/json/ARMOR_from_json.py
 msgid "uttarasanga"
@@ -23303,6 +23622,8 @@ msgid ""
 "A traditional Buddhist shirt, covering most of the upper body, but not the "
 "arms."
 msgstr ""
+"Hagyományos buddhista ing, amely a felsőtest nagy részét fedi, a karokat "
+"azonban nem."
 
 #: lang/json/ARMOR_from_json.py
 msgid "leather vest"
@@ -23313,7 +23634,7 @@ msgstr[1] "bőrmellény"
 #. ~ Description for leather vest
 #: lang/json/ARMOR_from_json.py
 msgid "A vest made from thick leather."
-msgstr ""
+msgstr "Vastag bőrből készült mellény."
 
 #: lang/json/ARMOR_from_json.py
 msgid "wool hoodie"
@@ -23353,6 +23674,8 @@ msgid ""
 "Snug, soft cloth sleeves to keep your arms warm.  Made only for the largest "
 "of survivors."
 msgstr ""
+"Puha texitl karmelegítő, ami melegen tartja a karjaidat.  Csak a legnagyobb "
+"túlélők számára készült."
 
 #: lang/json/ARMOR_from_json.py
 msgid "camo tank top"
@@ -23423,6 +23746,8 @@ msgstr[1] ""
 #: lang/json/ARMOR_from_json.py
 msgid "The age-old question, boxers or briefs?  Your answer?  Chonk!"
 msgstr ""
+"Az örök kérdésre, hogy boxernadrág vagy alsógatya...  A te válaszod az...  "
+"Hogy csonk!"
 
 #: lang/json/ARMOR_from_json.py
 msgid "boxer shorts"
@@ -23449,6 +23774,8 @@ msgid ""
 "Men's XL boxer shorts.  For the very big and tall.  More fashionable than "
 "briefs and just as comfortable."
 msgstr ""
+"Férfi XL boxernadrág.  A nagyon nagyoknak és a nagyon magasaknak.  Az "
+"alsógatyánál sokkal divatosabb, és legalább annyira kényelmes."
 
 #: lang/json/ARMOR_from_json.py
 msgid "boy shorts"
@@ -23474,6 +23801,8 @@ msgid ""
 "Female underwear similar to men's boxer shorts, but much more close-fitting."
 "  This size is made for giants."
 msgstr ""
+"Női alsónemű, amely hasonlít a férfi rövidnadrághoz, de jobban simul.  Ez a "
+"méret az óriások számára készült."
 
 #: lang/json/ARMOR_from_json.py
 msgid "bra"
@@ -23721,6 +24050,9 @@ msgid ""
 "Typically worn when exercising, it clings to the skin and is easy to wear.  "
 "This one appears to have been made for a massive person."
 msgstr ""
+"Erős nejlon melltartó, amely további támogatást nyújt a fizikai aktivitások "
+"során.  Jellemzően edzés közben viselik, tapad a bőrhöz és könnyen "
+"viselhető.  Úgy tűnik, hogy ez egy hatalmas ember számára készült."
 
 #: lang/json/ARMOR_from_json.py
 msgid "tank top"
@@ -23872,6 +24204,8 @@ msgid ""
 "A big, comfy quilt made of thick wool in a triangle pattern.  Extremely "
 "cozy!"
 msgstr ""
+"Nagy, kényelmes paplan vastag gyapjúból, háromszög mintázatú.  Rendkívül "
+"kényelmes!"
 
 #: lang/json/ARMOR_from_json.py
 msgid "patchwork quilt"
@@ -23882,7 +24216,7 @@ msgstr[1] ""
 #. ~ Description for patchwork quilt
 #: lang/json/ARMOR_from_json.py
 msgid "A huge, patchwork wool quilt.  Very, very warm."
-msgstr ""
+msgstr "Hatalmas, patchwork gyapjú paplan.  Nagyon, nagyon meleg."
 
 #: lang/json/ARMOR_from_json.py
 msgid "sleeping bag"
@@ -23914,6 +24248,8 @@ msgid ""
 "A leather hand and arm wrap incorporating metal plates over the knuckles to "
 "improve punching power and defence."
 msgstr ""
+"Bőrből készült kéz- és karvédő, amely fémlemezekkel fedi be az öklödet, és "
+"így javít az ütés erején, valamint a védelmen."
 
 #: lang/json/ARMOR_from_json.py
 msgid "telescoping umbrella"
@@ -23945,6 +24281,11 @@ msgid ""
 "annihilating spacetime isn't quite clear, but a localized portal allows "
 "things to be stored in an extradimensional space."
 msgstr ""
+"Elegáns, kifürkészhetetlenül bonyolult gép, amelyet tucatnyi villogó fény "
+"borít, hátul erős műbőr hevederekkel.  Egy elektróda lóg hátulról, és a "
+"homlokodhoz kapcsolódik.  Az, hogy hogyan működik a téridő-kontinuum "
+"megsemmisítése nélkül még nem egészen világos, de egy lokalizált portál "
+"lehetővé teszi a dolgok extradimenzionális térben történő tárolását."
 
 #: lang/json/ARMOR_from_json.py
 msgid "titanium vest"
@@ -23989,7 +24330,7 @@ msgstr[1] ""
 #. ~ Description for XL jeans
 #: lang/json/ARMOR_from_json.py
 msgid "A pair of XL blue jeans with two deep pockets."
-msgstr ""
+msgstr "XL méretű kék farmernadrág két mély zsebbel."
 
 #: lang/json/ARMOR_from_json.py
 msgid "XL work pants"
@@ -23999,15 +24340,15 @@ msgstr[1] ""
 
 #: lang/json/ARMOR_from_json.py
 msgid "A pair of XL blue work pants."
-msgstr ""
+msgstr "Egy XL méretű kék munkahelyi nadrág."
 
 #: lang/json/ARMOR_from_json.py
 msgid "A pair of XL gray work pants."
-msgstr ""
+msgstr "Egy XL-méretű szürke munkahelyi nadrág."
 
 #: lang/json/ARMOR_from_json.py
 msgid "A pair of XL light-blue work pants."
-msgstr ""
+msgstr "Egy XL-méretű világoskék munkahelyi nadrág."
 
 #: lang/json/ARMOR_from_json.py
 msgid "XL work t-shirt"
@@ -24018,19 +24359,19 @@ msgstr[1] ""
 #. ~ Description for XL work t-shirt
 #: lang/json/ARMOR_from_json.py
 msgid "A gray XL work t-shirt with a small front pocket."
-msgstr ""
+msgstr "XL-méretű, szürke színű munkahelyi póló apró első zsebbel."
 
 #: lang/json/ARMOR_from_json.py
 msgid "An XL blue work t-shirt with a small front pocket."
-msgstr ""
+msgstr "XL-méretű, kék színű munkahelyi póló apró első zsebbel."
 
 #: lang/json/ARMOR_from_json.py
 msgid "An XL gray work t-shirt with a small front pocket."
-msgstr ""
+msgstr "XL-méretű, szürke színű munkahelyi póló apró első zsebbel."
 
 #: lang/json/ARMOR_from_json.py
 msgid "An XL light-blue work t-shirt with a small front pocket."
-msgstr ""
+msgstr "XL-méretű, világoskék színű munkahelyi póló apró első zsebbel."
 
 #: lang/json/ARMOR_from_json.py
 msgid "Uplifted SWAT armor"
@@ -24045,6 +24386,9 @@ msgid ""
 "word SWAT is emblazoned across the back.  Specifically designed for Uplifted"
 " officers such as Mastodons."
 msgstr ""
+"Extra nagyméretű, fekete golyóálló páncél rengeteg zsebbel.  A hátán a "
+"kommandósok SWAT felirata szerepel.  Kifejezetten az upliftelt tisztek "
+"számára készült, mint amilyenek a Mastodonok."
 
 #: lang/json/ARMOR_from_json.py
 msgid "empty XL  ballistic vest"
@@ -24058,6 +24402,9 @@ msgid ""
 "Oversized ballistic armor without any armor inserts.  The soft armor plate "
 "carrier is still protective but it won't stop high energy projectiles."
 msgstr ""
+"Túlméretes ballisztikus páncél, páncélbetétek nélkül.  A páncélbetétek "
+"zsebei valami védelmet ugyan így is nyújtanak, de nem képesek nagy energiájú"
+" lövedékeket megállítani."
 
 #: lang/json/ARMOR_from_json.py
 msgid "XL ESAPI ballistic vest"
@@ -24068,7 +24415,7 @@ msgstr[1] ""
 #. ~ Description for XL ESAPI ballistic vest
 #: lang/json/ARMOR_from_json.py
 msgid "Oversized ballistic armor with ESAPI ceramic armor plates."
-msgstr ""
+msgstr "Túlméretes, ESAPI kerámia páncéllemezekkel ellátott lövészmellény."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of XL combat boots"
@@ -24080,6 +24427,7 @@ msgstr[1] ""
 #: lang/json/ARMOR_from_json.py
 msgid "Modern oversized reinforced tactical combat boots.  Very durable."
 msgstr ""
+"Modern, túlméretes, megerősített taktikai harci csizma.  Nagyon tartós."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of XL tactical gloves"
@@ -24093,6 +24441,8 @@ msgid ""
 "A pair of oversized reinforced Kevlar tactical gloves.  Commonly used by "
 "police and military units."
 msgstr ""
+"Egy pár túlméretes, kevlarral megerősített taktikai kesztyű.  Gyakran "
+"rendőrségi és katonai egységek használják."
 
 #: lang/json/ARMOR_from_json.py
 msgid "pair of Killophant gloves"
@@ -24107,6 +24457,9 @@ msgid ""
 "accommodate three-fingered Killophants.  Thinner than regular oversized "
 "tactical gloves."
 msgstr ""
+"Egy pár kevlarral megerősített taktikai kesztyű, amelyet kifejezetten a "
+"háromujjas Killophantok számára terveztek.  A szokásos túlméretes taktikai "
+"kesztyűnél vékonyabb."
 
 #: lang/json/ARMOR_from_json.py
 msgid "XL leather belt"
@@ -24120,6 +24473,8 @@ msgid ""
 "An XL leather belt.  Useful for making your pair of pants fit if you need "
 "really big pants."
 msgstr ""
+"Egy XL méretű bőröv.  Jó arra, hogy ne essen le a gatyád, főleg, ha ekkor "
+"gatya kell neked."
 
 #: lang/json/ARMOR_from_json.py
 msgid "XL police duty belt"
@@ -24133,6 +24488,8 @@ msgid ""
 "An XL black leather belt used by extremely large uplifted police officers.  "
 "It has several pouches and a holder for a baton."
 msgstr ""
+"XL méretű fekete bőröv, amelyet a rendkívül nagyméretű, upliftelt rendőrök "
+"használnak.  Több tasakja van, meg egy csatológyűrű a gumibothoz."
 
 #: lang/json/ARMOR_from_json.py
 msgid "XL tactical full helmet"
@@ -24146,6 +24503,8 @@ msgid ""
 "An all-encompassing massive black helmet that covers your entire face and "
 "neck, providing excellent protection from all sorts of damage."
 msgstr ""
+"Az egész arcodat és a nyakat is betakaró hatalmas taktikai sisak, kiváló "
+"védelmet nyújt mindenféle sebesülés ellen."
 
 #: lang/json/ARMOR_from_json.py
 msgid "XL leg ammo pouch"
@@ -24173,6 +24532,9 @@ msgid ""
 "some freight hauling association or another.  This one is a standard design "
 "favored by spacers, with ample, easy access pockets."
 msgstr ""
+"Könnyű szövet overall, amelyet valamelyik árufuvarozó egyesület elhalványult"
+" vállalati címere díszít.  Ez az űhajósok azért kedvelik mert sok, könnyen "
+"hozzáférhető zsebbel rendelkezik."
 
 #: lang/json/ARMOR_from_json.py
 msgid "communications cap"
@@ -24188,6 +24550,10 @@ msgid ""
 " and a communications link with the rest of the crew, but severed from a "
 "spaceship, only their hearing protection function retains any utility."
 msgstr ""
+"Párnázott pamut sisak, egy kibővített valóság sisak köré építettek.  Normál "
+"üzem közben vizuális információkkal szolgál a hajó alrendszereiről, illetve "
+"kommunikál a legénység többi tagjával, de így, az űrhajótól elszakítva csak "
+"a hallásvédelmi funkciója miatt lehet esetleg hasznos."
 
 #: lang/json/ARMOR_from_json.py
 msgid "HERC rig"
@@ -24203,6 +24569,10 @@ msgid ""
 "inhospitable environments.  It has several deep pockets, and two mounting "
 "points for pressurized canisters or other large magazines."
 msgstr ""
+"Könnyű, acéllal erősített szerszámtartó.  Nulla g, marsi vagy csendes-óceáni"
+" fenék környezetben is biztonságban tartja a szerszámaidat.  Több mély "
+"zsebbel és két rögzítési ponttal rendelkezik, ahova a túlnyomásos "
+"kanisztereket, vagy egyéb más nagyméreű lőszertárat lehet felcsatolni."
 
 #: lang/json/ARMOR_from_json.py
 msgid "cecalia wetsuit"
@@ -24216,6 +24586,8 @@ msgid ""
 "A wetsuit designed for the Octopus Uplifts known as Cecalia.  This is the "
 "explorer suit with no head or tentacle protection."
 msgstr ""
+"A Cecalia néven ismert poplipalpú uplifteltek számára tervezett búvárruha.  "
+"Ez a fej- vagy csápvédelem nélküli felfedező buvárruha."
 
 #: lang/json/ARMOR_from_json.py
 msgid "combat wetsuit"
@@ -24229,6 +24601,8 @@ msgid ""
 "The combat version of the Cecalia wetsuit; made of neoprene and Kevlar, it "
 "will provide some level of protection for deep dwellers."
 msgstr ""
+"A Cecalia búvárruha harci változata; neoprénből és kevlárból készül, "
+"bizonyos szintű védelmet nyújt a mélyben lakók számára."
 
 #: lang/json/ARMOR_from_json.py
 msgid "cold resistance cream"
@@ -24242,6 +24616,8 @@ msgid ""
 "A thick layer of something that smells worse than walrus fat.  But it keeps "
 "you warm."
 msgstr ""
+"Vastag réteg valami, aminek rosszabb a szaga, mint a rozmárzsírnak.  De "
+"legalább melegen tart."
 
 #: lang/json/ARMOR_from_json.py
 msgid "heat retention xtreme cream"
@@ -24255,6 +24631,8 @@ msgid ""
 "The last word in cold snap protection designed to give short term protection"
 " in the event of a suit breach in vacuum."
 msgstr ""
+"A hidegvédelem legjobb krémje rövid távú védelemre lett kialakítva, de akár "
+"a vákumban bekövetkezett szkafanderszakadásnál is megvéd."
 
 #: lang/json/ARMOR_from_json.py
 msgid "titanium watch"
@@ -24268,6 +24646,8 @@ msgid ""
 "A thick, masculine watch made out of titanium.  It is durable, light-weight "
 "and water-resistant, an excellent watch to have in a hostile environment."
 msgstr ""
+"Titánból készült vastag, férfias óra.  Tartós, könnyű és vízálló, kiváló óra"
+" a barátságtalan környezetbe."
 
 #: lang/json/ARMOR_from_json.py
 msgid "titanium ring"
@@ -24281,6 +24661,8 @@ msgid ""
 "A thick, masculine ring made out of titanium.  Made in a variety of styles "
 "and finishes, they're valued for their durability."
 msgstr ""
+"Titánból készült vastag, férfias gyűrű.  Különböző stílusokban és kivitelben"
+" készült, tartósságuk miatt nagyra tartják."
 
 #: lang/json/ARMOR_from_json.py
 msgid "hazardous environment suit"
@@ -24335,6 +24717,10 @@ msgid ""
 "  Durable and carefully crafted to be comfortable to wear.  Activate to clip"
 " something to it."
 msgstr ""
+"Egyedi kivitelezésű bőr heveder, amelyeket hevederek és tasakok borítanak, "
+"így számos hasznos kéziszerszámot tárolhat, valamint nagyobb szerszámok "
+"hordásához egy csatoló is van rajta.  A kényelmes viselet érdekében tartós "
+"és gondosan kidolgozott.  Aktiváld ahhoz, hogy valamit rácsatolj."
 
 #: lang/json/ARMOR_from_json.py
 msgid "survivor utility belt (sheath)"
@@ -24355,6 +24741,9 @@ msgid ""
 " riveted metal plates lying underneath.  Typically used to protect from "
 "arrows, it has very good protection against cuts."
 msgstr ""
+"A középkorból származó páncél darab főtt bőrhöz szegecselt fémlemezekből "
+"készült.  Jellemzően a nyilak elleni védelemre szolgál, a vágások ellen "
+"nagyon jól véd."
 
 #: lang/json/ARMOR_from_json.py
 msgid "MBR vest (titanium)"
@@ -24385,6 +24774,10 @@ msgid ""
 "affixed to the underside.  While not as protective as a proper piece of "
 "armor, it'll still keep you relatively safe."
 msgstr ""
+"A középkori időkből származó dróting mintájára készült, ez a rögtönzött "
+"testpáncél darab rétegzett textilből áll, amelynek a belső részéhez kisebb "
+"fémlemezeket rögzítettek.  Bár nem véd annyira, mint egy rendes páncél, "
+"azért még viszonylag biztonságban leszel."
 
 #: lang/json/ARMOR_from_json.py
 msgid "psychrophile handling gloves"
@@ -37240,6 +37633,19 @@ msgstr[1] ""
 msgid ""
 "Your hands freeze anything they touch at temperatures so cold it slows down "
 "your foes."
+msgstr ""
+
+#: lang/json/BOOK_from_json.py
+msgid "Scroll of Nature's Commune"
+msgid_plural "Scrolls of Nature's Commune"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for Scroll of Nature's Commune
+#: lang/json/BOOK_from_json.py
+msgid ""
+"Your connection with nature allows you to become one with it; you revitalize"
+" your body while in communion with the flora and fauna around you."
 msgstr ""
 
 #: lang/json/BOOK_from_json.py
@@ -55673,11 +56079,11 @@ msgstr ""
 
 #: lang/json/COMESTIBLE_from_json.py lang/json/ammunition_type_from_json.py
 msgid "mana infused blood"
-msgid_plural "mana_infused_blood"
+msgid_plural "mana infused blood"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for mana infused blood
+#. ~ Description for {'str_sp': 'mana infused blood'}
 #: lang/json/COMESTIBLE_from_json.py
 msgid ""
 "Blood that is filled to the brim with arcane energy.  It releases a faint "
@@ -60608,7 +61014,7 @@ msgstr "Ez egy készülő tárgy."
 
 #: lang/json/GENERIC_from_json.py
 msgid "in progress disassembly"
-msgid_plural "in progress disassemblys"
+msgid_plural "in progress disassemblies"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -65923,11 +66329,11 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "bokken"
-msgid_plural "bokkens"
-msgstr[0] "bokken"
-msgstr[1] "bokken"
+msgid_plural "bokken"
+msgstr[0] ""
+msgstr[1] ""
 
-#. ~ Description for bokken
+#. ~ Description for {'str_sp': 'bokken'}
 #: lang/json/GENERIC_from_json.py
 msgid ""
 "This is a solid wood 'training' katana, exactingly crafted to mimic the "
@@ -65938,7 +66344,7 @@ msgstr ""
 "egyensúlyozással, mint az igazi kardnál. Az éles fémpenge hiányának ellenére"
 " ezzel is könnyen lehet halálos sebeket okozni."
 
-#. ~ Description for bokken
+#. ~ Description for {'str_sp': 'bokken'}
 #: lang/json/GENERIC_from_json.py
 msgid ""
 "This is a solid wood 'training' katana, but feels far too light to make an "
@@ -65947,7 +66353,7 @@ msgstr ""
 "Ez egy tömörfa gyakorló katana, de túl könnyű ahhoz, hogy hatékony fegyver "
 "legyen."
 
-#. ~ Description for bokken
+#. ~ Description for {'str_sp': 'bokken'}
 #: lang/json/GENERIC_from_json.py
 msgid ""
 "This is a solid wood 'training' katana, but it looks to be mass-produced, "
@@ -66705,11 +67111,11 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "qiang"
-msgid_plural "qiangs"
-msgstr[0] "csiang"
-msgstr[1] "csiang"
+msgid_plural "qiang"
+msgstr[0] ""
+msgstr[1] ""
 
-#. ~ Description for qiang
+#. ~ Description for {'str_sp': 'qiang'}
 #: lang/json/GENERIC_from_json.py
 msgid ""
 "An ancient Chinese spear, typically with a tassel just below the spearhead."
@@ -67099,18 +67505,18 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py lang/json/TOOL_from_json.py
 msgid "tanto"
-msgid_plural "tantos"
-msgstr[0] "tantó"
-msgstr[1] "tantó"
+msgid_plural "tanto"
+msgstr[0] ""
+msgstr[1] ""
 
-#. ~ Description for tanto
+#. ~ Description for {'str_sp': 'tanto'}
 #: lang/json/GENERIC_from_json.py
 msgid ""
 "This is a dull, cheaply-made replica of a long Japanese knife, typically "
 "used as a samurai's backup weapon."
 msgstr ""
 
-#. ~ Description for tanto
+#. ~ Description for {'str_sp': 'tanto'}
 #: lang/json/GENERIC_from_json.py
 msgid ""
 "Long Japanese knives like this more-modern remake were the samurai's backup "
@@ -67276,11 +67682,11 @@ msgstr ""
 #: lang/json/GENERIC_from_json.py lang/json/TOOL_from_json.py
 #: lang/json/TOOL_from_json.py
 msgid "katana"
-msgid_plural "katanas"
-msgstr[0] "katana"
-msgstr[1] "katana"
+msgid_plural "katana"
+msgstr[0] ""
+msgstr[1] ""
 
-#. ~ Description for katana
+#. ~ Description for {'str_sp': 'katana'}
 #: lang/json/GENERIC_from_json.py
 msgid "This is a dull, cheaply-made replica of a rare sword from Japan."
 msgstr ""
@@ -73840,505 +74246,529 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cudgel +1"
-msgid_plural "cudgel +1s"
+msgid_plural "cudgels +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cudgel +2"
-msgid_plural "cudgel +2s"
+msgid_plural "cudgels +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "quarterstaff +1"
-msgid_plural "quarterstaff +1s"
+msgid_plural "quarterstaves +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "quarterstaff +2"
-msgid_plural "quarterstaff +2s"
+msgid_plural "quarterstaves +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "ironshod quarterstaff +1"
-msgid_plural "ironshod quarterstaff +1s"
+msgid_plural "ironshod quarterstaves +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "ironshod quarterstaff +2"
-msgid_plural "ironshod quarterstaff +2s"
+msgid_plural "ironshod quarterstaves +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "longsword +1"
-msgid_plural "longsword +1s"
+msgid_plural "longswords +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "longsword +2"
-msgid_plural "longsword +2s"
+msgid_plural "longswords +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "sledge hammer +1"
-msgid_plural "sledge hammer +1s"
+msgid_plural "sledge hammers +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "sledge hammer +2"
-msgid_plural "sledge hammer +2s"
+msgid_plural "sledge hammers +2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lang/json/GENERIC_from_json.py
+msgid "heavy sledge hammer +1"
+msgid_plural "heavy sledge hammers +1"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lang/json/GENERIC_from_json.py
+msgid "heavy sledge hammer +2"
+msgid_plural "heavy sledge hammers +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "warhammer +1"
-msgid_plural "warhammer +1s"
+msgid_plural "warhammers +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "warhammer +2"
-msgid_plural "warhammer +2s"
+msgid_plural "warhammers +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "bat +1"
-msgid_plural "bat +1s"
+msgid_plural "bats +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "bat +2"
-msgid_plural "bat +2s"
+msgid_plural "bats +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "aluminum bat +1"
-msgid_plural "aluminum bat +1s"
+msgid_plural "aluminum bats +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "aluminum bat +2"
-msgid_plural "aluminum bat +2s"
+msgid_plural "aluminum bats +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "steel spear +1"
-msgid_plural "steel spear +1s"
+msgid_plural "steel spears +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "steel spear +2"
-msgid_plural "steel spear +2s"
+msgid_plural "steel spears +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "qiang +1"
-msgid_plural "qiang +1s"
+msgid_plural "qiang +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "qiang +2"
-msgid_plural "qiang +2s"
+msgid_plural "qiang +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "halberd +1"
-msgid_plural "halberd +1s"
+msgid_plural "halberds +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "halberd +2"
-msgid_plural "halberd +2s"
+msgid_plural "halberds +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "glaive +1"
-msgid_plural "glaive +1s"
+msgid_plural "glaives +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "glaive +2"
-msgid_plural "glaive +2s"
+msgid_plural "glaives +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "naginata +1"
-msgid_plural "naginata +1s"
+msgid_plural "naginata +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "naginata +2"
-msgid_plural "naginata +2s"
+msgid_plural "naginata +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "mace +1"
-msgid_plural "mace +1s"
+msgid_plural "maces +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "mace +2"
-msgid_plural "mace +2s"
+msgid_plural "maces +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "morningstar +1"
-msgid_plural "morningstar +1s"
+msgid_plural "morningstars +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "morningstar +2"
-msgid_plural "morningstar +2s"
+msgid_plural "morningstars +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "jian +1"
-msgid_plural "jian +1s"
+msgid_plural "jian +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "jian +2"
-msgid_plural "jian +2s"
+msgid_plural "jian +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "scimitar +1"
-msgid_plural "scimitar +1s"
+msgid_plural "scimitars +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "scimitar +2"
-msgid_plural "scimitar +2s"
+msgid_plural "scimitars +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "estoc +1"
-msgid_plural "estoc +1s"
+msgid_plural "estocs +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "estoc +2"
-msgid_plural "estoc +2s"
+msgid_plural "estocs +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "arming sword +1"
-msgid_plural "arming sword +1s"
+msgid_plural "arming swords +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "arming sword +2"
-msgid_plural "arming sword +2s"
+msgid_plural "arming swords +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "broadsword +1"
-msgid_plural "broadsword +1s"
+msgid_plural "broadswords +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "broadsword +2"
-msgid_plural "broadsword +2s"
+msgid_plural "broadswords +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "battle axe +1"
-msgid_plural "battle axe +1s"
+msgid_plural "battle axes +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "battle axe +2"
-msgid_plural "battle axe +2s"
+msgid_plural "battle axes +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cavalry sabre +1"
-msgid_plural "cavalry sabre +1s"
+msgid_plural "cavalry sabres +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cavalry sabre +2"
-msgid_plural "cavalry sabre +2s"
+msgid_plural "cavalry sabres +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "crowbar +1"
-msgid_plural "crowbar +1s"
+msgid_plural "crowbars +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "crowbar +2"
-msgid_plural "crowbar +2s"
+msgid_plural "crowbars +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cutlass +1"
-msgid_plural "cutlass +1s"
+msgid_plural "cutlasses +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cutlass +2"
-msgid_plural "cutlass +2s"
+msgid_plural "cutlasses +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "fire axe +1"
-msgid_plural "fire axe +1s"
+msgid_plural "fire axes +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "fire axe +2"
-msgid_plural "fire axe +2s"
+msgid_plural "fire axes +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "katana +1"
-msgid_plural "katana +1s"
+msgid_plural "katana +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "katana +2"
-msgid_plural "katana +2s"
+msgid_plural "katana +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "combat knife +1"
-msgid_plural "combat knife +1s"
+msgid_plural "combat knives +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "combat knife +2"
-msgid_plural "combat knife +2s"
+msgid_plural "combat knives +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "hunting knife +1"
-msgid_plural "hunting knife +1s"
+msgid_plural "hunting knives +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "hunting knife +2"
-msgid_plural "hunting knife +2s"
+msgid_plural "hunting knives +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "survival knife +1"
-msgid_plural "survival knife +1s"
+msgid_plural "survival knives +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "survival knife +2"
-msgid_plural "survival knife +2s"
+msgid_plural "survival knives +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "trench knife +1"
-msgid_plural "trench knife +1s"
+msgid_plural "trench knives +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "trench knife +2"
-msgid_plural "trench knife +2s"
+msgid_plural "trench knives +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "kris +1"
-msgid_plural "kris +1s"
+msgid_plural "krises +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "kris +2"
-msgid_plural "kris +2s"
+msgid_plural "krises +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "kukri +1"
-msgid_plural "kukri +1s"
+msgid_plural "kukris +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "kukri +2"
-msgid_plural "kukri +2s"
+msgid_plural "kukris +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "nodachi +1"
-msgid_plural "nodachi +1s"
+msgid_plural "nodachi +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "nodachi +2"
-msgid_plural "nodachi +2s"
+msgid_plural "nodachi +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "pickaxe +1"
-msgid_plural "pickaxe +1s"
+msgid_plural "pickaxes +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "pickaxe +2"
-msgid_plural "pickaxe +2s"
+msgid_plural "pickaxes +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "pike +1"
-msgid_plural "pike +1s"
+msgid_plural "pikes +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "pike +2"
-msgid_plural "pike +2s"
+msgid_plural "pikes +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "rapier +1"
-msgid_plural "rapier +1s"
+msgid_plural "rapiers +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "rapier +2"
-msgid_plural "rapier +2s"
+msgid_plural "rapiers +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "tanto +1"
-msgid_plural "tanto +1s"
+msgid_plural "tanto +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "tanto +2"
-msgid_plural "tanto +2s"
+msgid_plural "tanto +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "wakizashi +1"
-msgid_plural "wakizashi +1s"
+msgid_plural "wakizashi +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "wakizashi +2"
-msgid_plural "wakizashi +2s"
+msgid_plural "wakizashi +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "zweihänder +1"
-msgid_plural "zweihänder +1s"
+msgid_plural "zweihänders +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "zweihänder +2"
-msgid_plural "zweihänder +2s"
+msgid_plural "zweihänders +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "khopesh +1"
-msgid_plural "khopesh +1s"
+msgid_plural "khopeshes +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "khopesh +2"
-msgid_plural "khopesh +2s"
+msgid_plural "khopeshes +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "xiphos +1"
-msgid_plural "xiphos +1s"
+msgid_plural "xiphe +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "xiphos +2"
-msgid_plural "xiphos +2s"
+msgid_plural "xiphe +2"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "dao +1"
-msgid_plural "dao +1s"
+msgid_plural "dao +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "dao +2"
-msgid_plural "dao +2s"
+msgid_plural "dao +2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lang/json/GENERIC_from_json.py
+msgid "lucerne hammer +1"
+msgid_plural "lucerne hammers +1"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lang/json/GENERIC_from_json.py
+msgid "lucerne hammer +2"
+msgid_plural "lucerne hammers +2"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -74687,13 +75117,13 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cestus +1"
-msgid_plural "cestus +1s"
+msgid_plural "cestuses +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "cestus +2"
-msgid_plural "cestus +2s"
+msgid_plural "cestuses +2"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -74713,13 +75143,13 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "flaming fist +1"
-msgid_plural "flaming fist +1s"
+msgid_plural "flaming fists +1"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "flaming fist +2"
-msgid_plural "flaming fist +2s"
+msgid_plural "flaming fists +2"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -74738,7 +75168,7 @@ msgstr ""
 
 #: lang/json/GENERIC_from_json.py
 msgid "Earthshaper cestus"
-msgid_plural "Earthshaper cesti"
+msgid_plural "Earthshaper cestuses"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -83770,6 +84200,21 @@ msgid ""
 msgstr ""
 
 #: lang/json/MONSTER_from_json.py
+msgid "headless horror"
+msgid_plural "headless horrors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for headless horror
+#: lang/json/MONSTER_from_json.py
+msgid ""
+"This headless zombie has swollen to frightening proportions, towering almost"
+" nine feet tall.  Six-foot-long feelers of black ooze blindly wave from its "
+"neck, violently twitching at nearby sounds, and it moves at terrifying speed"
+" with its grotesquely-swollen hands."
+msgstr ""
+
+#: lang/json/MONSTER_from_json.py
 msgid "zombie brute"
 msgid_plural "zombie brutes"
 msgstr[0] "brutális zombi"
@@ -84714,6 +85159,19 @@ msgid ""
 msgstr ""
 
 #: lang/json/MONSTER_from_json.py
+msgid "terror bird"
+msgid_plural "terror birds"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for terror bird
+#: lang/json/MONSTER_from_json.py
+msgid ""
+"A tall bird with two long, muscular legs, a long neck, and a long sharp "
+"beak."
+msgstr ""
+
+#: lang/json/MONSTER_from_json.py
 msgid "frost maddened human"
 msgid_plural "frost maddened humans"
 msgstr[0] ""
@@ -84803,6 +85261,20 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "buzz!"
+msgstr ""
+
+#: lang/json/MONSTER_from_json.py
+msgid "headless zombie"
+msgid_plural "headless zombies"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for headless zombie
+#: lang/json/MONSTER_from_json.py
+msgid ""
+"Despite lacking a head, this zombie appears to have not gotten the memo, and"
+" shambles aimlessly around without functioning senses.  Black ooze pulses "
+"out of its neck, and it stumbles around listlessly."
 msgstr ""
 
 #: lang/json/MONSTER_from_json.py
@@ -85362,35 +85834,6 @@ msgid ""
 "protrusions, and a pair of thick muscular fins.  You see glimpses of its "
 "shape, shifting in and out of the water.  It is carrying a conical object "
 "that hums with an odd keening sound."
-msgstr ""
-
-#: lang/json/MONSTER_from_json.py
-msgid "headless zombie"
-msgid_plural "headless zombies"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for headless zombie
-#: lang/json/MONSTER_from_json.py
-msgid ""
-"Despite lacking a head, this zombie appears to have not gotten the memo, and"
-" shambles aimlessly around without functioning senses.  Black ooze pulses "
-"out of its neck, and it stumbles around listlessly."
-msgstr ""
-
-#: lang/json/MONSTER_from_json.py
-msgid "headless horror"
-msgid_plural "headless horrors"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for headless horror
-#: lang/json/MONSTER_from_json.py
-msgid ""
-"This headless zombie has swollen to frightening proportions, towering almost"
-" nine feet tall.  Six-foot-long feelers of black ooze blindly wave from its "
-"neck, violently twitching at nearby sounds, and it moves at terrifying speed"
-" with its grotesquely-swollen hands."
 msgstr ""
 
 #: lang/json/MONSTER_from_json.py
@@ -88779,11 +89222,11 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "Anabolic Apatosaurus"
-msgid_plural "Anabolic Apatosauruss"
+msgid_plural "Anabolic Apatosaurus"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for Anabolic Apatosaurus
+#. ~ Description for {'str_sp': 'Anabolic Apatosaurus'}
 #. ~ Description for Brontosaurus Brute
 #: lang/json/MONSTER_from_json.py
 msgid ""
@@ -88842,11 +89285,11 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "Anabolic Alamosaurus"
-msgid_plural "Anabolic Alamosauruss"
+msgid_plural "Anabolic Alamosaurus"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for Anabolic Alamosaurus
+#. ~ Description for {'str_sp': 'Anabolic Alamosaurus'}
 #: lang/json/MONSTER_from_json.py
 msgid ""
 "Gigantic, four-legged dinosaur corpse with a long neck and a spiked whip-"
@@ -89020,7 +89463,7 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "Five Horn Death Punch"
-msgid_plural "Five Horn Death Punchs"
+msgid_plural "Five Horn Death Punches"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -89397,11 +89840,11 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "armored Brontosaurus"
-msgid_plural "armored Brontosauruss"
+msgid_plural "armored Brontosaurus"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for armored Brontosaurus
+#. ~ Description for {'str_sp': 'armored Brontosaurus'}
 #: lang/json/MONSTER_from_json.py
 msgid ""
 "This zombified Brontosaurus has grown dense bone armor, completely covering "
@@ -89423,11 +89866,11 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "armored Camarasaurus"
-msgid_plural "armored Camarasauruss"
+msgid_plural "armored Camarasaurus"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for armored Camarasaurus
+#. ~ Description for {'str_sp': 'armored Camarasaurus'}
 #: lang/json/MONSTER_from_json.py
 msgid ""
 "This zombified Camarasaurus has grown dense body armor, completely covering "
@@ -89436,11 +89879,11 @@ msgstr ""
 
 #: lang/json/MONSTER_from_json.py
 msgid "armored Brachiosaurus"
-msgid_plural "armored Brachiosauruss"
+msgid_plural "armored Brachiosaurus"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for armored Brachiosaurus
+#. ~ Description for {'str_sp': 'armored Brachiosaurus'}
 #: lang/json/MONSTER_from_json.py
 msgid ""
 "This zombified Brachiosaurus has grown dense body armor, completely covering"
@@ -92794,11 +93237,33 @@ msgid "Summon Zombie"
 msgstr ""
 
 #: lang/json/SPELL_from_json.py
+msgid "Summon Tough Zombie"
+msgstr ""
+
+#. ~ Description for Summon Tough Zombie
+#: lang/json/SPELL_from_json.py
+msgid ""
+"An ethereal-looking tough zombie rises from the depths of the earth to fight"
+" for you.  You may be able to summon more with a higher level in this spell."
+msgstr ""
+
+#: lang/json/SPELL_from_json.py
 msgid "Summon Skeleton"
 msgstr ""
 
 #: lang/json/SPELL_from_json.py
 msgid "Summon Decayed Pouncer"
+msgstr ""
+
+#: lang/json/SPELL_from_json.py
+msgid "Summon Spearcat Hunter"
+msgstr ""
+
+#. ~ Description for Summon Spearcat Hunter
+#: lang/json/SPELL_from_json.py
+msgid ""
+"A primal looking large cat rises from the depths of the earth to fight for "
+"you.  You may be able to summon more with a higher level in this spell."
 msgstr ""
 
 #: lang/json/SPELL_from_json.py
@@ -93411,6 +93876,17 @@ msgstr ""
 msgid "Call to the wilds for aid from some wolves."
 msgstr ""
 
+#: lang/json/SPELL_from_json.py lang/json/effects_from_json.py
+msgid "Nature's Commune"
+msgstr ""
+
+#. ~ Description for Nature's Commune
+#: lang/json/SPELL_from_json.py
+msgid ""
+"You concentrate on the nature around you and commune with it, improving your"
+" health and calming the nearby wildlife."
+msgstr ""
+
 #: lang/json/SPELL_from_json.py
 msgid "Seed of Growth"
 msgstr ""
@@ -93831,6 +94307,15 @@ msgstr ""
 #. ~ Description for Rocket Punch
 #: lang/json/SPELL_from_json.py
 msgid "Ejects giant fist from arm."
+msgstr ""
+
+#: lang/json/SPELL_from_json.py
+msgid "Leprechaun prank"
+msgstr ""
+
+#. ~ Description for Leprechaun prank
+#: lang/json/SPELL_from_json.py
+msgid "Pranks the PC.  Gag humor."
 msgstr ""
 
 #: lang/json/SPELL_from_json.py
@@ -94284,6 +94769,19 @@ msgstr ""
 #: lang/json/SPELL_from_json.py
 msgid ""
 "The immolate spell is powerful enough to push targets from its epicenter."
+msgstr ""
+
+#: lang/json/SPELL_from_json.py lang/json/TOOL_ARMOR_from_json.py
+msgid "Holy Shield"
+msgid_plural "Holy Shields"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for Holy Shield
+#: lang/json/SPELL_from_json.py
+msgid ""
+"Crusaders have the ability to summon a magically enhanced shield to their "
+"arm to protect them in armed combat."
 msgstr ""
 
 #: lang/json/SPELL_from_json.py
@@ -97620,7 +98118,7 @@ msgstr ""
 
 #: lang/json/TOOL_ARMOR_from_json.py
 msgid "Magellan helmet CA."
-msgid_plural "Magellan helmet CA.s"
+msgid_plural "Magellan helmets CA."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -97879,6 +98377,13 @@ msgstr[1] ""
 msgid ""
 "A dampened cotton bandana, worn over the mouth for a extra protection from "
 "dust and other contaminants."
+msgstr ""
+
+#. ~ Description for Holy Shield
+#: lang/json/TOOL_ARMOR_from_json.py
+msgid ""
+"A Crusader's magical shield, enhanced to protect the Crusader from all that "
+"stands in their way."
 msgstr ""
 
 #: lang/json/TOOL_ARMOR_from_json.py
@@ -99104,7 +99609,7 @@ msgstr[1] ""
 
 #: lang/json/TOOL_from_json.py lang/json/furniture_from_json.py
 msgid "drill press"
-msgid_plural "drill presss"
+msgid_plural "drill presses"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -99147,7 +99652,7 @@ msgstr[1] ""
 #: lang/json/TOOL_from_json.py lang/json/furniture_from_json.py
 #: lang/json/terrain_from_json.py
 msgid "hydraulic press"
-msgid_plural "hydraulic presss"
+msgid_plural "hydraulic presses"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -101317,7 +101822,7 @@ msgstr ""
 
 #: lang/json/TOOL_from_json.py
 msgid "spike on a stick"
-msgid_plural "spike on a sticks"
+msgid_plural "spikes on sticks"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -101702,9 +102207,9 @@ msgstr ""
 
 #: lang/json/TOOL_from_json.py
 msgid "xiphos"
-msgid_plural "xiphoses"
-msgstr[0] "xiphos"
-msgstr[1] "xiphos"
+msgid_plural "xiphe"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Description for xiphos
 #: lang/json/TOOL_from_json.py
@@ -101800,7 +102305,7 @@ msgstr ""
 " Ezt úgy módosították, hogy pisztolyon vagy géppisztolyon kívül bármilyen "
 "fegyverre felcsatolható legyen."
 
-#. ~ Description for tanto
+#. ~ Description for {'str_sp': 'tanto'}
 #: lang/json/TOOL_from_json.py
 msgid ""
 "Long Japanese knives like this more-modern remake were the samurai's backup "
@@ -101945,7 +102450,7 @@ msgstr ""
 "úriemberek és a kalózok kedvenc fegyvere. Könnyű és gyors, vele bármilyen "
 "harc elegánssá válik."
 
-#. ~ Description for katana
+#. ~ Description for {'str_sp': 'katana'}
 #: lang/json/TOOL_from_json.py
 msgid ""
 "This is a rare sword from Japan.  Deadly against unarmored targets, and "
@@ -101954,7 +102459,7 @@ msgstr ""
 "Ez egy ritka japán kard. Páncélozatlan ellenfelek ellen halálos, és még a "
 "páncélzattal szemben is hatékony."
 
-#. ~ Description for katana
+#. ~ Description for {'str_sp': 'katana'}
 #: lang/json/TOOL_from_json.py
 msgid ""
 "This is a rare sword from Japan.  While it's got the right edge and weight, "
@@ -102094,6 +102599,32 @@ msgid ""
 msgstr ""
 "Éles peremű, törött üvegszilánk. Használhatnád fegyverként is, de ahhoz nem "
 "ártana kesztyűt húzni."
+
+#: lang/json/TOOL_from_json.py
+msgid "thermoplastic resin chunk"
+msgid_plural "thermoplastic resin chunks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for thermoplastic resin chunk
+#: lang/json/TOOL_from_json.py
+msgid ""
+"This piece of tough thermoplastic resin could allow you to fabricate, "
+"repair, or reinforce items."
+msgstr ""
+
+#: lang/json/TOOL_from_json.py
+msgid "epoxy chunk"
+msgid_plural "epoxy chunks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for epoxy chunk
+#: lang/json/TOOL_from_json.py
+msgid ""
+"This piece of epoxy is hardy and durable.  You could potentially craft items"
+" with it."
+msgstr ""
 
 #: lang/json/TOOL_from_json.py
 msgid "plastic chunk"
@@ -106006,6 +106537,32 @@ msgid ""
 "These are a set of swages and dies for metalsmithing.  These loops and metal"
 " blocks are used in some metalworking fabrication recipes."
 msgstr "Ez egy fémmegmunkáláshoz szükséges préskészlet."
+
+#: lang/json/TOOL_from_json.py
+msgid "hotcut"
+msgid_plural "hotcuts"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for hotcut
+#: lang/json/TOOL_from_json.py
+msgid ""
+"This is a hardened chisel like object for metalsmithing.  This is used to "
+"cut lengths of metal in some metalworking fabrication recipes."
+msgstr ""
+
+#: lang/json/TOOL_from_json.py
+msgid "drift"
+msgid_plural "drifts"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for drift
+#: lang/json/TOOL_from_json.py
+msgid ""
+"This is a hardened spike like object for metalsmithing.  This is used to "
+"make holes in metal in some metalworking fabrication recipes."
+msgstr ""
 
 #: lang/json/TOOL_from_json.py
 msgid "pair of metal tongs"
@@ -122269,6 +122826,23 @@ msgstr ""
 msgid "The cold slows down your foes."
 msgstr ""
 
+#. ~ Description of effect 'Nature's Commune'.
+#: lang/json/effects_from_json.py
+msgid ""
+"You can feel Mother Nature welcoming you, revitalizing your body and calming"
+" the natural fauna around you."
+msgstr ""
+
+#. ~ Apply message for effect(s) 'Nature's Commune'.
+#: lang/json/effects_from_json.py
+msgid "A warm embrace surrounds you, like that of a mother with her child."
+msgstr ""
+
+#. ~ Remove message for effect(s) 'Nature's Commune'.
+#: lang/json/effects_from_json.py
+msgid "Your commune with Mother Nature fades."
+msgstr ""
+
 #. ~ Description of effect 'Dragon Terror'.
 #: lang/json/effects_from_json.py
 msgid "You are uneasy and fearful from a Dragon's mighty presence"
@@ -124650,7 +125224,7 @@ msgstr ""
 #: lang/json/furniture_from_json.py
 msgid ""
 "A standard convection-based oven, commonly used for heating and cooking "
-"food.  Despite it no longer working, you could safely light a fire inside."
+"food.  You could safely light a fire inside or power it with UPS."
 msgstr ""
 
 #: lang/json/furniture_from_json.py
@@ -126101,8 +126675,8 @@ msgstr ""
 #. ~ Description for water purifier
 #: lang/json/furniture_from_json.py
 msgid ""
-"This devices effectively sterilizes water, though without a lot of power and"
-" proper plumbing, it's only good for parts now."
+"This device effectively sterilizes water, though without power source, like "
+"UPS, it's only good for parts."
 msgstr ""
 
 #: lang/json/furniture_from_json.py
@@ -127746,24 +128320,24 @@ msgstr ""
 msgid ""
 "Not the kind of furnace you'd heat your house with, this is a device for "
 "heating things to extreme temperatures as part of industrial fabrication "
-"processes."
+"processes.  Can be used in recipes instead of forge, when supplied with "
+"power from UPS."
 msgstr ""
-"Ezzel a kemencével nem a lakást fűtöd be, hanem ipari folyamatokban "
-"melegítesz extrém magas hőmérsékletre dolgokat vele."
 
 #. ~ Description for drill press
 #: lang/json/furniture_from_json.py
 msgid ""
 "A powerful drill mounted on a slide that lets it drop precisely down.  "
 "Useful in all kinds of projects from industrial fabrication to home "
-"woodworking."
+"woodworking, if supplied with power from UPS."
 msgstr ""
 
 #. ~ Description for tablesaw
 #: lang/json/furniture_from_json.py
 msgid ""
 "A rotating saw blade set into a large flat table, for making straight "
-"measured cuts.  One of the key tools in a carpenter's arsenal."
+"measured cuts, if supplied with power from UPS.  One of the key tools in a "
+"carpenter's arsenal."
 msgstr ""
 
 #: lang/json/furniture_from_json.py
@@ -127774,57 +128348,62 @@ msgstr ""
 #: lang/json/furniture_from_json.py
 msgid ""
 "A circular saw blade on an arm that can slide and rotate in several "
-"directions, this is a staple tool for nearly any carpentry."
+"directions, this is a staple tool for nearly any carpentry, if supplied with"
+" power from UPS."
 msgstr ""
 
 #. ~ Description for bandsaw
 #: lang/json/furniture_from_json.py
 msgid ""
 "A ribbonlike sawblade runs in a single direction in this tool, allowing "
-"precise cuts at almost any angle."
+"precise cuts at almost any angle, if supplied with power from UPS."
 msgstr ""
 
 #. ~ Description for router table
 #: lang/json/furniture_from_json.py
 msgid ""
 "This table has an inset router, a rotating motor with an exchangeable blade "
-"head for cutting specific profiles and grooves and stuff."
+"head for cutting specific profiles and grooves and stuff, if supplied with "
+"power from UPS."
 msgstr ""
 
 #. ~ Description for planer
 #: lang/json/furniture_from_json.py
 msgid ""
 "A hefty tool that will take in a board and cut it smooth and flat to a "
-"specific width.  Particularly great if working with raw lumber stock, but "
-"also good just for shaving wood down to size."
+"specific width, if supplied with power from UPS.  Particularly great if "
+"working with raw lumber stock, but also good just for shaving wood down to "
+"size."
 msgstr ""
 
 #. ~ Description for jointer
 #: lang/json/furniture_from_json.py
 msgid ""
 "A table-shaped tool with a rotating blade that will cut down, smooth out, "
-"and square off a board to make it very smooth and nice indeed."
+"and square off a board to make it very smooth and nice indeed, if supplied "
+"with power from UPS."
 msgstr ""
 
 #. ~ Description for hydraulic press
 #: lang/json/furniture_from_json.py
 msgid ""
 "If you really want to squash something a lot, this would be exactly the "
-"right industrial tool for you.  If, you know, it had power."
+"right industrial tool for you, if supplied with power from UPS."
 msgstr ""
 
 #. ~ Description for power lathe
 #: lang/json/furniture_from_json.py
 msgid ""
 "An industrial-grade lathe, for turning chunks of metal and other hard things"
-" into round chunks of metal and other hard things."
+" into round chunks of metal and other hard things, if supplied with power "
+"from UPS."
 msgstr ""
 
 #. ~ Description for air compressor
 #: lang/json/furniture_from_json.py
 msgid ""
 "This durable tank is topped with a motor that will cram as much air into the"
-" tank as possible."
+" tank as possible, if supplied with power from UPS."
 msgstr ""
 
 #: lang/json/furniture_from_json.py
@@ -131385,7 +131964,7 @@ msgstr[1] ""
 #: lang/json/gun_from_json.py
 msgid ""
 "This is a semi-automatic pistol, chambered in .45 ACP and accepting M1991 "
-"magaines."
+"magazines."
 msgstr ""
 
 #: lang/json/gun_from_json.py
@@ -131593,7 +132172,7 @@ msgstr[1] ""
 #: lang/json/gun_from_json.py
 msgid ""
 "This is a semi-automatic pistol chambered in .45 ACP, and accepting Hi-Point"
-" magazines"
+" magazines."
 msgstr ""
 
 #: lang/json/gun_from_json.py
@@ -135719,7 +136298,7 @@ msgstr ""
 
 #: lang/json/gun_from_json.py
 msgid "shotcestus"
-msgid_plural "shotcesti"
+msgid_plural "shotcestuses"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -137910,11 +138489,11 @@ msgstr ""
 
 #: lang/json/harvest_from_json.py
 msgid "<arachnid_harvest>"
-msgstr ""
+msgstr "<arachnid_harvest>"
 
 #: lang/json/harvest_from_json.py
 msgid "<acidant_harvest>"
-msgstr ""
+msgstr "<acidant_harvest>"
 
 #: lang/json/harvest_from_json.py
 msgid "You laboriously dissect the colossal insect.  <acidant_harvest>"
@@ -137923,19 +138502,19 @@ msgstr ""
 #: lang/json/harvest_from_json.py lang/json/snippet_from_json.py
 #: lang/json/snippet_from_json.py
 msgid "<centipede_harvest>"
-msgstr ""
+msgstr "<centipede_harvest>"
 
 #: lang/json/harvest_from_json.py
 msgid "<centipede_mom_harvest>"
-msgstr ""
+msgstr "<centipede_mom_harvest>"
 
 #: lang/json/harvest_from_json.py
 msgid "<centipede_mega_harvest>"
-msgstr ""
+msgstr "<centipede_mega_harvest>"
 
 #: lang/json/harvest_from_json.py
 msgid "<arachnid_flying_harvest>"
-msgstr ""
+msgstr "<arachnid_flying_harvest>"
 
 #: lang/json/harvest_from_json.py
 msgid ""
@@ -137955,7 +138534,7 @@ msgstr ""
 
 #: lang/json/harvest_from_json.py
 msgid "<firefly_harvest>"
-msgstr ""
+msgstr "<firefly_harvest>"
 
 #: lang/json/harvest_from_json.py
 msgid "<wasp_harvest>"
@@ -137967,7 +138546,7 @@ msgstr ""
 
 #: lang/json/harvest_from_json.py
 msgid "<incubator_mammal>"
-msgstr ""
+msgstr "<incubator_mammal>"
 
 #: lang/json/harvest_from_json.py
 msgid "You laboriously hack and dig through the remains of the fungal mass."
@@ -140702,6 +141281,21 @@ msgstr ""
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: lang/json/json_flag_from_json.py
+msgid "This item was broken and <bad>won't activate anymore</bad>."
+msgstr ""
+
+#. ~ Please leave anything in <angle brackets> unchanged.
+#: lang/json/json_flag_from_json.py
+msgid "This item <bad>will get broken</bad> by water."
+msgstr ""
+
+#. ~ Please leave anything in <angle brackets> unchanged.
+#: lang/json/json_flag_from_json.py
+msgid "This item <bad>will get dissolved</bad> in water."
+msgstr ""
+
+#. ~ Please leave anything in <angle brackets> unchanged.
+#: lang/json/json_flag_from_json.py
 msgid "This item can be worn simultaneously with power armor."
 msgstr "Ezt a tárgyat szervópáncéllal együtt lehet viselni."
 
@@ -142487,13 +143081,14 @@ msgid "Load color template"
 msgstr "Színsablon betöltése"
 
 #. ~ translation should not exceed 3 console cells
-#: lang/json/keybinding_from_json.py src/editmap.cpp src/editmap.cpp
-#: src/trap.cpp src/veh_interact.cpp
+#: lang/json/keybinding_from_json.py src/avatar_action.cpp src/editmap.cpp
+#: src/editmap.cpp src/trap.cpp src/veh_interact.cpp
 msgid "Yes"
 msgstr "Igen"
 
-#: lang/json/keybinding_from_json.py src/editmap.cpp src/editmap.cpp
-#: src/options.cpp src/trap.cpp src/veh_interact.cpp
+#: lang/json/keybinding_from_json.py src/avatar_action.cpp src/editmap.cpp
+#: src/editmap.cpp src/options.cpp src/options.cpp src/trap.cpp
+#: src/veh_interact.cpp
 msgid "No"
 msgstr "Nem"
 
@@ -144516,13 +145111,13 @@ msgid "A standard capacity magazine for use with the H&K USP handgun."
 msgstr "Sztenderd kapacitású tár a H&K USP kézifegyverhez."
 
 #: lang/json/magazine_from_json.py
-msgid "PPQ .45 12-round amgazine"
-msgid_plural "PPQ .45 12-round amgazines"
+msgid "PPQ .45 12-round magazine"
+msgid_plural "PPQ .45 12-round magazines"
 msgstr[0] ""
 msgstr[1] ""
 
 #: lang/json/magazine_from_json.py
-msgid "A 12 round steel box magazine for the PPQ pistol"
+msgid "A 12 round steel box magazine for the PPQ pistol."
 msgstr ""
 
 #: lang/json/magazine_from_json.py
@@ -151618,10 +152213,11 @@ msgid "Sojutsu"
 msgstr ""
 
 #: lang/json/material_from_json.py
-msgid "Pseudo fuel"
+msgid "Polymer resin"
 msgstr ""
 
-#: lang/json/material_from_json.py src/veh_interact.cpp
+#: lang/json/material_from_json.py lang/json/material_from_json.py
+#: src/veh_interact.cpp
 msgid "dented"
 msgstr "horpadt"
 
@@ -151644,6 +152240,18 @@ msgstr "repedt"
 #: lang/json/material_from_json.py
 msgid "shattered"
 msgstr "széttört"
+
+#: lang/json/material_from_json.py
+msgid "Thermoplastic resin"
+msgstr ""
+
+#: lang/json/material_from_json.py
+msgid "Epoxy"
+msgstr ""
+
+#: lang/json/material_from_json.py
+msgid "Pseudo fuel"
+msgstr ""
 
 #: lang/json/material_from_json.py
 msgid "Battery"
@@ -153993,7 +154601,7 @@ msgstr ""
 
 #: lang/json/mission_def_from_json.py
 msgid "<its_safe>"
-msgstr ""
+msgstr "<its_safe>"
 
 #: lang/json/mission_def_from_json.py
 msgid "Great, <very> great.  All that remains is to wash all the floors…"
@@ -159915,12 +160523,12 @@ msgid "Ate Demihuman Flesh"
 msgstr ""
 
 #: lang/json/morale_type_from_json.py
-msgid "Ate Meat"
-msgstr "Húst evett"
-
-#: lang/json/morale_type_from_json.py
 msgid "Ate Vegetables"
 msgstr "Zöldséget evett"
+
+#: lang/json/morale_type_from_json.py
+msgid "Ate Meat"
+msgstr "Húst evett"
 
 #: lang/json/morale_type_from_json.py
 msgid "Ate Fruit"
@@ -180019,6 +180627,46 @@ msgstr ""
 
 #: lang/json/professions_from_json.py
 msgctxt "profession_male"
+msgid "Captain Schwarz Walder, Cannibal"
+msgstr ""
+
+#. ~ Profession (male Captain Schwarz Walder, Cannibal) description
+#: lang/json/professions_from_json.py
+msgctxt "prof_desc_male"
+msgid ""
+"Several years ago, you were newly stationed at a remote corporate facility "
+"when it came under a personality rewrite attack that affected all of your "
+"human coworkers.  It had seemed likely that the few Uplifted staff would "
+"perish and most did.  But you disappeared into the wilderness surrounding "
+"the facilities and began hunting the things that had been your friends.  "
+"Eating them to stay alive and to power your bionics.  Recapturing the "
+"facility earned you a buyout of the remainder of your contract, but most "
+"people are uncomfortable around you once they realize how very different you"
+" are.  Now you are here on a mostly abandoned planet hunting a bounty."
+msgstr ""
+
+#: lang/json/professions_from_json.py
+msgctxt "profession_female"
+msgid "Captain Schwarz Walder, Cannibal"
+msgstr ""
+
+#. ~ Profession (female Captain Schwarz Walder, Cannibal) description
+#: lang/json/professions_from_json.py
+msgctxt "prof_desc_female"
+msgid ""
+"Several years ago, you were newly stationed at a remote corporate facility "
+"when it came under a personality rewrite attack that affected all of your "
+"human coworkers.  It had seemed likely that the few Uplifted staff would "
+"perish and most did.  But you disappeared into the wilderness surrounding "
+"the facilities and began hunting the things that had been your friends.  "
+"Eating them to stay alive and to power your bionics.  Recapturing the "
+"facility earned you a buyout of the remainder of your contract, but most "
+"people are uncomfortable around you once they realize how very different you"
+" are.  Now you are here on a mostly abandoned planet hunting a bounty."
+msgstr ""
+
+#: lang/json/professions_from_json.py
+msgctxt "profession_male"
 msgid "Cryosleep Survivor"
 msgstr "Lefagyasztott túlélő"
 
@@ -190758,6 +191406,10 @@ msgid "Central Stairs Evac Shelter Base"
 msgstr ""
 
 #: lang/json/recipe_group_from_json.py
+msgid "Freshwater Research Station Base"
+msgstr ""
+
+#: lang/json/recipe_group_from_json.py
 msgid "Light Industry Office Base"
 msgstr ""
 
@@ -191386,6 +192038,22 @@ msgid " Craft: Rebar, Drop Hammer"
 msgstr ""
 
 #: lang/json/recipe_group_from_json.py
+msgid " Craft: Water Wheel, Power Saw"
+msgstr ""
+
+#: lang/json/recipe_group_from_json.py
+msgid " Craft: Large Water Wheel, Power Saw"
+msgstr ""
+
+#: lang/json/recipe_group_from_json.py
+msgid " Craft: Wooden Beam, Planer"
+msgstr ""
+
+#: lang/json/recipe_group_from_json.py
+msgid " Craft: Planks, Power Saw"
+msgstr ""
+
+#: lang/json/recipe_group_from_json.py
 msgid " Fishing: fish, plastic fish trap"
 msgstr ""
 
@@ -191843,6 +192511,7 @@ msgstr ""
 #. ~ Starting location for scenario 'Challenge - Medieval Peasant'.
 #. ~ Starting location for scenario 'Experiment'.
 #. ~ Starting location for scenario 'Wilderness'.
+#. ~ Starting location for scenario 'Hunted by Dinosaurs'.
 #: lang/json/scenario_from_json.py
 msgctxt "start_name"
 msgid "Wilderness"
@@ -192722,6 +193391,54 @@ msgctxt "start_name"
 msgid "Escape Pod"
 msgstr ""
 
+#. ~ Name for scenario 'CHALLENGE - Abnormal Augmentations' for a male
+#. character
+#: lang/json/scenario_from_json.py
+msgctxt "scenario_male"
+msgid "CHALLENGE - Abnormal Augmentations"
+msgstr ""
+
+#. ~ Name for scenario 'CHALLENGE - Abnormal Augmentations' for a female
+#. character
+#: lang/json/scenario_from_json.py
+msgctxt "scenario_female"
+msgid "CHALLENGE - Abnormal Augmentations"
+msgstr ""
+
+#. ~ Description for scenario 'CHALLENGE - Abnormal Augmentations' for a male
+#. character.
+#: lang/json/scenario_from_json.py
+msgctxt "scen_desc_male"
+msgid ""
+"You've already been modified mutagenically but now you were all ready for a "
+"bionic implant or three - the bill footed by the corp., of course - when "
+"everything went pear-shaped and all you could hear from the other rooms was "
+"screaming.  For a few hours, at least.  Now all you can hear is shuffling, "
+"crackling, the occasional gurgling, burbling moan, and heavy, wet thumps.  "
+"Hopefully your surgery was registered as an elective because you've elected "
+"to get the heck out of here!"
+msgstr ""
+
+#. ~ Description for scenario 'CHALLENGE - Abnormal Augmentations' for a
+#. female character.
+#: lang/json/scenario_from_json.py
+msgctxt "scen_desc_female"
+msgid ""
+"You've already been modified mutagenically but now you were all ready for a "
+"bionic implant or three - the bill footed by the corp., of course - when "
+"everything went pear-shaped and all you could hear from the other rooms was "
+"screaming.  For a few hours, at least.  Now all you can hear is shuffling, "
+"crackling, the occasional gurgling, burbling moan, and heavy, wet thumps.  "
+"Hopefully your surgery was registered as an elective because you've elected "
+"to get the heck out of here!"
+msgstr ""
+
+#. ~ Starting location for scenario 'CHALLENGE - Abnormal Augmentations'.
+#: lang/json/scenario_from_json.py
+msgctxt "start_name"
+msgid "Augmentation Clinic"
+msgstr ""
+
 #. ~ Description for scenario 'Evacuee' for a male character.
 #: lang/json/scenario_from_json.py
 msgctxt "scen_desc_male"
@@ -192844,6 +193561,34 @@ msgid ""
 "While being evacuated from a hot zone, the pilot lost control of the "
 "helicopter and crashed in the middle of nowhere.  Hopefully some of the "
 "soldiers that were with you also survived the accident."
+msgstr ""
+
+#. ~ Name for scenario 'Hunted by Dinosaurs' for a male character
+#: lang/json/scenario_from_json.py
+msgctxt "scenario_male"
+msgid "Hunted by Dinosaurs"
+msgstr ""
+
+#. ~ Name for scenario 'Hunted by Dinosaurs' for a female character
+#: lang/json/scenario_from_json.py
+msgctxt "scenario_female"
+msgid "Hunted by Dinosaurs"
+msgstr ""
+
+#. ~ Description for scenario 'Hunted by Dinosaurs' for a male character.
+#: lang/json/scenario_from_json.py
+msgctxt "scen_desc_male"
+msgid ""
+"You find yourself among trees.  The screaming and moaning is fainter, but it"
+" sounds like something bigger and more dangerous is close by."
+msgstr ""
+
+#. ~ Description for scenario 'Hunted by Dinosaurs' for a female character.
+#: lang/json/scenario_from_json.py
+msgctxt "scen_desc_female"
+msgid ""
+"You find yourself among trees.  The screaming and moaning is fainter, but it"
+" sounds like something bigger and more dangerous is close by."
 msgstr ""
 
 #. ~ Name for scenario 'Scavenger' for a male character
@@ -196736,11 +197481,11 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<swear><punc> <swear!>"
-msgstr ""
+msgstr "<swear><punc> <swear!>"
 
 #: lang/json/snippet_from_json.py
 msgid "<very> <swear!>"
-msgstr ""
+msgstr "<very> <swear!>"
 
 #: lang/json/snippet_from_json.py
 msgid "son of an ass"
@@ -196784,7 +197529,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<very> <sad>"
-msgstr ""
+msgstr "<very> <sad>"
 
 #: lang/json/snippet_from_json.py
 msgid "dejected"
@@ -197527,7 +198272,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<very> <very>"
-msgstr ""
+msgstr "<very> <very>"
 
 #: lang/json/snippet_from_json.py
 msgid "severely"
@@ -197630,7 +198375,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<really> <really>"
-msgstr ""
+msgstr "<really> <really>"
 
 #: lang/json/snippet_from_json.py
 msgid "most <really>"
@@ -197815,7 +198560,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<very> <happy>"
-msgstr ""
+msgstr "<very> <happy>"
 
 #: lang/json/snippet_from_json.py
 msgid "tickled pink"
@@ -197900,7 +198645,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<swear> <swear>"
-msgstr ""
+msgstr "<swear> <swear>"
 
 #: lang/json/snippet_from_json.py
 msgid "fuckin'"
@@ -198148,7 +198893,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<name_b>"
-msgstr ""
+msgstr "<name_b>"
 
 #: lang/json/snippet_from_json.py
 msgid "you can fuck right off, you <name_b>"
@@ -198330,7 +199075,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<swear>"
-msgstr ""
+msgstr "<swear>"
 
 #: lang/json/snippet_from_json.py
 msgid "Look out for that"
@@ -198398,7 +199143,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<general_danger_h>"
-msgstr ""
+msgstr "<general_danger_h>"
 
 #: lang/json/snippet_from_json.py
 msgid "Fight or flight?"
@@ -199081,7 +199826,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<meth_smoke>"
-msgstr ""
+msgstr "<meth_smoke>"
 
 #: lang/json/snippet_from_json.py
 msgid "I need some batteries to power my CBMs."
@@ -199352,11 +200097,11 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<swear> <shitty>"
-msgstr ""
+msgstr "<swear> <shitty>"
 
 #: lang/json/snippet_from_json.py
 msgid "<very> <shitty>"
-msgstr ""
+msgstr "<very> <shitty>"
 
 #. ~ photo quality adjective
 #: lang/json/snippet_from_json.py src/iuse.cpp
@@ -199445,7 +200190,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<swear> <zombie>"
-msgstr ""
+msgstr "<swear> <zombie>"
 
 #: lang/json/snippet_from_json.py
 msgid "undead"
@@ -199469,7 +200214,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<swear> <zombies>"
-msgstr ""
+msgstr "<swear> <zombies>"
 
 #: lang/json/snippet_from_json.py
 msgid "living dead"
@@ -199517,7 +200262,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<swear> <monster>"
-msgstr ""
+msgstr "<swear> <monster>"
 
 #: lang/json/snippet_from_json.py
 msgid "unbelievable <swear> thing"
@@ -200120,7 +200865,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py lang/json/talk_topic_from_json.py
 msgid "<thoughtfulchitchat>"
-msgstr ""
+msgstr "<thoughtfulchitchat>"
 
 #: lang/json/snippet_from_json.py
 msgid "I need a break anyway, how are you?"
@@ -202364,7 +203109,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<given_name>"
-msgstr ""
+msgstr "<given_name>"
 
 #: lang/json/snippet_from_json.py
 msgid "don't drink the water"
@@ -202607,7 +203352,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<illegible text>"
-msgstr ""
+msgstr "<illegible text>"
 
 #: lang/json/snippet_from_json.py
 msgid "I will always remember you"
@@ -205663,7 +206408,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<bug_harvest_general_chitin>"
-msgstr ""
+msgstr "<bug_harvest_general_chitin>"
 
 #: lang/json/snippet_from_json.py
 msgid ""
@@ -205701,7 +206446,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<bug_harvest_general_deeper>"
-msgstr ""
+msgstr "<bug_harvest_general_deeper>"
 
 #: lang/json/snippet_from_json.py
 msgid ""
@@ -205792,7 +206537,7 @@ msgstr ""
 
 #: lang/json/snippet_from_json.py
 msgid "<bug_harvest_general_descriptive>"
-msgstr ""
+msgstr "<bug_harvest_general_descriptive>"
 
 #: lang/json/snippet_from_json.py
 msgid ""
@@ -216762,6 +217507,10 @@ msgid "Robot Dispatch Center"
 msgstr "Robotdiszpécser-központ"
 
 #: lang/json/start_location_from_json.py
+msgid "Augclinic"
+msgstr ""
+
+#: lang/json/start_location_from_json.py
 msgid "Crashed escape pod"
 msgstr ""
 
@@ -217503,11 +218252,11 @@ msgstr ""
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_follow_distance_request_4_text>"
-msgstr ""
+msgstr "<ally_rule_follow_distance_request_4_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_follow_distance_request_2_text>"
-msgstr ""
+msgstr "<ally_rule_follow_distance_request_2_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "Don't use ranged weapons anymore."
@@ -217764,79 +218513,79 @@ msgstr ""
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_allow_pick_up_true_list_text>"
-msgstr ""
+msgstr "<ally_rule_allow_pick_up_true_list_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_allow_pick_up_true_text>"
-msgstr ""
+msgstr "<ally_rule_allow_pick_up_true_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_allow_pick_up_false_text>"
-msgstr ""
+msgstr "<ally_rule_allow_pick_up_false_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_allow_bash_true_text>"
-msgstr ""
+msgstr "<ally_rule_allow_bash_true_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_allow_bash_false_text>"
-msgstr ""
+msgstr "<ally_rule_allow_bash_false_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_allow_sleep_true_text>"
-msgstr ""
+msgstr "<ally_rule_allow_sleep_true_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_allow_sleep_false_text>"
-msgstr ""
+msgstr "<ally_rule_allow_sleep_false_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_allow_complain_true_text>"
-msgstr ""
+msgstr "<ally_rule_allow_complain_true_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_allow_complain_false_text>"
-msgstr ""
+msgstr "<ally_rule_allow_complain_false_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_allow_pulp_true_text>"
-msgstr ""
+msgstr "<ally_rule_allow_pulp_true_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_allow_pulp_false_text>"
-msgstr ""
+msgstr "<ally_rule_allow_pulp_false_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_close_doors_true_text>"
-msgstr ""
+msgstr "<ally_rule_close_doors_true_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_close_doors_false_text>"
-msgstr ""
+msgstr "<ally_rule_close_doors_false_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_ignore_noise_true_text>"
-msgstr ""
+msgstr "<ally_rule_ignore_noise_true_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_ignore_noise_false_text>"
-msgstr ""
+msgstr "<ally_rule_ignore_noise_false_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_avoid_doors_true_text>"
-msgstr ""
+msgstr "<ally_rule_avoid_doors_true_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_avoid_doors_false_text>"
-msgstr ""
+msgstr "<ally_rule_avoid_doors_false_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_forbid_engage_true_text>"
-msgstr ""
+msgstr "<ally_rule_forbid_engage_true_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<ally_rule_forbid_engage_false_text>"
-msgstr ""
+msgstr "<ally_rule_forbid_engage_false_text>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "Follow same rules as this follower."
@@ -218012,7 +218761,7 @@ msgstr ""
 
 #: lang/json/talk_topic_from_json.py
 msgid "<hallu_dont_trade>"
-msgstr ""
+msgstr "<hallu_dont_trade>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "Fair enough."
@@ -218110,7 +218859,7 @@ msgstr "Maradj távol!"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<drop_it>"
-msgstr ""
+msgstr "<drop_it>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "This is my territory, <name_b>."
@@ -218126,7 +218875,7 @@ msgstr "Dögölj meg, dehogy is."
 
 #: lang/json/talk_topic_from_json.py
 msgid "<hands_up>"
-msgstr ""
+msgstr "<hands_up>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "&Put hands up."
@@ -219130,7 +219879,7 @@ msgstr ""
 
 #: lang/json/talk_topic_from_json.py
 msgid "<hallu_dont_camp>"
-msgstr ""
+msgstr "<hallu_dont_camp>"
 
 #: lang/json/talk_topic_from_json.py
 msgid ""
@@ -219156,47 +219905,47 @@ msgstr ""
 
 #: lang/json/talk_topic_from_json.py
 msgid "<chitchat_prefix_booze>  <neutralchitchat_later>"
-msgstr ""
+msgstr "<chitchat_prefix_booze>  <neutralchitchat_later>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<neutralchitchat_later>"
-msgstr ""
+msgstr "<neutralchitchat_later>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<chitchat_prefix_summer>  <neutralchitchat_later>"
-msgstr ""
+msgstr "<chitchat_prefix_summer>  <neutralchitchat_later>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<chitchat_prefix_winter>  <neutralchitchat_later>"
-msgstr ""
+msgstr "<chitchat_prefix_winter>  <neutralchitchat_later>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<chitchat_prefix_infected>  <neutralchitchat_later>"
-msgstr ""
+msgstr "<chitchat_prefix_infected>  <neutralchitchat_later>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<insightfulchitchat>"
-msgstr ""
+msgstr "<insightfulchitchat>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<chitchat_prefix_booze>  <neutralchitchat>"
-msgstr ""
+msgstr "<chitchat_prefix_booze>  <neutralchitchat>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<chitchat_prefix_summer>  <neutralchitchat>"
-msgstr ""
+msgstr "<chitchat_prefix_summer>  <neutralchitchat>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<chitchat_prefix_winter>  <neutralchitchat>"
-msgstr ""
+msgstr "<chitchat_prefix_winter>  <neutralchitchat>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<chitchat_prefix_infected>  <neutralchitchat>"
-msgstr ""
+msgstr "<chitchat_prefix_infected>  <neutralchitchat>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<chitchat_player_responses>"
-msgstr ""
+msgstr "<chitchat_player_responses>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "Yes, friend?"
@@ -220307,11 +221056,11 @@ msgstr ""
 
 #: lang/json/talk_topic_from_json.py
 msgid "<done_conversation_section>"
-msgstr ""
+msgstr "<done_conversation_section>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "<end_talking>"
-msgstr ""
+msgstr "<end_talking>"
 
 #: lang/json/talk_topic_from_json.py
 msgid ""
@@ -224506,7 +225255,7 @@ msgstr ""
 
 #: lang/json/talk_topic_from_json.py
 msgid "<greet>"
-msgstr ""
+msgstr "<greet>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "How are you doing?"
@@ -226336,7 +227085,7 @@ msgstr ""
 
 #: lang/json/talk_topic_from_json.py
 msgid "<get_lost>"
-msgstr ""
+msgstr "<get_lost>"
 
 #: lang/json/talk_topic_from_json.py
 msgid "Ok, sorry, I'm already leaving!"
@@ -232408,6 +233157,12 @@ msgstr ""
 
 #: lang/json/talk_topic_from_json.py
 msgid "Lets trade."
+msgstr ""
+
+#: lang/json/talk_topic_from_json.py
+msgid ""
+"The traders at the refugee center asked me to deliver this drive of FEMA "
+"data…"
 msgstr ""
 
 #: lang/json/talk_topic_from_json.py
@@ -238706,6 +239461,30 @@ msgid ""
 msgstr ""
 
 #: lang/json/terrain_from_json.py
+msgid "concrete wall"
+msgstr "betonfal"
+
+#. ~ Description for concrete wall
+#: lang/json/terrain_from_json.py
+msgid ""
+"A faux concrete wall positioned and joined seamlessly with the wall, this "
+"wall is capable of resisting extreme elements as well as hostile forces.  "
+"Blast load rated and extremely fire-retardant, breaching will require "
+"specialized tools or industrial vehicles."
+msgstr ""
+
+#. ~ Description for open secret door
+#: lang/json/terrain_from_json.py
+msgid ""
+"This apparently normal segment of concrete wall has opened to reveal a "
+"secret passage."
+msgstr ""
+
+#: lang/json/terrain_from_json.py
+msgid "thwack!"
+msgstr ""
+
+#: lang/json/terrain_from_json.py
 msgid "open metal door"
 msgstr "kinyitott fémajtó"
 
@@ -242531,10 +243310,6 @@ msgid ""
 "A solid adobe brick wall, sturdy enough to support a roof with enough walls "
 "and keep out any unwanted visitors."
 msgstr ""
-
-#: lang/json/terrain_from_json.py
-msgid "concrete wall"
-msgstr "betonfal"
 
 #. ~ Description for concrete wall
 #: lang/json/terrain_from_json.py
@@ -248870,11 +249645,6 @@ msgid "The lock opens…"
 msgstr ""
 
 #: src/activity_actor.cpp
-#, c-format
-msgid "Rolled %i. Mean_roll %g. Difficulty %i."
-msgstr ""
-
-#: src/activity_actor.cpp
 msgid "Your clumsy attempt jams the lock!"
 msgstr "Az ügyetlenséged miatt beszorult a zár!"
 
@@ -249191,7 +249961,8 @@ msgid "The %s's udders run dry."
 msgstr ""
 
 #: src/activity_actor.cpp
-msgid "$1%s has nothing %2$s could shear."
+#, c-format
+msgid "%1$s has nothing %2$s could shear."
 msgstr ""
 
 #: src/activity_actor.cpp
@@ -249273,16 +250044,6 @@ msgstr "Kinyitod a készletet és megborotválkozol."
 #: src/activity_actor.cpp
 msgid "You give your hair a trim."
 msgstr "Formásra vágod a hajadat."
-
-#: src/activity_handlers.cpp
-#, c-format
-msgid "Roll = %i"
-msgstr ""
-
-#: src/activity_handlers.cpp
-#, c-format
-msgid "Failure chance = %f%%"
-msgstr ""
 
 #: src/activity_handlers.cpp
 #, c-format
@@ -249433,11 +250194,6 @@ msgstr ""
 
 #: src/activity_handlers.cpp
 #, c-format
-msgid "Roll penalty for corpse damage = %s"
-msgstr ""
-
-#: src/activity_handlers.cpp
-#, c-format
 msgid "You fail to harvest: %s"
 msgstr "Nem sikerült megszerezni: %s"
 
@@ -249454,11 +250210,6 @@ msgstr "A(z) %s holttestét durván négy részre vágod, és félre teszed."
 #: src/activity_handlers.cpp
 msgid "There's no corpse to butcher!"
 msgstr "Nincs itt lemészárolható holttest!"
-
-#: src/activity_handlers.cpp
-#, c-format
-msgid "Skill: %s"
-msgstr "Készség: %s"
 
 #: src/activity_handlers.cpp
 msgid ""
@@ -251776,11 +252527,6 @@ msgid "Maybe you should find something new to read…"
 msgstr "Talán valami új olvasnivalót kellene találnod..."
 
 #: src/avatar.cpp
-#, c-format
-msgid "Chance to learn one in: %d"
-msgstr "A megtanulás esélye: %d"
-
-#: src/avatar.cpp
 msgid ""
 "You train the moves according to the book, but can't get a grasp of the "
 "style, so you start from the beginning."
@@ -252015,6 +252761,30 @@ msgid "Freeform"
 msgstr "Szabadon választható"
 
 #: src/avatar_action.cpp
+msgid "Dive into the water?"
+msgstr "Beugrasz a vízbe?"
+
+#: src/avatar_action.cpp
+msgid "Diving will destroy the following items.  Proceed?"
+msgstr ""
+
+#: src/avatar_action.cpp
+msgid "These items are not inside a waterproof container."
+msgstr ""
+
+#: src/avatar_action.cpp
+msgid "Will be dissolved:"
+msgstr ""
+
+#: src/avatar_action.cpp
+msgid "Will be destroyed:"
+msgstr ""
+
+#: src/avatar_action.cpp
+msgid "You back away from the water."
+msgstr ""
+
+#: src/avatar_action.cpp
 msgid "You can't move while in your shell.  Deactivate it to go mobile."
 msgstr ""
 
@@ -252067,10 +252837,6 @@ msgstr "A jármű azon része jelenleg nem biztonságos."
 #, c-format
 msgid "The %s cannot swim while it is carrying you!"
 msgstr ""
-
-#: src/avatar_action.cpp
-msgid "Dive into the water?"
-msgstr "Beugrasz a vízbe?"
 
 #: src/avatar_action.cpp
 msgid "You start swimming."
@@ -254942,6 +255708,11 @@ msgstr ""
 #: src/character.cpp
 msgid "Your body strains under the weight!"
 msgstr "A testedet túlfeszíti a megterhelés!"
+
+#: src/character.cpp src/game_inventory.cpp
+#, c-format
+msgid "Your %s was broken and won't turn on."
+msgstr ""
 
 #: src/character.cpp
 #, c-format
@@ -260250,7 +261021,7 @@ msgstr ""
 #: src/event_statistics.cpp
 #, c-format
 msgid "%2$s %1$s"
-msgstr ""
+msgstr "%2$s %1$s"
 
 #: src/explosion.cpp
 msgid "force of the explosion"
@@ -263963,6 +264734,16 @@ msgstr ""
 "megragadott tárgy típusa."
 
 #: src/game.cpp
+#, c-format
+msgid "%1$s %2$s dissolved in the water!"
+msgstr ""
+
+#: src/game.cpp
+#, c-format
+msgid "The water destroyed %1$s %2$s!"
+msgstr ""
+
+#: src/game.cpp
 msgid "You dive into water."
 msgstr "Fejest ugrasz a vízbe."
 
@@ -267490,11 +268271,6 @@ msgstr ""
 #: src/iexamine.cpp
 #, c-format
 msgid "There is a %s there.  Disarm?"
-msgstr ""
-
-#: src/iexamine.cpp
-#, c-format
-msgid "Rolled %i, mean_roll %g. difficulty %i."
 msgstr ""
 
 #: src/iexamine.cpp
@@ -271114,6 +271890,10 @@ msgid " (filthy)"
 msgstr " (koszos)"
 
 #: src/item.cpp
+msgid " (broken)"
+msgstr ""
+
+#: src/item.cpp
 msgid " (sterile)"
 msgstr " (steril)"
 
@@ -271194,7 +271974,7 @@ msgstr "gyémánt"
 #: src/item.cpp
 #, c-format
 msgid "%1$s%2$s%3$s%4$s%5$s%6$s%7$s"
-msgstr ""
+msgstr "%1$s%2$s%3$s%4$s%5$s%6$s%7$s"
 
 #. ~ %s is an item name. This style is used to denote items with notes.
 #: src/item.cpp
@@ -275427,6 +276207,11 @@ msgstr ""
 #, c-format
 msgid "You can't do anything interesting with your %s."
 msgstr "Ezzel semmi érdekeset nem tudsz csinálni: %s."
+
+#: src/iuse.cpp
+#, c-format
+msgid "Your %s is broken and won't activate."
+msgstr ""
 
 #: src/iuse_actor.cpp
 #, c-format
@@ -280913,7 +281698,7 @@ msgstr ""
 #, c-format
 msgctxt "companion skill"
 msgid "%1$s %2$d"
-msgstr ""
+msgstr "%1$s %2$d"
 
 #. ~ %1$s: skill name, %2$d: companion skill level, %3$d: skill requirement
 #: src/mission_companion.cpp
@@ -285577,7 +286362,7 @@ msgstr ""
 
 #: src/npcmove.cpp
 msgid "<warn_sleep>"
-msgstr ""
+msgstr "<warn_sleep>"
 
 #: src/npcmove.cpp
 #, c-format
@@ -285698,7 +286483,7 @@ msgstr ""
 #: src/npcmove.cpp
 #, c-format
 msgid "%s %s%s"
-msgstr ""
+msgstr "%s %s%s"
 
 #: src/npcmove.cpp
 #, c-format
@@ -294844,13 +295629,13 @@ msgstr "%s (%s)"
 #, c-format
 msgctxt "keybinding"
 msgid "<color_light_gray>%1$s<color_light_green>%2$s</color>%3$s</color>"
-msgstr ""
+msgstr "<color_light_gray>%1$s<color_light_green>%2$s</color>%3$s</color>"
 
 #: src/veh_interact.cpp
 #, c-format
 msgctxt "keybinding"
 msgid "<color_dark_gray>%1$s<color_green>%2$s</color>%3$s</color>"
-msgstr ""
+msgstr "<color_dark_gray>%1$s<color_green>%2$s</color>%3$s</color>"
 
 #: src/veh_interact.cpp
 #, c-format
@@ -295587,10 +296372,6 @@ msgstr ""
 
 #: src/vehicle_move.cpp
 msgid "Smart controller failed to start an engine."
-msgstr ""
-
-#: src/vehicle_move.cpp
-msgid "Smart controller optimizes engine state."
 msgstr ""
 
 #: src/vehicle_move.cpp
