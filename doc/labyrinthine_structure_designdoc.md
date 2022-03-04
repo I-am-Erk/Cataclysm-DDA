@@ -82,3 +82,14 @@ Because this is a completely open-world game, there are many strategies players 
 Provided we meet these goals, then the combo effect lets us do some stuff we can't otherwise manage.
 - The deeper levels of a Structure can contain advanced loot, in the form of furniture and large items where "how the hell do I get this out of here past the waves of enemies" is a very relevant question. We may even wish to steal a page from the original Defense mode and have some of these become their own entities that you can drag along, eg. you convert an autodoc bed into a vehicle and roll it with you, but that also makes it a target and your enemies will go after it as well as you. Now you have to get out while defending your priceless loot!
 - The deep*est* levels are legitimately so hard to get to and so hard to get out of that we can potentially store some truly interesting stuff down there. They're rare to spawn at all, and reaching them will require getting through a lot of challenges, and getting out will have the same effect. It's the first opportunity we've had to have a genuine end-game dungeon item. This should nevertheless not be game-breaking, but due to the nature of the Structure and the stuff in it, it could definitely be stuff that would otherwise be a hard "no" on a design front.
+
+# Enemy design
+See [Monster design](https://github.com/CleverRaven/Cataclysm-DDA/issues/55795) issue for details on initial enemy planning.
+
+Basically, we should design enemies for each phase that focus not just on large damage numbers, but on asking questions that will challenge most levels of players. I would like these enemies to skip the "high armour, high hp, high damage" meta posed by high level zombies. Instead, I propose the recurring theme that Structure enemies:
+- have multiple attack options that occur on different vectors, eg a physical and an electric attack
+- often have abilities that temporarily weaken or nullify your gear. I really like the potential of this because it scales: high level characters usually rely on strong gear, and weakening it affects them just as much as lower levels.
+- often synergize - for example, ranged stiltwalkers have a status attack that makes fleshborg and wiregnat enemies more dangerous
+- are designed to attack from several directions at once, in reasonably high numbers, so most of the time even the strongest Structure enemies should not hold up against a concentrated attack for long (exception: special enemies and "bosses" of course), but individual attacks are pretty powerful if they get through. This is another one that helps with scaling, because there's a hard cap on how much shooting you can do in a given time span. If a single shot takes out the enemy, then your limit is how many shots you can fire before the enemy gets to you and tears you apart, and having a bigger more advanced gun doesn't help much.
+
+
