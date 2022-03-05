@@ -4,7 +4,7 @@
     "id": "f_crooked_shelf",
     "name": "crooked shelf",
     "symbol": "{",
-	"copy-from": "f_utility_shelf",
+    "copy-from": "f_utility_shelf",
     "description": "This wire utility shelf looks like it was built by Salvador Dali.  The shelves all appear straight and level when examined individually, but when looked at as a whole they appear tilted and run into each other.  Studying it for long gives you a headache.",
     "color": "light_gray",
     "coverage": 25,
@@ -23,19 +23,13 @@
     "move_cost_mod": 4,
     "required_str": -1,
     "flags": [ "TRANSPARENT", "SHARP", "EASY_DECONSTRUCT" ],
-    "deconstruct": {
-      "items": [
-        { "item": "wiregrass", "count": [ 4, 6 ] }
-      ]
-    },
+    "deconstruct": { "items": [ { "item": "wiregrass", "count": [ 4, 6 ] } ] },
     "bash": {
       "str_min": 6,
       "str_max": 10,
       "sound": "tinkle!",
       "sound_fail": "jingle!",
-      "items": [
-        { "item": "wiregrass", "count": [ 4, 6 ] }
-      ]
+      "items": [ { "item": "wiregrass", "count": [ 4, 6 ] } ]
     }
   },
   {
@@ -43,7 +37,7 @@
     "id": "f_spindle",
     "name": "spindle",
     "description": "Although you can't tell what this is supposed to do, it is refreshingly non-bizarre for this place: a floor-to-ceiling spire of metal and wire with electricity arcing up and down inside it, casting a cold glow on the area.",
-    "symbol": "i",
+    "symbol": "I",
     "color": "blue",
     "move_cost_mod": -1,
     "coverage": 10,
@@ -53,14 +47,14 @@
     "bash": {
       "str_min": 12,
       "str_max": 24,
-      "sound": "zortch!",
+      "sound": "zorch!",
       "sound_fail": "clang!",
       "furn_set": "f_broken_spindle",
-      "items": [ 
-	    { "item": "cable", "count": [ 0, 3 ] },
-	    { "item": "wire", "count": [ 0, 1 ] } ,
-	    { "item": "rebar", "count": [ 0, 1 ] } 
-	  ]
+      "items": [
+        { "item": "cable", "count": [ 1, 3 ] },
+        { "item": "wire", "count": [ 0, 1 ] },
+        { "item": "e_scrap", "count": [ 0, 1 ] }
+      ]
     }
   },
   {
@@ -75,25 +69,69 @@
     "light_emitted": 5,
     "required_str": -1,
     "flags": [ "TRANSPARENT" ],
-    "emissions": [ "emit_glimmer", "emit_shock_steady1" ],
+    "emissions": [ "emit_glimmer", "emit_shock_steady2" ],
     "bash": {
-      "str_min": 12,
-      "str_max": 24,
-      "sound": "zortch!",
-      "sound_fail": "clang!",
-      "furn_set": "f_broken_spindle",
-      "items": [ 
-	    { "item": "cable", "count": [ 0, 3 ] },
-	    { "item": "wire", "count": [ 0, 1 ] } ,
-	    { "item": "rebar", "count": [ 0, 1 ] } 
-	  ]
+      "str_min": 20,
+      "str_max": 40,
+      "sound": "zzap!",
+      "sound_fail": "zorch!",
+      "items": [
+        { "item": "cable", "count": [ 2, 5 ] },
+        { "item": "wire", "count": [ 1, 3 ] },
+        { "item": "rebar", "count": [ 0, 1 ] },
+        { "item": "scrap", "count": [ 0, 1 ] }
+      ]
     }
   },
   {
     "id": "emit_shock_steady1",
     "type": "emit",
     "field": "fd_electricity",
-	"//": "steadily emits pulses of low voltage electricity",
+    "//": "steadily emits pulses of low voltage electricity",
+    "intensity": 1,
+    "chance": 50,
+    "qty": 3
+  },
+  {
+    "type": "furniture",
+    "id": "f_broken_nethermachine",
+    "name": "spiraling wreckage",
+    "description": "There seems to have been some sort of twisted, otherworldly device here, but it has been smashed to bits.  The surrounding terrain seems to be trying to fill into the gaps, almost like it's reaching inward with spiraling arms.  Electricity arcs along the surface.",
+    "symbol": "#",
+    "color": "blue",
+    "move_cost_mod": 5,
+    "coverage": 15,
+    "light_emitted": 2,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "SHARP" ],
+    "emissions": [ "emit_shock_steady1" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 50,
+      "sound": "twang!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "cable", "count": [ 1, 3 ] },
+        { "item": "wire", "count": [ 1, 3 ] },
+        { "item": "rebar", "count": [ 0, 1 ] },
+        { "item": "scrap", "count": [ 0, 1 ] }
+      ]
+    }
+  },
+  {
+    "id": "emit_shock_steady1",
+    "type": "emit",
+    "field": "fd_electricity",
+    "//": "steadily emits small pulses of low voltage electricity",
+    "intensity": 1,
+    "chance": 25,
+    "qty": 2
+  },
+  {
+    "id": "emit_shock_steady2",
+    "type": "emit",
+    "field": "fd_electricity",
+    "//": "steadily emits pulses of low voltage electricity",
     "intensity": 1,
     "chance": 50,
     "qty": 3
@@ -103,7 +141,7 @@
     "id": "f_bulbous_machine",
     "name": "bulbous machine",
     "description": "At first glance this just looks like an unidentified machine, but as you look closer you see what appear to be hairy, fleshy surfaces mixed among the controls.  Every so often it emits a soft moan.",
-	"looks_like": "f_machinery_old",
+    "looks_like": "f_machinery_old",
     "symbol": "&",
     "color": "red",
     "move_cost_mod": -1,
@@ -112,17 +150,17 @@
     "flags": [ "NOITEM", "MOUNTABLE", "TRANSPARENT" ],
     "deconstruct": {
       "items": [
-	    { "item": "cable", "count": [ 2, 5 ] },
-	    { "item": "wire", "count": [ 1, 2 ] } ,
-	    { "item": "scrap", "count": [ 1, 2 ] } ,
-	    { "item": "meat_tainted", "count": [ 1, 2 ] },
-	    { "item": "meal_bone_tainted", "count": [ 1, 2 ] },
-	    { "item": "e_scrap", "count": [ 2, 4 ] } ,
+        { "item": "cable", "count": [ 2, 5 ] },
+        { "item": "wire", "count": [ 1, 2 ] },
+        { "item": "scrap", "count": [ 1, 2 ] },
+        { "item": "meat_tainted", "count": [ 1, 2 ] },
+        { "item": "meal_bone_tainted", "count": [ 1, 2 ] },
+        { "item": "e_scrap", "count": [ 2, 4 ] },
         { "item": "steel_chunk", "count": [ 1, 4 ] },
         { "item": "spring", "count": 1 },
         { "item": "steel_lump", "count": 1 },
         { "item": "pipe_fittings", "count": [ 1, 4 ] },
-	    { "item": "sheet_metal", "count": 1 } 
+        { "item": "sheet_metal", "count": 1 }
       ]
     },
     "bash": {
@@ -131,19 +169,53 @@
       "sound": "crunch!",
       "sound_fail": "whack!",
       "furn_set": "f_broken_nethermachine",
-      "items": [ 
-	    { "item": "cable", "count": [ 0, 3 ] },
-	    { "item": "wire", "count": [ 0, 1 ] } ,
-	    { "item": "scrap", "count": [ 0, 1 ] } ,
-	    { "item": "meat_tainted", "count": [ 0, 2 ] },
-	    { "item": "meal_bone_tainted", "count": [ 0, 1 ] },
-	    { "item": "e_scrap", "count": [ 0, 1 ] } ,
+      "items": [
+        { "item": "cable", "count": [ 0, 3 ] },
+        { "item": "wire", "count": [ 0, 1 ] },
+        { "item": "scrap", "count": [ 0, 1 ] },
+        { "item": "meat_tainted", "count": [ 0, 2 ] },
+        { "item": "meal_bone_tainted", "count": [ 0, 1 ] },
+        { "item": "e_scrap", "count": [ 0, 1 ] },
         { "item": "steel_chunk", "count": [ 1, 4 ] },
         { "item": "spring", "prob": 80 },
         { "item": "steel_lump", "prob": 60 },
         { "item": "pipe_fittings", "count": [ 1, 2 ] },
-	    { "item": "sheet_metal", "count": [ 0, 1 ] } 
-	  ]
+        { "item": "sheet_metal", "count": [ 0, 1 ] }
+      ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_generator_maybe",
+    "name": "generator?",
+    "copy-from": "f_generator_broken",
+    "description": "If you had to guess you'd say this whirring machine was an electric generator, but it looks as though a six year old drew it and then a mechanical engineer built it to spec.  You can't see any easy way to deactivate it.",
+    "coverage": 30,
+    "required_str": 12,
+    "bash": {
+      "str_min": 20,
+      "str_max": 150,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "furn_set": "f_broken_nethermachine",
+      "items": [
+        { "item": "steel_lump", "prob": 50 },
+        { "item": "steel_chunk", "count": [ 1, 4 ] },
+        { "item": "cable", "count": [ 1, 2 ] },
+        { "item": "scrap", "count": [ 3, 7 ] },
+        { "item": "pipe", "count": [ 0, 1 ] }
+      ]
+    },
+    "deconstruct": {
+      "//": "Later on this should be disconnected rather than disassembled, producing an item you can deploy elsewhere.  That generator could maybe be used to power other netherum artifacts on a power grid, some day.",
+      "items": [
+        { "item": "cable", "charges": [ 1, 2 ] },
+        { "item": "motor_small", "count": [ 0, 1 ] },
+        { "item": "cable", "count": [ 1, 5 ] },
+        { "item": "pipe", "count": [ 1, 2 ] },
+        { "item": "pipe_fittings", "count": [ 1, 2 ] },
+        { "item": "xlframe", "count": 1 }
+      ]
     }
   },
   {
@@ -154,20 +226,22 @@
     "description": "This is a perfectly ordinary fabonator, like you've seen a thousand times… before?  As you look closer you can no longer recall what this thing is, and its function escapes like the memory of a dream.  You find you don't want to look directly at it any longer.",
     "symbol": "&",
     "bgcolor": "yellow",
-	"color": "white",
+    "color": "white",
     "move_cost_mod": 3,
     "required_str": 14,
     "flags": [ "TRANSPARENT", "MOUNTABLE" ],
     "deconstruct": {
+      "//": "Eventually we should make this something you can disconnect and rebuild at your home, so that you can have your own fabonator for all your appropriate needs.",
       "items": [
         { "item": "cable", "count": [ 0, 4 ] },
         { "item": "power_supply", "prob": 70 },
         { "item": "steel_chunk", "count": [ 1, 4 ] },
-	    { "item": "e_scrap", "count": [ 2, 4 ] } ,
+        { "item": "e_scrap", "count": [ 2, 4 ] },
         { "item": "spring", "prob": 80 },
         { "item": "steel_lump", "prob": 60 },
         { "item": "sheet_metal", "prob": 50 },
-        { "item": "motor", "prob": 60 }
+        { "item": "motor", "prob": 60 },
+        { "item": "pine_nuts", "count": [ 0, 1 ], "prob": 1 }
       ]
     },
     "bash": {
@@ -175,9 +249,10 @@
       "str_max": 45,
       "sound": "smash!",
       "sound_fail": "thunk.",
+      "furn_set": "f_broken_nethermachine",
       "items": [
         { "item": "cable", "count": [ 0, 3 ] },
-	    { "item": "e_scrap", "count": [ 0, 2 ] } ,
+        { "item": "e_scrap", "count": [ 0, 2 ] },
         { "item": "steel_chunk", "count": [ 1, 3 ] },
         { "item": "spring", "prob": 80 },
         { "item": "steel_lump", "prob": 50 },
@@ -192,7 +267,7 @@
     "id": "f_unchair",
     "name": "unchair",
     "description": "Though you can tell this is meant to be a metal chair, the angles jut awkwardly and it appears to be bolted to the floor.  You don't think you would enjoy sitting on it.",
-	"copy-from": "f_metal_bench",
+    "copy-from": "f_metal_bench",
     "move_cost_mod": 2,
     "coverage": 25,
     "required_str": -1
@@ -202,9 +277,8 @@
     "id": "t_softconc_floor",
     "name": "noncrete floor",
     "description": "This looks exactly like a concrete floor, but the surface is soft and spongey.  While it is a bit fun to walk on, it's not the best surface for combat.",
-	"copy-from": "t_thconc_floor"
+    "copy-from": "t_thconc_floor",
     "move_cost": 4,
-    "roof": "t_flat_roof",
     "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS" ],
     "bash": {
       "sound": "SQUARSH!",
@@ -218,20 +292,23 @@
         { "item": "nanosand", "count": [ 2, 4 ] }
       ]
     }
-  }, 
+  },
   {
     "type": "terrain",
     "id": "t_nanosand",
     "name": "nanosand",
     "description": "A silvery, sandy material that seems to naturally fall into complex shapes, including triangles and spirals.",
-	"copy-from": "t_sand",
-	"color": "white",
+    "copy-from": "t_sand",
+    "color": "white",
     "roof": "t_flat_roof",
-    "connects_to": "SAND",
     "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT", "INDOORS" ],
-    "bash": { "sound": "shffft", "ter_set": "t_nanosand", "str_min": 20, "str_max": 50, "str_min_supported": 100,
-      "items": [
-        { "item": "nanosand", "count": [ 2, 8 ] }
-      ] }
-  },
+    "bash": {
+      "sound": "shffft",
+      "ter_set": "t_nanosand",
+      "str_min": 20,
+      "str_max": 50,
+      "str_min_supported": 100,
+      "items": [ { "item": "nanosand", "count": [ 2, 8 ] } ]
+    }
+  }
 ]
