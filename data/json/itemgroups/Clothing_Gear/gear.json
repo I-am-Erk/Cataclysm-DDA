@@ -227,5 +227,14 @@
       { "item": "mask_dust", "prob": 20 },
       { "item": "glasses_bal", "prob": 20 }
     ]
+  },
+  {
+    "id": "full_camel",
+    "type": "item_group",
+    "//": "This group is a hydration pack full of clean water.",
+    "subtype": "collection",
+    "entries": [
+      { "item": "water_clean", "container-item": "camelbak" }
+    ]
   }
 ]
