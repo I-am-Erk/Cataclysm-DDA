@@ -97,13 +97,12 @@
       { "group": "soup_packet" },
       { "item": "dogfood_dry" },
       { "item": "lighter", "charges": 100 },
-      { "item": "water_clean" },
       { "item": "aspirin" },
       { "item": "bandages" },
       { "item": "pot" },
       { "item": "FMCNote", "count": 10 },
       { "item": "357mag_fmj", "count": 2 },
-      { "group": "full_camel" }
+      { "item": "water_clean", "container-item": "camelbak" }
     ]
   },
   {
