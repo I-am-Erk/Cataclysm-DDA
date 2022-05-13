@@ -3,22 +3,48 @@
 	  "condition": { "and": [ { "u_has_mission": "RUBIK_WAREHOUSE_1" }, "not": { "npc_has_var": "exo_warehouse_1", "type": "mission", "value": "asked" } ] },
 	  "effect": [ 
 	    { "npc_add_var": "exo_warehouse_1", "type": "mission", "value": "asked" },
-		{ "arithmetic": [ { "npc_val": "var", "var_name": "exo_warehouse_1", "type": "randomize", "context": "mission" }, "=", { "rand": 3 } }
-	  ],
-	  "topic": "TALK_EXODII_Warehouse_1_Ask" }
+		{ "arithmetic": [ { "npc_val": "var", "var_name": "exo_warehouse_1_random" }, "=", { "rand": 4 } ] }
+	  }
   {
     "id": "TALK_EXODII_Warehouse_1_Ask",
     "type": "talk_topic",
-    "dynamic_line": {
-		"npc_val": "var",
-		"var_name": "exo_warehouse_1", "type": "randomize", "context": "mission"
-	}
-	"speaker_effect": { 
-	  "effect": [
-		{ "arithmetic": [ { "u_val": "var", "var_name": "exo_warehouse_1_asked" }, "+=", { "const": 1 } ] }
-	  ]
-    "responses": [
-      { "text": "<end_talking>", "topic": "TALK_DONE" }
-    ]
-  },
+    "dynamic_line": "Hmm, I might have heard a thing or two.  Is there anything interesting out there?",
+      "responses": [
+        {
+          "text": "How about you tell me what you saw, and I'll see if I can explain after I check it out?",
+          "topic": "TALK_EXODII_Warehouse_1_Ask_Assign",
+          "condition": { "compare_int": [ { "npc_val": "exo_warehouse_1_random" }, "<=", { "u_val": "exo_warehouse_1_asked" } ] },
+          "switch": true,
+          "default": true,
+          "effect": [ { "assign_mission": "RUBIK_WAREHOUSE_1_directions" } ]
+        },
+        {
+          "text": "How about you tell me what you saw, and I'll see if I can explain after I check it out?",
+          "topic": "TALK_EXODII_Warehouse_1_Ask_Assign",
+          "condition": { "compare_int": [ { "npc_val": "exo_warehouse_1_random" }, "=", { "const": 0 } ] },
+          "switch": true,
+          "effect": [ { "assign_mission": "RUBIK_WAREHOUSE_1_directions1" } ]
+        },
+        {
+          "text": "How about you tell me what you saw, and I'll see if I can explain after I check it out?",
+          "topic": "TALK_EXODII_Warehouse_1_Ask_Assign",
+          "condition": { "compare_int": [ { "npc_val": "exo_warehouse_1_random" }, "=", { "const": 1 } ] },
+          "switch": true,
+          "effect": [ { "assign_mission": "RUBIK_WAREHOUSE_1_directions2" } ]
+        },
+        {
+          "text": "How about you tell me what you saw, and I'll see if I can explain after I check it out?",
+          "topic": "TALK_EXODII_Warehouse_1_Ask_Assign",
+          "condition": { "compare_int": [ { "npc_val": "exo_warehouse_1_random" }, "=", { "const": 2 } ] },
+          "switch": true,
+          "effect": [ { "assign_mission": "RUBIK_WAREHOUSE_1_directions3" } ]
+        }
+      ]
+    },
+  {
+    "id": "TALK_EXODII_Warehouse_1_Ask_Assign",
+    "type": "talk_topic",
+    "dynamic_line": "Ah, fine, whatever.  I'm curious, but it's an old metal shack, so it's no skin off my back just giving you some directions.",
+  }
 ]
+
