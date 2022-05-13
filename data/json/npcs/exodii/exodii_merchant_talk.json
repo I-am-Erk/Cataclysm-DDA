@@ -23,11 +23,14 @@
       "TALK_EXODII_MERCHANT_DoneTrade",
       "TALK_EXODII_MERCHANT_Exodus2",
       "TALK_EXODII_MERCHANT_ExodizeNope",
-      "TALK_EXODII_MERCHANT_Survival2"
+      "TALK_EXODII_MERCHANT_Survival2",
+	  "TALK_EXODII_MERCHANT_Mission_Rejected",
+	  "TALK_EXODII_MERCHANT_Mission_Accepted"
     ],
     "type": "talk_topic",
     "responses": [
       { "text": "What've you got for trade?", "effect": "start_trade", "topic": "TALK_EXODII_MERCHANT_DoneTrade" },
+      { "text": "Have you got any work I could do for you?", "topic": "TALK_EXODII_MERCHANT_Missions", "condition": { "not": { "u_has_var": "exo_warehouse_1", "type": "mission", "value": "complete" } } },
       { "text": "I don't understand a word you're saying.", "topic": "TALK_EXODII_MERCHANT_Dialect" },
       { "text": "Are you some kind of robot?", "topic": "TALK_EXODII_MERCHANT_Robot" },
       {

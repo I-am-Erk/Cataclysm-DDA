@@ -20,5 +20,128 @@
       "failure": "Fine an' fine.  Come back to this'n if you like to try again."
     },
     "end": { "effect": [ { "u_add_var": "anusfetick", "type": "mission", "context": "completed", "value": "yes" } ] }
+  },
+  {
+    "id": "RUBIK_WAREHOUSE_1",
+    "type": "mission_definition",
+    "name": { "str": "Find the missing Exodii supply depot" },
+    "goal": "MGOAL_CONDITION",
+    "goal_condition": { "u_has_var": "exo_warehouse_1", "type": "mission", "value": "found" },
+    "difficulty": 3,
+    "value": 240,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "",
+      "offer": "",
+      "accepted": "King's own luck!",
+      "rejected": "That be a choice an' you can tass.  Come back to this'n if you like.",
+      "advice": "Mayhap y'could inquire for about the others from your world, sommat.",
+      "inquire": "Have y'had a kenning o' the ol' store-hall?",
+      "success": "Fine an' fine.  We can pass it in when you like.",
+      "success_lie": "Fine an' fine.  We can pass it in when you like.",
+      "failure": "Fine an' fine.  Come back to this'n if you like to try again."
+    },
+    "end": { "effect": [ { "u_add_var": "exo_warehouse_1", "type": "mission", "value": "complete" } ] }
+  },
+  {
+    "id": "RUBIK_WAREHOUSE_1",
+    "type": "mission_definition",
+    "name": { "str": "Find the missing Exodii supply depot" },
+    "goal": "MGOAL_CONDITION",
+    "goal_condition": { "u_has_var": "exo_warehouse_1", "type": "mission", "value": "found" },
+    "difficulty": 3,
+    "value": 240,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "",
+      "offer": "",
+      "accepted": "King's own luck!",
+      "rejected": "That be a choice an' you can tass.  Come back to this'n if you like.",
+      "advice": "Mayhap y'could inquire for about the others from your world, sommat.",
+      "inquire": "Have y'had a kenning o' the ol' store-hall?",
+      "success": "Fine an' fine.  We can pass it in when you like.",
+      "success_lie": "Fine an' fine.  We can pass it in when you like.",
+      "failure": "Fine an' fine.  Come back to this'n if you like to try again."
+    },
+    "end": { "effect": [ { "u_add_var": "exo_warehouse_1", "type": "mission", "value": "complete" } ] }
+  },
+  {
+    "//": "table of contents: common responses for topics related to missions.",
+    "id": [
+      "TALK_EXODII_MERCHANT_Missions",
+	  "TALK_EXODII_MERCHANT_Mission_Rejected",
+	  "TALK_EXODII_MERCHANT_Mission_Accepted"
+    ],
+    "type": "talk_topic",
+    "responses": [
+      { "text": "Can you tell me more about that warehouse I'm looking for?", 
+        "condition": { "u_has_mission": "RUBIK_WAREHOUSE_1" },
+		"topic": "TALK_EXODII_MERCHANT_Mission_Warehouse_1_Clues" },
+  {
+    "id": "TALK_EXODII_MERCHANT_Missions",
+    "type": "talk_topic",
+    "//": "Rubik can't really use the default TALK_MISSION_LIST, so this wrapper serves as a table of contents for their available missions. Responses should be conditionally set to only appear if a given mission is available. They could potentially offer multiple missions at a time. This dialogue option should not appear at all if Rubik has no jobs to offer.",
+    "dynamic_line": {
+      "and": [
+        "*leans their huge metal frame forward in a gesture that somehow shows interest, despite the lack of facial features.  \"Oh, fine and yes, us'n can find ye some tass.",
+        {
+          "u_has_var": "exo_warehouse_1",
+          "type": "mission",
+          "value": "started",
+          "no": "\u0020\u0020For an that, we've a goodun.  As ye may ken, when us're to arrive in this green an' brown, it be a fine lark.  We've a good mess o' scouts an' finders, but there's a dandy cap what's out o' our scamper.  In a bright jiff, one such is a rusty ol' hut, a metal shack for storage y'ken, what lost connection to us'n's, uh, what ye'd call a 'transpornider' an' I'm ken.  It has some stuff o' value we'd be well an' truly pleased to get back to the fold.\"",
+          "yes": "\u0020\u0020First, though y'should spend y'r tass for the store shack.\""
+        }
+      ]
+    },
+    "//~": "Oh, fine and yes, we can find something for you to do.  (warehouse_1 mission: As you might see, when we came here, it was a bit of a mess.  We have our own scouts and trackers, but there's still a lot we haven't tracked down.)",
+    "responses": [
+      {
+        "text": "Tell me more about your lost warehouse.",
+        "topic": "TALK_EXODII_MERCHANT_Mission_Warehouse_1",
+        "condition": {
+          "or": [
+            { "not": { "u_has_mission": "RUBIK_WAREHOUSE_1" } },
+            { "u_has_var": "exo_warehouse_1", "type": "mission", "value": "completed" }
+          ]
+        }
+      },
+      { "text": "I'll have to think about that.  Can we talk about something else?", "topic": "TALK_EXODII_MERCHANT_Mission_Rejected" }
+      { "text": "Maybe I'll ask you some more about that later, but I'm gonna leave.  Bye.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "TALK_EXODII_MERCHANT_Mission_Warehouse_1",
+    "type": "talk_topic",
+    "dynamic_line": "When us'n comes as a new land, it's in bits and drabs.  Sometimes, us'n loses sight o' the parts, an' I'm ken.  The store-shack be one such.  I'd razz it's a fine sight in your space, but 'tain't grand nor large.  Ye'd be well suited t'ask around amongst others what ain't dead.",
+    "//~": "When we come to a new world, we arrive in parts over time.  Sometimes we lose track of some of the pieces.  The warehouse is one of those.  It should looke out of place in your world, but it's not very big.  You might want to ask other survivors.",
+    "responses": [
+      {
+        "text": "So I'm looking for an out-of-place smallish metal building, and I should see if other survivors have spotted it?  Sounds fine, I'm in.",
+        "topic": "TALK_EXODII_MERCHANT_Mission_Accepted",
+		"effect": [
+		  { "u_assign_mission": "RUBIK_WAREHOUSE_1" },
+		  { "arithmetic": [ { "u_val": "var", "var_name": "exo_warehouse_1_asked" }, "=", { "const": 0 } ] }
+      },
+      { "text": "I'll have to think about that.  Can we talk about something else?", "topic": "TALK_EXODII_MERCHANT_Mission_Rejected" }
+      { "text": "I'll have to think about that.  <end_talking>", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "TALK_EXODII_MERCHANT_Mission_Accepted",
+    "type": "talk_topic",
+    "dynamic_line": "Fine an' fine!  Us're grateful f'r it, an' a spark.",
+    "//~": "That's good news.  I'm grateful for your help.",
+    "responses": [
+      { "text": "<end_talking>", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "TALK_EXODII_MERCHANT_Mission_Rejected",
+    "type": "talk_topic",
+    "dynamic_line": "This'n'll be awaitin' here if y'have come as a a spare.  A change of heart, that is.",
+    "//~": "I'll be around if you have a change of heart.",
+    "responses": [
+      { "text": "<end_talking>", "topic": "TALK_DONE" }
+    ]
   }
 ]

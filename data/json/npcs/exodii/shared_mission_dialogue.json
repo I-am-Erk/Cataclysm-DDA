@@ -1,0 +1,24 @@
+[
+      { "text": "This might sound weird, but have you heard any rumors about a small, out-of-place metal storage shed in the wilderness?", 
+	  "condition": { "and": [ { "u_has_mission": "RUBIK_WAREHOUSE_1" }, "not": { "npc_has_var": "exo_warehouse_1", "type": "mission", "value": "asked" } ] },
+	  "effect": [ 
+	    { "npc_add_var": "exo_warehouse_1", "type": "mission", "value": "asked" },
+		{ "arithmetic": [ { "npc_val": "var", "var_name": "exo_warehouse_1", "type": "randomize", "context": "mission" }, "=", { "rand": 3 } }
+	  ],
+	  "topic": "TALK_EXODII_Warehouse_1_Ask" }
+  {
+    "id": "TALK_EXODII_Warehouse_1_Ask",
+    "type": "talk_topic",
+    "dynamic_line": {
+		"npc_val": "var",
+		"var_name": "exo_warehouse_1", "type": "randomize", "context": "mission"
+	}
+	"speaker_effect": { 
+	  "effect": [
+		{ "arithmetic": [ { "u_val": "var", "var_name": "exo_warehouse_1_asked" }, "+=", { "const": 1 } ] }
+	  ]
+    "responses": [
+      { "text": "<end_talking>", "topic": "TALK_DONE" }
+    ]
+  },
+]
