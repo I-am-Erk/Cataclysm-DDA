@@ -15,13 +15,13 @@
     "id": "NC_FREE_MERCHANT_TEAMSTER",
     "name": { "str": "Teamster" },
     "job_description": "I'm just a trader.",
-    "traits": [ 
-      { "group": "BG_survival_story_EVACUEE" }, 
-      { "group": "NPC_starting_traits" }, 
-      { "group": "Appearance_demographics" }, 
-      { "trait": "IGNORE_SOUND" }, 
-      { "trait": "NO_BASH" }, 
-      { "trait": "RETURN_TO_START_POS" } 
+    "traits": [
+      { "group": "BG_survival_story_EVACUEE" },
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" },
+      { "trait": "IGNORE_SOUND" },
+      { "trait": "NO_BASH" },
+      { "trait": "RETURN_TO_START_POS" }
     ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
