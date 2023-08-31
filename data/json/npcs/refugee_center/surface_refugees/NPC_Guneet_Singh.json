@@ -88,7 +88,8 @@
         "failure": { "topic": "TALK_REFUGEE_Refuse_Boris_Mission_1" }
       },
       { "text": "What's your story?", "topic": "TALK_REFUGEE_Guneet_Background" },
-      { "text": "How are things here?", "topic": "TALK_REFUGEE_Guneet_Situation" }
+      { "text": "How are things here?", "topic": "TALK_REFUGEE_Guneet_Situation" },
+	  { "text": "Your dad sure loves storytelling, hey?", "topic": "TALK_REFUGEE_Guneet_Mandeep" }
     ]
   },
   {
@@ -162,6 +163,21 @@
     "dynamic_line": "*shrugs.  \"I don't have any skills.  I'm just a kid.  What am I going to do?\"  Before you can answer, he shakes his head.  \"I'm being pathetic, sorry.  You're right, I should see if there's something I can give back to the community, maybe make my place in it.  That's a good call.\"  He scratches his chin and looks out a gap in the shutters on the window.  \"Thanks.\"",
     "speaker_effect": { "effect": { "npc_add_var": "Guneet_ideas", "type": "timer", "context": "flag", "time": true } },
     "//": "In the near future, Gunny will have ideas to add comfy furniture and a video game system to the cafeteria area.",
+    "responses": [
+      { "text": "What were you saying before?", "topic": "TALK_NONE" },
+      { "text": "I'd better get going.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_REFUGEE_Guneet_Mandeep",
+    "dynamic_line": "*smiles for a moment.  \"Yeah, he's such a dork.  You know he was an archaeology professor back in the old country?  He used to love telling stories from when he was a kid, old Punjabi legends and stuff.  I wonder what his lectures were like.  He got so into it, doing the voices and things.\"  After a whistful glance at his father, Guneet turns to look at you again.  \"You know, he's really shy in this crowd, but I bet I could convince him to start telling stories again, to the other refugees.  Might be a nice way to start making friends.\"",
+	"speaker_effect": {
+      "effect": [
+        { "u_add_var": "archaeology", "type": "npc_knowledge", "context": "mandeep", "value": "learned" },
+        { "u_add_var": "mandeep_folklore", "type": "npc_knowledge", "context": "guneet", "value": "learned" }
+      ]
+    },
     "responses": [
       { "text": "What were you saying before?", "topic": "TALK_NONE" },
       { "text": "I'd better get going.", "topic": "TALK_DONE" }

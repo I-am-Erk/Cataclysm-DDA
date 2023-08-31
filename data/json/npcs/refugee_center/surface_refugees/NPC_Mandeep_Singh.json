@@ -157,11 +157,16 @@
     "type": "talk_topic",
     "id": "TALK_REFUGEE_Mandeep_Background2",
     "dynamic_line": "*he blinks, looking a bit surprised.  \"'Before'.  It sounds so dramatic, doesn't it?  I suppose drama is appropriate.  Well, in India, I was actually a junior university professor, in archaeology.  When I brought my family to the United States, I was to have a job at Emerson.\"  He smiles sadly.  \"Things don't always work out as we hope.  Most lately, I have been driving truck for UPS.\"",
+	"speaker_effect": {
+      "effect": [
+        { "u_add_var": "archaeology", "type": "npc_knowledge", "context": "mandeep", "value": "learned" }
+      ]
+    },
     "responses": [
       { "text": "What happened with your professor job?", "topic": "TALK_REFUGEE_Mandeep_Background3" },
       { "text": "How did you and your family make it here?", "topic": "TALK_REFUGEE_Mandeep_Survival" },
       { "text": "What were you saying before?", "topic": "TALK_NONE" },
-      { "text": "I'd better get going.", "topic": "TALK_DONE" }
+      { "text": "I'd better get going.", "topic": "TALK_DONE" } 
     ]
   },
   {
@@ -191,6 +196,11 @@
     "type": "talk_topic",
     "id": "TALK_REFUGEE_Mandeep_Survival2",
     "dynamic_line": "*smiles, very briefly, and nods.  \"Very well.  The blockage had forced us to go through the woods, and our rusty old sedan was not suited to it.  We must have jarred something loose, because we were not far past the trailer when there was a loud bang, and the wheels stopped turning.  The engine spun and the axles rattled, but it was all sound and fury, signifying nothing.  We'd moved far enough from the overturned trailer to buy time, but as we got out of the vehicle, we could hear their moans on the wind, drawing closer.\"  As he dives into the story, Mandeep becomes more animated, his resonant accented voice carrying naturally over the rolling cadence of his words.  \"I am no mechanic, and even if I were, there was no time for repairs.  We took what we owned and carried on on foot.  The center was not far, I knew, and at least Guneet and I had our kirpan, should we be forced to defend ourselves.\"  He touches the handle of the sword at his side, giving you a moment to interrupt if you want.",
+	"speaker_effect": {
+      "effect": [
+        { "u_add_var": "storyteller", "type": "npc_knowledge", "context": "mandeep", "value": "learned" }
+      ]
+    },
     "responses": [
       { "text": "(Say nothing)", "topic": "TALK_REFUGEE_Mandeep_Survival3" },
       { "text": "I'd better get going.", "topic": "TALK_DONE" }
@@ -203,6 +213,30 @@
     "responses": [
       { "text": "Tell me about yourself.  What did you do before?", "topic": "TALK_REFUGEE_Mandeep_Background2" },
       { "text": "Thanks for the story.  I'd better get going.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_REFUGEE_Mandeep_Stories",
+    "dynamic_line": "Yes, my son has reminded me that the people here may not know as much as I do about old Punjabi legends.\"  He looks thoughtful.  \"I'm considering his suggestion.  It might be nice to share some stories here, but it seems kind of awkward, don't you think?  How should I start?  Should I just sit in the cafeteria and announce it is storytime?",
+    "responses": [
+      { "text": "(Social 2) Basically, yeah!  People here are desperate for something to do.  I bet if you tell people your background and frame it as sharing some of your old knowledge and training from when you were a professor, you'd get some interest.", "topic": "TALK_REFUGEE_Mandeep_Stories2", 
+        "condition": { "math": [ "u_skill('speech')", ">=", "2" ] },
+      { "text": "Hmm.  I see your point.  What were we talking about?", "topic": "TALK_NONE" }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_REFUGEE_Mandeep_Stories2",
+    "dynamic_line": "You could be right.  I think boredom is a severe problem for us.\"  He runs his hands through his thick beard.  \"I will consider what you've said.  Thank you, my friend.",
+	"//": "For later, you should be able to return in a little while and talk to Mandeep and other refugees about how the storytelling has shaped up.",
+	"speaker_effect": {
+      "effect": [
+        { "u_add_var": "storyteller", "type": "npc_state", "context": "mandeep", "value": "agreed" }
+      ]
+    },
+    "responses": [
+      { "text": "<done_talking>", "topic": "TALK_DONE" }
     ]
   },
   {
