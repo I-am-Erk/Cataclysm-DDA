@@ -51,11 +51,6 @@
   },
   {
     "type": "weapon_category",
-    "id": "BLADED_FARMING",
-    "name": "BLADED FARMING"
-  },
-  {
-    "type": "weapon_category",
     "id": "CLAWS",
     "name": "CLAWS"
   },
@@ -123,5 +118,10 @@
     "type": "weapon_category",
     "id": "GREAT_AXES",
     "name": "GREAT AXES"
+  },
+  {
+    "type": "weapon_category",
+    "id": "HAND_AXES",
+    "name": "HAND AXES"
   }
 ]

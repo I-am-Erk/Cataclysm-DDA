@@ -17,18 +17,14 @@
 #include "translations.h"
 #include "type_id.h"
 
-extern const sub_bodypart_str_id sub_body_part_sub_limb_debug;
-
 class JsonObject;
 class JsonOut;
 class JsonValue;
 struct sub_body_part_type;
 struct body_part_type;
 
-
 using sub_bodypart_str_id = string_id<sub_body_part_type>;
 using sub_bodypart_id = int_id<sub_body_part_type>;
-
 
 enum class side : int {
     BOTH,
@@ -47,8 +43,6 @@ struct sub_body_part_type {
     sub_bodypart_str_id id;
     std::vector<std::pair<sub_bodypart_str_id, mod_id>> src;
     sub_bodypart_str_id opposite;
-
-
 
     bool was_loaded = false;
 
@@ -73,9 +67,14 @@ struct sub_body_part_type {
     // would have this value
     int max_coverage = 0;
 
+    // the locations that are under this location
+    // used with secondary locations to define what sublocations
+    // exist bellow them for things like discomfort
+    std::vector<sub_bodypart_str_id> locations_under;
+
     static void load_bp( const JsonObject &jo, const std::string &src );
 
-    void load( const JsonObject &jo, const std::string &src );
+    void load( const JsonObject &jo, std::string_view src );
 
     // combine matching body part strings together for printing
     static std::vector<translation> consolidate( std::vector<sub_bodypart_id> &covered );
