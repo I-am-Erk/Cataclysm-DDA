@@ -1695,6 +1695,35 @@ item_location npc::find_usable_ammo( const item_location &weap ) const
     return const_cast<npc *>( this )->find_usable_ammo( weap );
 }
 
+void npc::share_ammo_with_friends()
+{
+    map &here = get_map();
+    for( const npc &guy : g->all_npcs() ) {
+        if( &guy == this ) {
+            add_msg_debug( debugmode::DF_NPC_ITEMAI, "%s can't give %s spare ammo, for obvious reasons.", name, guy.name );
+            continue;
+        }
+        if( !here.has_potential_los( pos(), guy.pos() ) ) {
+            // TK: also make this check distance to guy is not too far.
+            add_msg_debug( debugmode::DF_NPC_ITEMAI, "%s can't see %s to give ammo.", name, guy.name  );
+            continue;
+        }
+        if( is_friendly( guy ) ) {
+            //1. Identify what weapon guy is wielding
+            //2. Identify if wielded weapon uses ammo
+            //3. Identify type of ammo wielded weapon is loaded with
+            //4. Check this NPC's inventory for that ammo.
+            //5. Check guy's inventory for that ammo.
+            //6. give an amount of ammo from this's inventory to guy so that they now have equal amounts of that ammo (max 1/2 of this's total)
+            //7. Optional, do the same for magazines supported by that gun.
+            //8. Optional, getting more into weeds, if guy is out of current ammo and this has a different ammo that works, use that instead
+            item_location weapon = guy.get_wielded_item();
+            const item_location ammo_type = select_ammo( weapon ).ammo;
+            add_msg_debug( debugmode::DF_NPC_ITEMAI, "%s would give ammo to %s if I'd programmed that in.", name, guy.name );
+        }
+    }
+}
+
 void npc::activate_combat_cbms()
 {
     for( const bionic_id &cbm_id : defense_cbms ) {
@@ -1967,6 +1996,13 @@ npc_action npc::address_needs( float danger )
     if( reloadable ) {
         do_reload( reloadable );
         return npc_noop;
+    }
+    
+    if( one_in( 3 ) ) {
+        add_msg_debug( debugmode::DF_NPC_ITEMAI, "%s decided to see about sharing items.", name );
+        share_ammo_with_friends();
+        return npc_noop;
+        
     }
 
     // Extreme thirst or hunger, bypass safety check.
