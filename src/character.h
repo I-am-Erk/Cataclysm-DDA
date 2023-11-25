@@ -418,6 +418,12 @@ struct stat_mod {
     int speed = 0;
 };
 
+class status_display {
+	//
+	int base_threat = 0;
+	time_point threat_last_updated = calendar::turn;
+}	
+
 inline social_modifiers operator+( social_modifiers lhs, const social_modifiers &rhs )
 {
     lhs += rhs;

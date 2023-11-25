@@ -634,7 +634,7 @@ float npc::evaluate_self( bool my_gun )
                    "<color_light_gray>%s assesses own weapon value as %1.2f.",
                    name, my_weap_val );
 
-    threat += static_cast<float>( personality.bravery + personality.aggression );
+    
     add_msg_debug( debugmode::DF_NPC_COMBATAI,
                    "<color_light_gray>%s updates own threat by %i based on personality.",
                    name, personality.bravery + personality.aggression );
@@ -649,6 +649,9 @@ float npc::evaluate_self( bool my_gun )
                    name,
                    mem_combat.my_health * 100.0f, pain_factor, threat );
     add_msg_debug( debugmode::DF_NPC, "%s assesses own threat as %1.2f", name, threat );
+	status_display.base_threat = threat * 100;
+	status_display.threat_last_updated = calendar::turn;
+	threat += ( personality.bravery + personality.aggression ) * speed * mem_combat.my_health;
     return std::min( threat, NPC_CHARACTER_DANGER_MAX );
 }
 
