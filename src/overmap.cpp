@@ -3369,6 +3369,13 @@ void overmap::generate( const overmap *north, const overmap *east,
                     layer[z + OVERMAP_DEPTH].terrain[i][j] = lake_surface;
                 }
             }
+            const oter_id ocean_surface( "ocean_surface" );
+            for( int j = 0; j < OMAPY; j++ ) {
+                // NOLINTNEXTLINE(modernize-loop-convert)
+                for( int i = 0; i < OMAPX; i++ ) {
+                    layer[z + OVERMAP_DEPTH].terrain[i][j] = ocean_surface;
+                }
+            }
         }
     }
     if( get_option<bool>( "OVERMAP_POPULATE_OUTSIDE_CONNECTIONS_FROM_NEIGHBORS" ) ) {
@@ -4492,6 +4499,92 @@ void overmap::place_forest_trailheads()
             oter_id oter = ter( p );
             if( is_ot_match( "forest_trail_end", oter, ot_match_type::prefix ) ) {
                 try_place_trailhead_special( p, oter->get_dir() );
+            }
+        }
+    }
+}
+
+void overmap::place_ocean()
+{
+    const om_noise::om_noise_layer_ocean f( global_base_point(), g->get_seed() );
+
+    const auto is_ocean = [&]( const point_om_omt & p ) {
+        return f.noise_at( p ) > something;
+    };
+
+    const oter_id lake_surface( "lake_surface" );
+    const oter_id lake_shore( "lake_shore" );
+    const oter_id lake_water_cube( "lake_water_cube" );
+    const oter_id lake_bed( "lake_bed" );
+
+    // We'll keep track of our visited ocean points so we don't repeat the work.
+    std::unordered_set<point_om_omt> visited;
+
+    for( int i = 0; i < OMAPX; i++ ) {
+        for( int j = 0; j < OMAPY; j++ ) {
+            point_om_omt seed_point( i, j );
+            if( visited.find( seed_point ) != visited.end() ) {
+                continue;
+            }
+
+            // It's a ocean if it exceeds the noise threshold defined in the region settings.
+            if( !is_ocean( seed_point ) ) {
+                continue;
+            }
+
+            // We're going to flood-fill our ocean so that we can consider the entire ocean when evaluating it
+            // for placement, even when the ocean runs off the edge of the current overmap.
+            std::vector<point_om_omt> ocean_points =
+                ff::point_flood_fill_4_connected( seed_point, visited, is_ocean );
+
+            // Build a set of "ocean" points. We're actually going to combine both the ocean points
+            // we just found AND all of the rivers on the map, because we want our oceans to write
+            // over any rivers that are placed already. Note that the assumption here is that river
+            // overmap generation (e.g. place_rivers) runs BEFORE ocean overmap generation.
+            std::unordered_set<point_om_omt> ocean_set;
+            for( auto &p : ocean_points ) {
+                ocean_set.emplace( p );
+            }
+
+            for( int x = 0; x < OMAPX; x++ ) {
+                for( int y = 0; y < OMAPY; y++ ) {
+                    const tripoint_om_omt p( x, y, 0 );
+                    if( ter( p )->is_river() ) {
+                        ocean_set.emplace( p.xy() );
+                    }
+                }
+            }
+
+            // Iterate through all of our ocean points, rejecting the ones that are out of bounds. For
+            // those that are inbounds, look at the 8 adjacent locations and see if they are also part
+            // of our ocean points set. If they are, that means that this location is entirely surrounded
+            // by ocean and should be considered a ocean surface. If at least one adjacent location is not
+            // part of this ocean points set, that means this location should be considered a ocean shore.
+            // Either way, make the determination and set the overmap terrain.
+            for( auto &p : ocean_points ) {
+                if( !inbounds( p ) ) {
+                    continue;
+                }
+
+                bool shore = false;
+                for( int ni = -1; ni <= 1 && !shore; ni++ ) {
+                    for( int nj = -1; nj <= 1 && !shore; nj++ ) {
+                        const point_om_omt n = p + point( ni, nj );
+                        if( ocean_set.find( n ) == ocean_set.end() ) {
+                            shore = true;
+                        }
+                    }
+                }
+
+                ter_set( tripoint_om_omt( p, 0 ), shore ? lake_shore : lake_surface );
+
+                // If this is not a shore, we'll make our subsurface ocean cubes and beds.
+                if( !shore ) {
+                    for( int z = -1; z > settings->>overmap_lake.lake_depth; z-- ) {
+                        ter_set( tripoint_om_omt( p, z ), lake_water_cube );
+                    }
+                    ter_set( tripoint_om_omt( p, settings->overmap_lake.lake_depth ), lake_bed );
+                }
             }
         }
     }
