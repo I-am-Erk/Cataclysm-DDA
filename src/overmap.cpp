@@ -4892,7 +4892,7 @@ void overmap::place_roads( const overmap *north, const overmap *east, const over
     std::vector<tripoint_om_omt> &roads_out = connections_out[overmap_connection_local_road];
 
     // At least 3 exit points, to guarantee road continuity across overmaps
-    if( roads_out.size() < 3 ) {
+    if( roads_out.size() < 20 ) {
 
         std::array<const overmap *, 4> neighbors = { east, south, west, north };
         static constexpr std::array<point, 4> neighbor_deltas = {
@@ -4914,27 +4914,29 @@ void overmap::place_roads( const overmap *north, const overmap *east, const over
         std::array < size_t, 4 > dirs = {0, 1, 2, 3};
         std::shuffle( dirs.begin(), dirs.end(), rng_get_engine() );
 
-        for( size_t dir : dirs ) {
-            // only potentially add a new random connection toward ungenerated overmaps
-            if( neighbors[dir] == nullptr ) {
-                std::shuffle( omap_num.begin(), omap_num.end(), rng_get_engine() );
-                for( const int &i : omap_num ) {
-                    tripoint_om_omt tmp = tripoint_om_omt(
-                                              edge_coords_x[dir] >= 0 ? edge_coords_x[dir] : i,
-                                              edge_coords_y[dir] >= 0 ? edge_coords_y[dir] : i,
-                                              0 );
-                    // Make sure these points don't conflict with rivers.
-                    if( !( is_river( ter( tmp ) ) ||
-                           // avoid adjacent rivers
-                           // east/west of a point on the north/south edge, and vice versa
-                           is_river( ter( tmp + neighbor_deltas[( dir + 1 ) % 4] ) ) ||
-                           is_river( ter( tmp + neighbor_deltas[( dir + 3 ) % 4] ) ) ) ) {
-                        roads_out.push_back( tmp );
+        while( roads_out.size() < 20 ){
+            for( size_t dir : dirs ) {
+                // only potentially add a new random connection toward ungenerated overmaps
+                if( neighbors[dir] == nullptr ) {
+                    std::shuffle( omap_num.begin(), omap_num.end(), rng_get_engine() );
+                    for( const int &i : omap_num ) {
+                        tripoint_om_omt tmp = tripoint_om_omt(
+                                                  edge_coords_x[dir] >= 0 ? edge_coords_x[dir] : i,
+                                                  edge_coords_y[dir] >= 0 ? edge_coords_y[dir] : i,
+                                                  0 );
+                        // Make sure these points don't conflict with rivers.
+                        if( !( is_river( ter( tmp ) ) ||
+                               // avoid adjacent rivers
+                               // east/west of a point on the north/south edge, and vice versa
+                               is_river( ter( tmp + neighbor_deltas[( dir + 1 ) % 4] ) ) ||
+                               is_river( ter( tmp + neighbor_deltas[( dir + 3 ) % 4] ) ) ) ) {
+                            roads_out.push_back( tmp );
+                            break;
+                        }
+                    }
+                    if( roads_out.size() == 20 ) {
                         break;
                     }
-                }
-                if( roads_out.size() == 3 ) {
-                    break;
                 }
             }
         }
@@ -5114,45 +5116,15 @@ void overmap::place_river( const point_om_omt &pa, const point_om_omt &pb )
     } while( pb != p2 );
 }
 
-/*: the root is overmap::place_cities()
-20:50 <kevingranade>: which is at overmap.cpp:1355 or so
-20:51 <kevingranade>: the key is cs = rng(4, 17), setting the "size" of the city
-20:51 <kevingranade>: which is roughly it's radius in overmap tiles
-20:52 <kevingranade>: then later overmap::place_mongroups() is called
-20:52 <kevingranade>: which creates a mongroup with radius city_size * 2.5 and population city_size * 80
-20:53 <kevingranade>: tadaa
-
-spawns happen at... <cue Clue music>
-20:56 <kevingranade>: game:pawn_mon() in game.cpp:7380*/
 void overmap::place_cities()
 {
-    // used to increase city size as we move East and South.
-    int city_size_adjust = 0;
-    // used to space cities out as we go more into the West and the Appalachians.
-    int city_space_adjust = 0;
-    const point_abs_om this_om = pos();
-    city_space_adjust += this_om.x() / 2;
-    if( this_om.x() > 0 ) {
-        city_size_adjust += this_om.x();
-        if( this_om.y() < 0 ) {
-            // the megacity reduces as we head north towards what would be New Hampshire, but the
-            // cities remain a bit more close packed.
-            city_size_adjust /= this_om.y() * -1;
-        }
-    }
-    if( this_om.y() > 0 ) {
-        city_size_adjust += this_om.y() / 2;
-    }
-    int op_city_size = get_option<int>( "CITY_SIZE" );
+    const int op_city_size = get_option<int>( "CITY_SIZE" );
     if( op_city_size <= 0 ) {
         return;
     }
-    int op_city_spacing = get_option<int>( "CITY_SPACING" );
-    if( op_city_spacing > 0 ) {
-        city_space_adjust = std::min( city_space_adjust, op_city_spacing - 2 );
-        op_city_spacing = op_city_spacing - city_space_adjust;
-    }
-    op_city_spacing = std::min( op_city_spacing, 10 );
+    const int op_city_size_min = 2; //get_option<int>( "CITY_SIZE_MIN" );
+    const int op_city_size_max = 10; //get_option<int>( "CITY_SIZE_MAX" );
+    const int op_city_spacing = get_option<int>( "CITY_SPACING" );
 
     // spacing dictates how much of the map is covered in cities
     //   city  |  cities  |   size N cities per overmap
@@ -5167,87 +5139,73 @@ void overmap::place_cities()
     //     7   |     0    |  15 |   3 |   0 |   0 |   0
     //     8   |     0    |   7 |   1 |   0 |   0 |   0
 
-    const double omts_per_overmap = OMAPX * OMAPY;
-    const double city_map_coverage_ratio = 1.0 / std::pow( 2.0, op_city_spacing );
-    const double omts_per_city = ( op_city_size * 2 + 1 ) * ( op_city_size * 2 + 1 ) * 3 / 4.0;
-
-    // how many cities on this overmap?
-    int num_cities_on_this_overmap = 0;
-    std::vector<city> cities_to_place;
-    for( const city &c : city::get_all() ) {
-        if( c.pos_om == pos() ) {
-            num_cities_on_this_overmap++;
-            cities_to_place.emplace_back( c );
+    int valid_city_location_omt_count = 0;
+    for( int x = 0; x < OMAPX; x++ ) {
+        for( int y = 0; y < OMAPY; y++ ) {
+            if( ter( { x, y, 0 } ) == settings->default_oter[OVERMAP_DEPTH] ) {
+                valid_city_location_omt_count++;
+            }
         }
     }
 
-    const bool use_random_cities = city::get_all().empty();
+    constexpr double omts_per_overmap = OMAPX * OMAPY;
+    const double city_map_coverage_ratio = 1.0 / std::pow( 2.0, op_city_spacing );
 
-    // Random cities if no cities were defined in regional settings
-    if( use_random_cities ) {
-        num_cities_on_this_overmap = roll_remainder( omts_per_overmap * city_map_coverage_ratio /
-                                     omts_per_city );
+    const int city_omts_per_overmap = std::min( valid_city_location_omt_count,
+                                      static_cast<int>( omts_per_overmap * city_map_coverage_ratio ) );
+
+    const auto estimated_omts_per_city = []( const int city_size ) {
+        return ( city_size * 2 + 1 ) * ( city_size * 2 + 1 ) * 3 / 4;
+    };
+
+    const auto calc_city_size = []( const int min, const int mode, const int max ) {
+        std::piecewise_linear_distribution<double> rng_triangle_dist;
+        constexpr std::array<int, 3> w{ 0, 1, 0 };
+        std::array<int, 3> i{ min, mode, max };
+        return rng_triangle_dist( rng_get_engine(),
+                                  std::piecewise_linear_distribution<>::param_type( i.begin(), i.end(), w.begin() ) );
+    };
+
+    // Build our set of cities with sizes but no locations until our estimated coverage
+    // meets or exceeds our required coverage.
+    int total_estimated_city_omts = 0;
+    while( total_estimated_city_omts < city_omts_per_overmap ) {
+        city tmp;
+        tmp.size = calc_city_size( op_city_size_min, op_city_size, op_city_size_max );
+        cities.push_back( tmp );
+        total_estimated_city_omts += estimated_omts_per_city( tmp.size );
     }
 
-    const overmap_connection &local_road( *overmap_connection_local_road );
+    // Sort the cities so our largest city is first.
+    std::sort( std::begin( cities ), std::end( cities ), []( const city & lhs, const city & rhs ) {
+        return lhs.size > rhs.size;
+    } );
 
-    // if there is only a single free tile, the probability of NOT finding it after MAX_PLACEMENT_ATTEMPTS attempts
-    // is (1 - 1/(OMAPX * OMAPY))^MAX_PLACEMENT_ATTEMPTS ≈ 36% for the OMAPX=OMAPY=180 and MAX_PLACEMENT_ATTEMPTS=OMAPX * OMAPY
-    const int MAX_PLACEMENT_ATTEMPTS = OMAPX * OMAPY;
-    int placement_attempts = 0;
+    const string_id<overmap_connection> local_road_id( "local_road" );
+    const overmap_connection &local_road( *local_road_id );
 
-    // place a seed for num_cities_on_this_overmap cities, and maybe one more
-    while( cities.size() < static_cast<size_t>( num_cities_on_this_overmap ) &&
-           placement_attempts < MAX_PLACEMENT_ATTEMPTS ) {
-        placement_attempts++;
-
-        tripoint_om_omt p;
-        city tmp;
-
-
-        if( use_random_cities ) {
-            // randomly make some cities smaller or larger
-            int size = rng( op_city_size - 1, op_city_size + city_size_adjust );
-            if( one_in( 3 ) ) { // 33% tiny
-                size = size * 1 / 3;
-            } else if( one_in( 2 ) ) { // 33% small
-                size = size * 2 / 3;
-            } else if( one_in( 2 ) ) { // 17% large
-                size = size * 3 / 2;
-            } else {             // 17% huge
-                size = size * 2;
-            }
-            // Ensure that cities are at least size 2, as city of size 1 is just a crossroad with no buildings at all
-            size = std::max( size, 2 );
-            size = std::min( size, 55 );
+    for( auto &placing_city : cities ) {
+        for( int attempts = 0; attempts < city_omts_per_overmap; attempts++ ) {
             // TODO: put cities closer to the edge when they can span overmaps
             // don't draw cities across the edge of the map, they will get clipped
-            point_om_omt c( rng( size - 1, OMAPX - size ), rng( size - 1, OMAPY - size ) );
-            p = tripoint_om_omt( c, 0 );
-            if( ter( p ) == settings->default_oter[OVERMAP_DEPTH] ) {
-                placement_attempts = 0;
-                ter_set( p, oter_road_nesw ); // every city starts with an intersection
-                tmp.pos = p.xy();
-                tmp.size = size;
+            int cx = rng( placing_city.size - 1, OMAPX - placing_city.size );
+            int cy = rng( placing_city.size - 1, OMAPY - placing_city.size );
+            const tripoint_om_omt p( cx, cy, 0 );
+
+            if( ter( p ) == settings->default_oter[OVERMAP_DEPTH] ||
+                is_ot_match( "forest", ter( p ), ot_match_type::prefix ) ) {
+                ter_set( p, oter_id( "road_nesw" ) ); // every city starts with an intersection
+                placing_city.pos = p.xy();
+
+                const auto start_dir = om_direction::random();
+                auto cur_dir = start_dir;
+
+                do {
+                    build_city_street( local_road, placing_city.pos, placing_city.size, cur_dir, placing_city );
+                } while( ( cur_dir = om_direction::turn_right( cur_dir ) ) != start_dir );
+
+                break;
             }
-        } else {
-            placement_attempts = 0;
-            tmp = random_entry( cities_to_place );
-            p = tripoint_om_omt( tmp.pos, 0 );
-            ter_set( tripoint_om_omt( tmp.pos, 0 ), oter_road_nesw );
-        }
-        if( placement_attempts == 0 ) {
-            cities.push_back( tmp );
-            const om_direction::type start_dir = om_direction::random();
-            om_direction::type cur_dir = start_dir;
-
-            do {
-                build_city_street( local_road, tmp.pos, tmp.size, cur_dir, tmp );
-            } while( ( cur_dir = om_direction::turn_right( cur_dir ) ) != start_dir );
-
-            // Replace city's original intersection OMT with a dedicated 'city_center' OMT
-            // This allows setting map extras specifically to cities (or their centers)
-            ter_set( tripoint_om_omt( tmp.pos, 0 ), oter_city_center );
         }
     }
 }
