@@ -435,7 +435,8 @@ class overmap
         void place_swamps();
         void place_forest_trails();
         void place_forest_trailheads();
-
+        // NOLINTNEXTLINE(cata-serialize)
+        std::vector<tripoint_om_omt> city_edge_roads;
         void place_roads( const overmap *north, const overmap *east, const overmap *south,
                           const overmap *west );
 

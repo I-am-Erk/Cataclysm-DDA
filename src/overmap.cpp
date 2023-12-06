@@ -4882,7 +4882,7 @@ void overmap::place_roads( const overmap *north, const overmap *east, const over
     std::vector<tripoint_om_omt> &roads_out = connections_out[overmap_connection_local_road];
 
     // At least 3 exit points, to guarantee road continuity across overmaps
-    if( roads_out.size() < 3 ) {
+    if( static_cast<int>(roads_out.size()) < 3 + urbanity / 2 ) {
 
         std::array<const overmap *, 4> neighbors = { east, south, west, north };
         static constexpr std::array<point, 4> neighbor_deltas = {
@@ -4904,27 +4904,29 @@ void overmap::place_roads( const overmap *north, const overmap *east, const over
         std::array < size_t, 4 > dirs = {0, 1, 2, 3};
         std::shuffle( dirs.begin(), dirs.end(), rng_get_engine() );
 
-        for( size_t dir : dirs ) {
-            // only potentially add a new random connection toward ungenerated overmaps
-            if( neighbors[dir] == nullptr ) {
-                std::shuffle( omap_num.begin(), omap_num.end(), rng_get_engine() );
-                for( const int &i : omap_num ) {
-                    tripoint_om_omt tmp = tripoint_om_omt(
-                                              edge_coords_x[dir] >= 0 ? edge_coords_x[dir] : i,
-                                              edge_coords_y[dir] >= 0 ? edge_coords_y[dir] : i,
-                                              0 );
-                    // Make sure these points don't conflict with rivers.
-                    if( !( is_river( ter( tmp ) ) ||
-                           // avoid adjacent rivers
-                           // east/west of a point on the north/south edge, and vice versa
-                           is_river( ter( tmp + neighbor_deltas[( dir + 1 ) % 4] ) ) ||
-                           is_river( ter( tmp + neighbor_deltas[( dir + 3 ) % 4] ) ) ) ) {
-                        roads_out.push_back( tmp );
+        while( static_cast<int>( roads_out.size()) < 3 + urbanity / 2 ){
+            for( size_t dir : dirs ) {
+                // only potentially add a new random connection toward ungenerated overmaps
+                if( neighbors[dir] == nullptr ) {
+                    std::shuffle( omap_num.begin(), omap_num.end(), rng_get_engine() );
+                    for( const int &i : omap_num ) {
+                        tripoint_om_omt tmp = tripoint_om_omt(
+                                                  edge_coords_x[dir] >= 0 ? edge_coords_x[dir] : i,
+                                                  edge_coords_y[dir] >= 0 ? edge_coords_y[dir] : i,
+                                                  0 );
+                        // Make sure these points don't conflict with rivers.
+                        if( !( is_river( ter( tmp ) ) ||
+                               // avoid adjacent rivers
+                               // east/west of a point on the north/south edge, and vice versa
+                               is_river( ter( tmp + neighbor_deltas[( dir + 1 ) % 4] ) ) ||
+                               is_river( ter( tmp + neighbor_deltas[( dir + 3 ) % 4] ) ) ) ) {
+                            roads_out.push_back( tmp );
+                            break;
+                        }
+                    }
+                    if( static_cast<int>( roads_out.size()) == 3 + urbanity / 2 ) {
                         break;
                     }
-                }
-                if( roads_out.size() == 3 ) {
-                    break;
                 }
             }
         }
@@ -4932,8 +4934,11 @@ void overmap::place_roads( const overmap *north, const overmap *east, const over
 
     std::vector<point_om_omt> road_points; // cities and roads_out together
     // Compile our master list of roads; it's less messy if roads_out is first
-    road_points.reserve( roads_out.size() + cities.size() );
+    road_points.reserve( roads_out.size() + city_edge_roads.size() + cities.size() );
     for( const auto &elem : roads_out ) {
+        road_points.emplace_back( elem.xy() );
+    }
+    for( const auto &elem : city_edge_roads ) {
         road_points.emplace_back( elem.xy() );
     }
     for( const city &elem : cities ) {
@@ -5190,16 +5195,6 @@ void overmap::calculate_urbanity()
     //debugmsg( "urbanity = %i at OM %i, %i", urbanity, this_om.x(), this_om.y() );
 }
 
-/*: the root is overmap::place_cities()
-20:50 <kevingranade>: which is at overmap.cpp:1355 or so
-20:51 <kevingranade>: the key is cs = rng(4, 17), setting the "size" of the city
-20:51 <kevingranade>: which is roughly it's radius in overmap tiles
-20:52 <kevingranade>: then later overmap::place_mongroups() is called
-20:52 <kevingranade>: which creates a mongroup with radius city_size * 2.5 and population city_size * 80
-20:53 <kevingranade>: tadaa
-
-spawns happen at... <cue Clue music>
-20:56 <kevingranade>: game:pawn_mon() in game.cpp:7380*/
 void overmap::place_cities()
 {
     int op_city_spacing = get_option<int>( "CITY_SPACING" );
@@ -5437,9 +5432,9 @@ void overmap::build_city_street(
     // If we're big, make a right turn at the edge of town.
     // Seems to make little neighborhoods.
     cs -= rng( 1, 3 );
+    const auto &last_node = street_path.nodes.back();
 
     if( cs >= 2 && c == 0 ) {
-        const auto &last_node = street_path.nodes.back();
         const om_direction::type rnd_dir = om_direction::turn_random( dir );
         build_city_street( connection, last_node.pos, cs, rnd_dir, town );
         if( one_in( 5 ) ) {
@@ -5447,6 +5442,7 @@ void overmap::build_city_street(
                                town, new_width );
         }
     }
+    city_edge_roads.emplace_back( last_node.pos );
 }
 
 bool overmap::build_lab(
