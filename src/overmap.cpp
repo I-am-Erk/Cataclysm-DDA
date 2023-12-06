@@ -3412,7 +3412,8 @@ void overmap::generate( const overmap *north, const overmap *east,
             place_railroads( north, east, south, west );
         }
     }
-    if( get_option<bool>( "OVERMAP_PLACE_SPECIALS" ) ) {
+    const point_abs_om this_om = pos();
+    if( get_option<bool>( "OVERMAP_PLACE_SPECIALS" ) && this_om.x() == 0 && this_om.y() == 0 ) {
         place_specials( enabled_specials );
     }
     if( get_option<bool>( "OVERMAP_PLACE_FOREST_TRAILHEADS" ) ) {
@@ -5432,17 +5433,17 @@ void overmap::build_city_street(
     // If we're big, make a right turn at the edge of town.
     // Seems to make little neighborhoods.
     cs -= rng( 1, 3 );
-    const auto &last_node = street_path.nodes.back();
 
     if( cs >= 2 && c == 0 ) {
+        const auto &last_node = street_path.nodes.back();
         const om_direction::type rnd_dir = om_direction::turn_random( dir );
         build_city_street( connection, last_node.pos, cs, rnd_dir, town );
         if( one_in( 5 ) ) {
             build_city_street( connection, last_node.pos, cs, om_direction::opposite( rnd_dir ),
                                town, new_width );
         }
+        city_edge_roads.emplace_back( tripoint_om_omt { last_node.pos, 0 } );
     }
-    city_edge_roads.emplace_back( last_node.pos );
 }
 
 bool overmap::build_lab(
