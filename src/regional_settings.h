@@ -238,6 +238,13 @@ struct map_extras {
 };
 
 struct region_terrain_and_furniture_settings {
+    bool was_loaded = false;
+    static void region_terrain_and_furniture_settings( const JsonObject &jo, const std::string &src );
+    void load( const JsonObject &jo, std:: string_view );
+    static const std::vector<region_terrain_and_furniture_settings> &get_all();
+    static void check_consistency();
+    bool is_valid() const;
+    
     std::map<std::string, std::map<std::string, int>> unfinalized_terrain;
     std::map<std::string, std::map<std::string, int>> unfinalized_furniture;
     std::map<ter_id, weighted_int_list<ter_id>> terrain;

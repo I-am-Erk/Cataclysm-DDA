@@ -18,6 +18,7 @@
 #include "string_formatter.h"
 #include "translations.h"
 
+
 ter_furn_id::ter_furn_id() : ter( t_null ), furn( f_null ) { }
 
 template<typename T>
@@ -394,55 +395,77 @@ static void load_overmap_lake_settings( const JsonObject &jo,
     }
 }
 
-static void load_region_terrain_and_furniture_settings( const JsonObject &jo,
-        region_terrain_and_furniture_settings &region_terrain_and_furniture_settings,
-        const bool strict, const bool overlay )
+namespace
 {
-    if( !jo.has_object( "region_terrain_and_furniture" ) ) {
-        if( strict ) {
-            jo.throw_error( "\"region_terrain_and_furniture\": { … } required for default" );
+generic_factory<region_terrain_and_furniture_settings> region_terrain_and_furniture_settings_factory( "region_furniture_and_terrain" );
+} // namespace
+
+template<>
+const region_terrain_and_furniture_settings &string_id<region_terrain_and_furniture_settings>::obj() const
+{
+    return region_terrain_and_furniture_settings.obj( *this );
+}
+
+void region_terrain_and_furniture_settings::load( const JsonObject &jo, const std::string_view )
+{
+    // This should be rewritten to use generic_factory fully.
+    // Erk 2023
+    if( !jo.has_object( "terrain" ) ) {
+        if( !overlay ) {
+            jo.throw_error( "terrain required" );
         }
     } else {
-        JsonObject region_terrain_and_furniture_settings_jo =
-            jo.get_object( "region_terrain_and_furniture" );
-
-        if( !region_terrain_and_furniture_settings_jo.has_object( "terrain" ) ) {
-            if( !overlay ) {
-                region_terrain_and_furniture_settings_jo.throw_error( "terrain required" );
+        for( const JsonMember region : jo.get_object( "terrain" ) ) {
+            if( region.is_comment() ) {
+                continue;
             }
-        } else {
-            for( const JsonMember region : region_terrain_and_furniture_settings_jo.get_object( "terrain" ) ) {
-                if( region.is_comment() ) {
+            for( const JsonMember terrain : region.get_object() ) {
+                if( terrain.is_comment() ) {
                     continue;
                 }
-                for( const JsonMember terrain : region.get_object() ) {
-                    if( terrain.is_comment() ) {
-                        continue;
-                    }
-                    region_terrain_and_furniture_settings.unfinalized_terrain[region.name()][terrain.name()] =
-                        terrain.get_int();
-                }
+                region_terrain_and_furniture_settings.unfinalized_terrain[region.name()][terrain.name()] =
+                    terrain.get_int();
             }
         }
+    }
 
-        if( !region_terrain_and_furniture_settings_jo.has_object( "furniture" ) ) {
-            if( !overlay ) {
-                region_terrain_and_furniture_settings_jo.throw_error( "furniture required" );
+    if( !jo.has_object( "furniture" ) ) {
+        if( !overlay ) {
+            jo.throw_error( "furniture required" );
+        }
+    } else {
+        for( const JsonMember template_furniture :
+             jo.get_object( "furniture" ) ) {
+            if( template_furniture.is_comment() ) {
+                continue;
             }
-        } else {
-            for( const JsonMember template_furniture :
-                 region_terrain_and_furniture_settings_jo.get_object( "furniture" ) ) {
-                if( template_furniture.is_comment() ) {
+            for( const JsonMember furniture : template_furniture.get_object() ) {
+                if( furniture.is_comment() ) {
                     continue;
                 }
-                for( const JsonMember furniture : template_furniture.get_object() ) {
-                    if( furniture.is_comment() ) {
-                        continue;
-                    }
-                    region_terrain_and_furniture_settings.unfinalized_furniture[template_furniture.name()][furniture.name()]
-                        = furniture.get_int();
-                }
+                region_terrain_and_furniture_settings.unfinalized_furniture[template_furniture.name()][furniture.name()]
+                    = furniture.get_int();
             }
+        }
+    }
+}
+
+void region_terrain_and_furniture_settings::check_consistency()
+{
+    for( const region_terrain_and_furniture_settings &rtafs : get_all() ) {
+        if( rtafs.terrain == "t_region_groundcover" ) {
+            // done to here
+            if( rtafs.effect_str.empty() && !vproto_id( sp_t.effect_str ).is_valid() ) {
+                debugmsg( "ERROR %s specifies a vehicle to summon, but vehicle %s is not valid", sp_t.id.c_str(),
+                          sp_t.effect_str );
+            }
+        }
+        std::set<spell_id> spell_effect_list;
+        if( spell_infinite_loop_check( spell_effect_list, sp_t.id ) ) {
+            debugmsg( "ERROR: %s has infinite loop in extra_effects", sp_t.id.c_str() );
+        }
+        if( sp_t.spell_tags[spell_flag::WONDER] && sp_t.additional_spells.empty() ) {
+            debugmsg( "ERROR: %s has WONDER flag but no spells to choose from!", sp_t.id.c_str() );
         }
     }
 }
