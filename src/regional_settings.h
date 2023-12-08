@@ -245,8 +245,6 @@ struct region_terrain_and_furniture_settings {
     static void check_consistency();
     bool is_valid() const;
     
-    std::map<std::string, std::map<std::string, int>> unfinalized_terrain;
-    std::map<std::string, std::map<std::string, int>> unfinalized_furniture;
     std::map<ter_id, weighted_int_list<ter_id>> terrain;
     std::map<furn_id, weighted_int_list<furn_id>> furniture;
 

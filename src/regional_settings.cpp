@@ -423,7 +423,9 @@ void region_terrain_and_furniture_settings::load( const JsonObject &jo, const st
                 if( terrain.is_comment() ) {
                     continue;
                 }
-                region_terrain_and_furniture_settings.unfinalized_terrain[region.name()][terrain.name()] =
+                const ter_str_id region_id( region.name() );
+                const ter_str_id terrain_id( terrain.name() );
+                region_terrain_and_furniture_settings.terrain[region_id.id()][terrain_id.id()] =
                     terrain.get_int();
             }
         }
@@ -443,8 +445,10 @@ void region_terrain_and_furniture_settings::load( const JsonObject &jo, const st
                 if( furniture.is_comment() ) {
                     continue;
                 }
-                region_terrain_and_furniture_settings.unfinalized_furniture[template_furniture.name()][furniture.name()]
-                    = furniture.get_int();
+                const ter_str_id region_id( region.name() );
+                const ter_str_id furniture_id( furniture.name() );
+                region_terrain_and_furniture_settings.furniture[region_id.id()][furniture_id.id()] =
+                    furniture.get_int();
             }
         }
     }
