@@ -186,61 +186,61 @@
       {
         "//0": "/* ----- BEGIN: BURN LISTING ----- */",
         "condition": { "math": [ "u_val('strain_burn')", ">=", "u_val('strain_max') / 10 - 1" ] },
-        "id": "strain_1",
+        "id": "burn_1",
         "color": "red",
         "sym": "#"
       },
       {
         "condition": { "math": [ "u_val('strain_burn')", ">=", "u_val('strain_max') / 10 * 2 - 1" ] },
-        "id": "strain_2",
+        "id": "burn_2",
         "color": "red",
         "sym": "#"
       },
       {
         "condition": { "math": [ "u_val('strain_burn')", ">=", "u_val('strain_max') / 10 * 3 - 1" ] },
-        "id": "strain_3",
+        "id": "burn_3",
         "color": "red",
         "sym": "#"
       },
       {
         "condition": { "math": [ "u_val('strain_burn')", ">=", "u_val('strain_max') / 10 * 4 - 1" ] },
-        "id": "strain_4",
+        "id": "burn_4",
         "color": "red",
         "sym": "#"
       },
       {
         "condition": { "math": [ "u_val('strain_burn')", ">=", "u_val('strain_max') / 10 * 5 - 1" ] },
-        "id": "strain_5",
+        "id": "burn_5",
         "color": "red",
         "sym": "#"
       },
       {
         "condition": { "math": [ "u_val('strain_burn')", ">=", "u_val('strain_max') / 10 * 6 - 1" ] },
-        "id": "strain_6",
+        "id": "burn_6",
         "color": "red",
         "sym": "#"
       },
       {
         "condition": { "math": [ "u_val('strain_burn')", ">=", "u_val('strain_max') / 10 * 7 - 1" ] },
-        "id": "strain_7",
+        "id": "burn_7",
         "color": "red",
         "sym": "#"
       },
       {
         "condition": { "math": [ "u_val('strain_burn')", ">=", "u_val('strain_max') / 10 * 8 - 1" ] },
-        "id": "strain_8",
+        "id": "burn_8",
         "color": "red",
         "sym": "#"
       },
       {
         "condition": { "math": [ "u_val('strain_burn')", ">=", "u_val('strain_max') / 10 * 9 - 1" ] },
-        "id": "strain_9",
+        "id": "burn_9",
         "color": "red",
         "sym": "#"
       },
       {
         "condition": { "math": [ "u_val('strain_burn')", ">=", "u_val('strain_max') - 1" ] },
-        "id": "strain_10",
+        "id": "burn_10",
         "color": "red",
         "sym": "#",
         "//0": "/* ----- END: BURN LISTING ----- */"
