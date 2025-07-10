@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ww-island",
+    "name": "Weird Worldgen: Island",
+    "authors": [ "I_am_Erk" ],
+    "description": "Your game world is a fairly large island; the rest of the world is interminable ocean.",
+    "category": "mapgen",
+    "dependencies": [ "dda" ]
+  }
+]
