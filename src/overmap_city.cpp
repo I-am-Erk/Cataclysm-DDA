@@ -76,7 +76,7 @@ void overmap::place_cities()
                                      -1 * op_city_size + 2 );
     int city_space_adjust = urbanity / 2;
     int max_city_size = std::min( op_city_size + city_size_adjust, op_city_size * max_urbanity );
-    if( settings->city_spec = "tiny" ) {
+    if( settings->city_spec == "tiny" ) {
         op_city_size = 1;
         city_size_adjust = 0;
         max_city_size = 1;
